@@ -1,0 +1,286 @@
+{  
+    "cs": [
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "시그니처 원형냄비 24cm(색상선택)",
+            "image" : "img/cr01.jpg",
+            "price" : "550000",
+            "finalPrice" : "275000"
+        },
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "시그니처 원형냄비 16cm - 마르세유",
+            "image" : "img/cr02.jpg",
+            "price" : "330000",
+            "finalPrice" : "198000"
+        },
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "시그니처 원형냄비 20cm - 마르세유",
+            "image" : "img/cr03.jpg",
+            "price" : "430000",
+            "finalPrice" : "2580000"
+        },
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "시그니처 원형냄비 22cm - 코스탈",
+            "image" : "img/cr03.jpg",
+            "price" : "430000",
+            "finalPrice" : "2580000"
+        },
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "[수분커버 증정] 고메밥솥 18CM(2.0L) - 쿨민트",
+            "image" : "img/gome01.jpg",
+            "price" : "380000",
+            "finalPrice" : "2280000"
+        },
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "고메밥솥 18CM(2.0L) - 주황",
+            "image" : "img/gome02.jpg",
+            "price" : "380000",
+            "finalPrice" : "2280000"
+        },
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "고메밥솥 18CM(2.0L) - 빨강",
+            "image" : "img/gome03.jpg",
+            "price" : "380000",
+            "finalPrice" : "2280000"
+        }
+    ],
+
+    "sw": [
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "플라워 접시 19cm - 아이스 그린",
+            "image" : "img/sw01.jpg",
+            "price" : "44000",
+            "finalPrice" : "26400"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "플라워 접시 20cm - 코스탈블루",
+            "image" : "img/sw02.jpg",
+            "price" : "51000",
+            "finalPrice" : "30600"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "플라워 접시 19cm - 코스탈블루",
+            "image" : "img/sw03.jpg",
+            "price" : "44000",
+            "finalPrice" : "26400"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "레온보우 플라워 접시 19cm - 주황",
+            "image" : "img/sw04.jpg",
+            "price" : "44000",
+            "finalPrice" : "26400"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "레온보우 플라워 접시 19cm - 로즈쿼츠",
+            "image" : "img/sw05.jpg",
+            "price" : "44000",
+            "finalPrice" : "26400"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "카푸치노 머그 TypeA(색상선택)",
+            "image" : "img/sw06.jpg",
+            "price" : "30000",
+            "finalPrice" : "18000"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "북유럽 컬렉션 카푸치노 컵&받침 - 시솔트",
+            "image" : "img/sw07.jpg",
+            "price" : "",
+            "finalPrice" : "87000"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "북유럽 컬렉션 플라워디쉬 20cm",
+            "image" : "img/sw08.jpg",
+            "price" : "51000",
+            "finalPrice" : "35700"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "북유럽 컬렉션 플라워디쉬 12cm",
+            "image" : "img/sw09.jpg",
+            "price" : "31000",
+            "finalPrice" : "21700"
+        }
+    ],
+    "tns" : [
+        {
+            "type":"TNS",
+            "cate": "TNS/법랑",
+            "name": "TNS 24x4.5cm 프라잉팬",
+            "image" : "img/tns01.jpg",
+            "price" : "",
+            "finalPrice" : "180000"
+        },
+        {
+            "type":"TNS",
+            "cate": "TNS/법랑",
+            "name": "TNS 24x6.5cm 프라잉팬",
+            "image" : "img/tns02.jpg",
+            "price" : "",
+            "finalPrice" : "190000"
+        },
+        {
+            "type":"TNS",
+            "cate": "TNS/법랑",
+            "name": "TNS 28x4.5cm 프라잉팬",
+            "image" : "img/tns03.jpg",
+            "price" : "239000",
+            "finalPrice" : "167300"
+        },
+        {
+            "type":"TNS",
+            "cate": "TNS/법랑",
+            "name": "TNS 28x6.5cm 프라잉팬",
+            "image" : "img/tns04.jpg",
+            "price" : "239000",
+            "finalPrice" : "167300"
+        },
+        {
+            "type":"TNS",
+            "cate": "TNS/법랑",
+            "name": "TNS 30x9cm 프라잉팬",
+            "image" : "img/tns05.jpg",
+            "price" : "",
+            "finalPrice" : "250000"
+        },
+        {
+            "type":"TNS",
+            "cate": "TNS/법랑",
+            "name": "TNS 유리뚜껑 20cm",
+            "image" : "img/tns06.jpg",
+            "price" : "",
+            "finalPrice" : "45000"
+        }
+    ],
+    "cw" : [
+        {
+            "type":"cookware",
+            "cate": "조리용품",
+            "name": "르쿠르제 쇼핑백 ",
+            "image" : "img/cw01.jpg",
+            "price" : "",
+            "finalPrice" : "1500"
+        },
+        {
+            "type":"cookware",
+            "cate": "조리용품",
+            "name": "비쥬 스푼 스파튤라(대) - 자수정",
+            "image" : "img/cw02.jpg",
+            "price" : "20000",
+            "finalPrice" : "19600"
+        },
+        {
+            "type":"cookware",
+            "cate": "조리용품",
+            "name": "조리기구통 0.25L - 색상선택",
+            "image" : "img/cw03.jpg",
+            "price" : "39000",
+            "finalPrice" : "19000"
+        },
+        {
+            "type":"cookware",
+            "cate": "조리용품",
+            "name": "비쥬 스푼 스파튤라(대) - 파우더핑크",
+            "image" : "img/cw04.jpg",
+            "price" : "20000",
+            "finalPrice" : "19600"
+        },
+        {
+            "type":"cookware",
+            "cate": "조리용품",
+            "name": "조리기구통 1L - 로즈쿼츠(벌크)",
+            "image" : "img/cw05.jpg",
+            "price" : "54000",
+            "finalPrice" : "26900"
+        },
+        {
+            "type":"cookware",
+            "cate": "조리용품",
+            "name": "비쥬 스푼 스파튤라(대) - 빨강",
+            "image" : "img/cw06.jpg",
+            "price" : "20000",
+            "finalPrice" : "19600"
+        }
+    ],
+    "online" : [
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "마시멜로우 머그 - 쉘핑크",
+            "image" : "img/ol01.jpg",
+            "price" : "37000",
+            "finalPrice" : "22200"
+        },
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "야채디쉬(S) - 호박",
+            "image" : "img/ol02.jpg",
+            "price" : "28000",
+            "finalPrice" : "16800"
+        },
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "타원 플레이트&플라워볼 - 아이스그린",
+            "image" : "img/ol03.jpg",
+            "price" : "64000",
+            "finalPrice" : "38400"
+        },
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "카푸치노 머그 - 빨강",
+            "image" : "img/ol04.jpg",
+            "price" : "30000",
+            "finalPrice" : "18000"
+        },
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "반려동물 하이스탠드 식기 - 페일로즈",
+            "image" : "img/ol05.jpg",
+            "price" : "",
+            "finalPrice" : "39000"
+        },
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "오션시리즈 조개디쉬(L) - 색상선택",
+            "image" : "img/ol06.jpg",
+            "price" : "72000",
+            "finalPrice" : "50400"
+        }
+    ]
+
+}
