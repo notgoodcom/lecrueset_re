@@ -36,7 +36,13 @@ a:hover {
                 border-bottom:1px solid #eaeaea;
                 height:50px;
                 width:100%;
+                overflow:hidden;
             }
+                header.top .topBanner img {
+                    width:100%;
+                    height:100%;
+                }
+
 
             header.top .gnb {
                 width:100%;
