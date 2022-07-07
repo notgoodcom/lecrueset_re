@@ -11,6 +11,9 @@ body {
     color:#222;
 }
 
+ul {
+    list-style: none;
+}
 
     /* header */
 
