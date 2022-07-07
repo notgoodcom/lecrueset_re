@@ -190,6 +190,7 @@ a:hover {
 
                 .slider .wrap {
                     width:1280px;
+                    height: 600px;
                     margin:0 auto;
                     display:flex;
                     align-items: center;
@@ -201,7 +202,7 @@ a:hover {
                         .slider .wrap .sliderInfo .cate {
                             color:#222;
                             font-size:13px;
-                            letter-spacing:130%;
+                            letter-spacing:5px;
                         }
 
                         .slider .wrap .sliderInfo .line {
