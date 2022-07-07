@@ -1,6 +1,6 @@
 $(function(){
 
-    function iuncludeHTML(){
+    function includeHTML(){
         window.addEventListener('load', function() {
             var allElements = document.getElementsByTagName('*');
             Array.prototype.forEach.call(allElements, function(el) {
