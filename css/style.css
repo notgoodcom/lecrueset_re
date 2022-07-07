@@ -49,13 +49,13 @@ a:hover {
                     width:100%;
                     display: flex;
                     flex-direction: row;
-                    align-self: center;
                 }
 
                     header.top .gnb .gnbWrap .logo {
                         width:200px;
                         margin-right:auto;
                         flex-shrink: 0;
+                        align-self: center;
                     }
 
                     header.top .gnb .gnbWrap .menu {
@@ -64,6 +64,7 @@ a:hover {
                         width:600px;
                         margin-left:100px;
                         flex-shrink: 0;
+                        align-self: center;
                     }
                         header.top .gnb .gnbWrap .menu li {
                             width:calc(100% / 5);
@@ -89,6 +90,7 @@ a:hover {
                         margin-left:auto;
                         color:#222;
                         flex-shrink: 0;
+                        align-self: center;
                     }
 
                 /* submenu */  
