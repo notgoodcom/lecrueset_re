@@ -29,7 +29,7 @@ $(function(){
             var image = images[i];
     
             //  N번째 이미지 패널을 생성
-            strDOM += '<a class="imgWrap" href="' + image.src + '" style="background:url("' + image.url + '")">';
+            strDOM += '<a class="imgWrap" href="' + image.src + '" style="background:url(' + image.url + ')">';
             // strDOM += '<img src="' + image.url + '" alt="' + image.name +'">';
             strDOM += '</a>';
         }
