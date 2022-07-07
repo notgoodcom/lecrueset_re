@@ -13,15 +13,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/includeHTML.js"></script>
     </head>
     <body>
         <header data-include-path="header.html"></header> <!-- header -->
         <section data-include-path="content.html"></section> <!-- content -->
         <footer data-include-path="footer.html"></footer> <!-- footer -->
+        <script src="js/includeHTML.js"></script>
         <script>
             $(function(){
-                includeHTML();
                 $("#navSlider").load("nav.html");
             });
         </script>
