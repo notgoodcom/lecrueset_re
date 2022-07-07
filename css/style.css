@@ -42,7 +42,7 @@ body {
 
     /* nav */                
 
-    nav {
+    nav.sliderBanner {
         background:#ccc;
         height:600px;
         width:100%;
