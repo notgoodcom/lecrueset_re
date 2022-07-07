@@ -30,7 +30,7 @@ $(function(){
     
             //  N번째 이미지 패널을 생성
             strDOM += '<div class="imgWrap">';
-            strDOM += '<img src="' + image.url + '" alt="' + image.name +'"'>';
+            strDOM += '<img src="' + image.url + '" alt="' + image.name +'">';
             strDOM += '</div>';
         }
         // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
