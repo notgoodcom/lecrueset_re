@@ -61,10 +61,12 @@ a:hover {
                     header.top .gnb .gnbWrap .menu {
                         display: flex;
                         flex-direction: row;
-                        width:600px;
+                        width:620px;
                         margin-left:100px;
                         flex-shrink: 0;
-                        align-self: center;
+                        height: 90px;
+                        justify-content: center;
+                        align-items: center;
                     }
                         header.top .gnb .gnbWrap .menu li {
                             width:calc(100% / 5);
@@ -92,6 +94,9 @@ a:hover {
                         flex-shrink: 0;
                         align-self: center;
                     }
+                        header.top .gnb .gnbWrap .iconWrap .mobileBtn {
+                            display: none;
+                        }
 
                         header.top .gnb .gnbWrap .iconWrap a {
                             width:20px;
@@ -101,13 +106,15 @@ a:hover {
                         }
 
                             header.top .gnb .gnbWrap .iconWrap a i {
-                                font-size:18px;
+                                font-size:20px;
                                 color:#222;
                             }
 
                             header.top .gnb .gnbWrap .iconWrap a i.myPageIcon {
                                 font-size:22px;
                             }
+
+
 
 
                 /* submenu */  
@@ -118,10 +125,11 @@ a:hover {
                     left:0px;
                     top:91px;
                     background:#EAEAEA;
+                    padding:10px 0;
                 }
 
                     header.top .gnb .subGnb .wrap {
-                        width:600px;
+                        width:620px;
                         display: flex;
                         flex-direction: row;
                         margin-left:300px;
