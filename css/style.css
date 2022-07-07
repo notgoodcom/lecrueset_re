@@ -179,6 +179,7 @@ a:hover {
             background:#ccc;
             height:600px;
             width:100%;
+            overflow:hidden;
         }
 
             .slider {
