@@ -49,12 +49,22 @@ a:hover {
                     width:100%;
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-around;
                 }
+
+                    header.top .gnb .gnbWrap .logo {
+                        width:200px;
+                        height:90px;
+                        margin-right:auto;
+                        flex-shrink: 0;
+                    }
 
                     header.top .gnb .gnbWrap .menu {
                         display: flex;
                         flex-direction: row;
+                        width:600px;
+                        height:90px;
+                        margin-left:100px;
+                        flex-shrink: 0;
                     }
                         header.top .gnb .gnbWrap .menu li {
                             width:calc(100% / 5);
@@ -78,6 +88,8 @@ a:hover {
                         display: flex;
                         flex-direction: row;
                         margin-left:auto;
+                        color:#222;
+                        flex-shrink: 0;
                     }
 
                 /* submenu */  
