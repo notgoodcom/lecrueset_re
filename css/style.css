@@ -36,8 +36,13 @@ body {
                     width:100%;
                     display: flex;
                     flex-direction: row;
+                    justify-content: space-around;
                 }
 
+                    header.top .gnb .gnbWrap .menu {
+                        display: flex;
+                        flex-direction: row;
+                    }
 
 
     /* nav */                
