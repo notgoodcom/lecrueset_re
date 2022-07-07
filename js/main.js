@@ -30,9 +30,8 @@ $(function(){
     
             //  N번째 이미지 패널을 생성
             strDOM += '<div class="imgWrap">';
-            strDOM += '    '<img src="' + image.url + '">';
-            strDOM += '    '<p class="title">' + image.name + ''</p>';
-            strDOM += ''</div>';
+            strDOM += '<img src="' + image.url + '">';
+            strDOM += '</div>';
         }
         // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
         var $imageContainer = $(".topBanner");
