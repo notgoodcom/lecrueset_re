@@ -41,6 +41,7 @@ a:hover {
                 header.top .topBanner .imgWrap {
                     width:100%;
                     height:100%;
+                    display: block;
                 }
                     header.top .topBanner .imgWrap img {
                         width:100%;
