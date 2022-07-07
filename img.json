@@ -1,0 +1,32 @@
+{
+    "topBanner" : [
+        {
+            "name" : "topBanner",
+            "imageUrl" : "images/bannerTop.jpg"
+        }
+    ],
+    "bannerNav": [
+        {
+            "name" : "nav01",
+            "imageUrl" : "images/slider01.jpg",
+            "num" : "1"
+        },
+        {
+            "name" : "nav02",
+            "imageUrl" : "images/slider02.jpg",
+            "num" : "2"
+        },
+        {
+            "name" : "nav03",
+            "imageUrl" : "images/slider03.jpg",
+            "num" : "3"
+        }
+    ],
+    "middleBanner" : [
+        {
+            "name" : "middleBanner",
+            "imageUrl" : "images/middleBn.jpg",
+            "num" : "1"
+        }
+    ]
+}
