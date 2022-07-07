@@ -2,7 +2,8 @@
     "topBanner" : [
         {
             "name" : "topBanner",
-            "url" : "images/bannerTop.jpg"
+            "url" : "images/bannerTop.jpg",
+            "src" : "#"
         }
     ],
     "bannerNav": [
