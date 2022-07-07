@@ -50,6 +50,7 @@ a:hover {
                     display: flex;
                     flex-direction: row;
                     height:90px;
+                    margin:0 auto;
                 }
 
                     header.top .gnb .gnbWrap .logo {
@@ -106,7 +107,7 @@ a:hover {
                             width:20px;
                             height:20px;
                             display: block;
-                            margin-left:20px;
+                            margin-left:30px;
                         }
 
                             header.top .gnb .gnbWrap .iconWrap a i {
@@ -129,29 +130,33 @@ a:hover {
                     background:#EAEAEA;
                     padding:20px 0;
                 }
-
-                    header.top .gnb .subGnb .wrap {
-                        width:620px;
-                        display: flex;
-                        flex-direction: row;
-                        margin-left:300px;
+                    header.top .gnb .subGnb .subMenu {
+                        width:1280px;
+                        margin:0 auto;
                     }
-                        header.top .gnb .subGnb .wrap .sub {
-                            width:calc(100% / 5);
-                        }
 
-                            header.top .gnb .subGnb .wrap .sub li {
-                                padding:5px 10px;
-                                text-align:center;
+                        header.top .gnb .subGnb .subMenu .wrap {
+                            width:620px;
+                            display: flex;
+                            flex-direction: row;
+                            margin-left:300px;
+                        }
+                            header.top .gnb .subGnb .subMenu .wrap .sub {
+                                width:calc(100% / 5);
                             }
 
-                                header.top .gnb .subGnb .wrap .sub li a {
-                                    color:#222;
+                                header.top .gnb .subGnb .subMenu .wrap .sub li {
+                                    padding:5px 10px;
+                                    text-align:center;
                                 }
 
-                                header.top .gnb .subGnb .wrap .sub li a:hover {
-                                    text-decoration: underline;
-                                }
+                                    header.top .gnb .subGnb .subMenu .wrap .sub li a {
+                                        color:#222;
+                                    }
+
+                                    header.top .gnb .subGnb .subMenu .wrap .sub li a:hover {
+                                        text-decoration: underline;
+                                    }
 
 
     /* section */
