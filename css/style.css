@@ -106,17 +106,19 @@ a:hover {
 
                         header.top .gnb .gnbWrap .iconWrap a {
                             width:calc(100% / 3);
-                            height:20px;
                             display: block;
+                            text-align: right;
                         }
 
                             header.top .gnb .gnbWrap .iconWrap a i {
-                                font-size:20px;
+                                font-size:19px;
                                 color:#222;
                             }
 
                             header.top .gnb .gnbWrap .iconWrap a.myPageIcon i {
-                                font-size:22px;
+                                font-size: 23px;
+                                position: relative;
+                                top: -2px;
                             }
 
 
