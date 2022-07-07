@@ -16,26 +16,10 @@
         <script src="js/includeHTML.js"></script>
     </head>
     <body>
-        <div include-html="header.html"></div> <!-- header -->
-        <div include-html="content.html"></div> <!-- content -->
-        <div include-html="footer.html"></div> <!-- footer -->
+        <header include-html="header.html"></header> <!-- header -->
+        <section include-html="content.html"></section> <!-- content -->
+        <footer include-html="footer.html"></footer> <!-- footer -->
         <script>
-            // window.addEventListener('load', function() {
-            //     var allElements = document.getElementsByTagName('*');
-            //     Array.prototype.forEach.call(allElements, function(el) {
-            //         var includePath = el.dataset.includePath;
-            //         if (includePath) {
-            //             var xhttp = new XMLHttpRequest();
-            //             xhttp.onreadystatechange = function () {
-            //                 if (this.readyState == 4 && this.status == 200) {
-            //                     el.outerHTML = this.responseText;
-            //                 }
-            //             };
-            //             xhttp.open('GET', includePath, true);
-            //             xhttp.send();
-            //         }
-            //     });
-            // });
             $(function(){
                 includeHTML();
                 $("#navSlider").load("nav.html");
