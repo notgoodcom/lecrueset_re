@@ -9,17 +9,26 @@
         {
             "name" : "nav01",
             "imageUrl" : "images/slider01.jpg",
-            "num" : "1"
+            "num" : "1",
+            "cate" : "new",
+            "title" : "Summer Lovin'",
+            "txt" : "올 여름 식탁, 시원하고 청량한 컬러감으로 찾아갑니다."
         },
         {
             "name" : "nav02",
             "imageUrl" : "images/slider02.jpg",
-            "num" : "2"
+            "num" : "2",
+            "cate" : "new",
+            "title" : "Summer Lovin'",
+            "txt" : "올 여름 식탁, 시원하고 청량한 컬러감으로 찾아갑니다."
         },
         {
             "name" : "nav03",
             "imageUrl" : "images/slider03.jpg",
-            "num" : "3"
+            "num" : "3",
+            "cate" : "new",
+            "title" : "Summer Lovin'",
+            "txt" : "올 여름 식탁, 시원하고 청량한 컬러감으로 찾아갑니다."
         }
     ],
     "middleBanner" : [
