@@ -72,8 +72,7 @@ $(function(){
             strDOM += '<div class="line"></div>';
             strDOM += '<div class="slideTitle">' + sd.title + '</div>';
             strDOM += '<div class="slideTxt">' + sd.txt + '</div>';
-            strDOM += 'a class="btn btn-line" href="' + sd.url + '"></div>';
-            strDOM += '<img src="' + image.url + '" alt="' + image.name +'">';
+            strDOM += '<a class="btn btn-line" href="' + sd.url + '"></div>';
             strDOM += '</div>';
             strDOM += '</div>';
             strDOM += '</div>';
