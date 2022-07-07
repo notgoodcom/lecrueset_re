@@ -11,61 +11,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <header class="top">
-            <div class="topBanner"></div>
-            <div class="gnb">
-                <div class="gnbWrap">
-                    <div class="logo"></div>
-                    <ul class="menu">
-                        <li><a>무쇠주물</a></li>
-                        <li><a>스톤웨어</a></li>
-                        <li><a>TMS/법랑</a></li>
-                        <li><a>조리용품</a></li>
-                        <li><a>온라인 스페셜</a></li>
-                    </ul>
-                    <div class="iconWrap">
-                        <a class="searchIcon"></a>
-                        <a class="cartIcon"></a>
-                        <a class="myPageIcon"></a>
-                        <div class="mobileBtn">
-                            <a class="burgerBtn"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="subGnb">
-                    <div class="wrap">
-                        <ul class="sub">
-                            <li><a>New 시그니처</a></li>
-                            <li><a>고메솥밥</a></li>
-                            <li><a>그릴/스킬렛</a></li>
-                            <li><a>기타</a></li>
-                        </ul>
-                        <ul class="sub">
-                            <li><a>볼</a></li>
-                            <li><a>접시</a></li>
-                            <li><a>머그/티세트</a></li>
-                            <li><a>서빙볼/웍</a></li>
-                        </ul>
-                        <ul class="sub">
-                            <li><a>TMS(프라이팬)</a></li>
-                            <li><a>냄비/캐틀</a></li>
-                        </ul>
-                        <ul class="sub">
-                            <li><a>조리기구</a></li>
-                            <li><a>기타</a></li>
-                        </ul>
-                        <ul class="sub">
-                            <li><a>월 프로모션</a></li>
-                            <li><a>북유럽 컬렉션</a></li>
-                            <li><a>소르베 컬렉션</a></li>
-                            <li><a>레인보우 컬렉션</a></li>
-                            <li><a>온라인 전용상품</a></li>
-                            <li><a>Pet Line</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
+        <div data-include-path="header.html"></div>
         <section class="container">
             <nav class="slderBanner">
                 <div class="sliderWrap"></div>
@@ -282,47 +228,26 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <div class="footerGnb">
-                <ul class="f-gnb">
-                    <li><a>회사소개</a></li>
-                    <li><a>이용안내</a></li>
-                    <li><a>이용약관</a></li>
-                    <li><a>개인정보보호정책</a></li>
-                    <li><a>이메일 무단 수집 거부</a></li>
-                    <li><a>사업자정보확인</a></li>
-                </ul>
-                <div class="snsIconWrap">
-                    <a class="snsIcon-facebook"></a>
-                    <a class="snsIcon-blog"></a>
-                    <a class="snsIcon-instagram"></a>
-                </div>
-            </div>
-            <div class="footerWrap">
-                <div class="companyInfo">
-                    <h3 class="companyName">르쿠르제 코리아 주식회사</h3>
-                    <ul class="companyInfoTxt">
-                        <li>대표: 벨기에국인 루크토레  </li>
-                        <li>서울특별시 강남구 영동대로 432, 5층(대치동, 준&빌딩)</li>
-                        <li>TEL: 070-4432-4133</li>
-                        <li>FAX: 02-3444-486</li>
-                        <li>개인정보관리책임자: 이커머스(info.kr@lecreuset.com)</li>
-                        <li>사업자번호: 140-86-94505</li>
-                        <li>통신판매업 신고: 제2011-서울강남-02569호</li>
-                    </ul>
-                </div>
-                <div class="csCenterInfo">
-                    <div class="csCall">
-                        <p>고객상담센터</p>
-                        <h3>070-4432-4133</h3>
-                    </div>
-                    <div class="csWorkTime">
-                        <p>운영시간:</p>
-                        <span>평일 09:00 ~ 17:00 (점심시간 12:00 ~ 13:00)</span>
-                    </div>
-                    <a>고객센터 바로가기</a>
-                </div>
-            </div>
-        </footer>
+        <div data-include-path="footer.html"></div>
+        <script>
+ 
+            window.addEventListener('load', function() {
+                var allElements = document.getElementsByTagName('*');
+                Array.prototype.forEach.call(allElements, function(el) {
+                    var includePath = el.dataset.includePath;
+                    if (includePath) {
+                        var xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function () {
+                            if (this.readyState == 4 && this.status == 200) {
+                                el.outerHTML = this.responseText;
+                            }
+                        };
+                        xhttp.open('GET', includePath, true);
+                        xhttp.send();
+                    }
+                });
+            });
+     
+        </script>
     </body>
 </html>
