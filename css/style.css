@@ -98,16 +98,16 @@ a:hover {
                         color:#222;
                         flex-shrink: 0;
                         align-self: center;
+                        width:150px;
                     }
                         header.top .gnb .gnbWrap .iconWrap .mobileBtn {
                             display: none;
                         }
 
                         header.top .gnb .gnbWrap .iconWrap a {
-                            width:20px;
+                            width:calc(100% / 3);
                             height:20px;
                             display: block;
-                            margin-left:30px;
                         }
 
                             header.top .gnb .gnbWrap .iconWrap a i {
@@ -115,7 +115,7 @@ a:hover {
                                 color:#222;
                             }
 
-                            header.top .gnb .gnbWrap .iconWrap a i.myPageIcon {
+                            header.top .gnb .gnbWrap .iconWrap a.myPageIcon i {
                                 font-size:22px;
                             }
 
