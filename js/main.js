@@ -89,24 +89,23 @@ $(function(){
 
     //submenu hover
 
-    // $(".wrapper").on("mouseover",".subGnb .subMenu .wrap .sub",function(){
+    $(".wrapper").on("mouseover",".subGnb .subMenu .wrap .sub",function(){
+        var idx = $(".subGnb .subMenu .wrap .sub").index(this);
+        var menu = $(".menu li a");
+
+        menu.eq(idx).addClass("on");
+        
+    });
+
+    // $(".subGnb .subMenu .wrap .sub").each(function(index){
     //     var _this = $(this);
     //     var menu = $(".menu li");
 
-    //     if(_this == 0) {
-    //         menu.eq(0).children(a).addClass("on");
+    //     if(_this + index == menu + index) {
+    //         _this.mouseover(function(){
+    //             menu.eq(index).addClass("on");
+    //         });
     //     }
     // });
-
-    $(".subGnb .subMenu .wrap .sub").each(function(index){
-        var _this = $(this);
-        var menu = $(".menu li");
-
-        if(_this + index == menu + index) {
-            _this.mouseover(function(){
-                menu.eq(index).addClass("on");
-            });
-        }
-    });
 
 });
