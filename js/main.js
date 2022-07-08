@@ -87,7 +87,7 @@ $(function(){
     });
 
 
-    //submenu hover
+    //submenu and menu hover
 
     $(".wrapper").on("mouseover",".subGnb .subMenu .wrap .sub",function(){
         var idx = $(".subGnb .subMenu .wrap .sub").index(this);
@@ -97,15 +97,5 @@ $(function(){
         
     });
 
-    // $(".subGnb .subMenu .wrap .sub").each(function(index){
-    //     var _this = $(this);
-    //     var menu = $(".menu li");
-
-    //     if(_this + index == menu + index) {
-    //         _this.mouseover(function(){
-    //             menu.eq(index).addClass("on");
-    //         });
-    //     }
-    // });
 
 });

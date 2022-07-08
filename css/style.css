@@ -164,6 +164,7 @@ a:hover {
 
                                     header.top .gnb .subGnb .subMenu .wrap .sub li a {
                                         color:#222;
+                                        cursor:pointer;
                                     }
 
                                     header.top .gnb .subGnb .subMenu .wrap .sub li a:hover {
@@ -173,7 +174,9 @@ a:hover {
 
     /* section */
 
-                    
+    .section {
+        margin:0px;
+    }                  
         /* nav */                
 
         nav.sliderBanner {
@@ -230,10 +233,45 @@ a:hover {
                             border:1px solid #222;
                             color:#222;
                             margin-top:20px;
+                            width:128px;
+                            height:48px;
+                            font-size:15px;
                         }
 
 
+        /* content */                          
+        
+            .section .contentWrap {
+                margin:100px 0px 0px;
+            }
 
+                .section .contentWrap > div {
+                    margin:0 auto 100px;
+                }
+
+                .w-1280 {
+                    width:1280px;
+                }
+
+                    /* common subTitle */
+
+                    .subTitle {
+                        width:100%;
+                        margin-bottom:50px;
+                        text-align:center;
+                    }
+
+                        .subTitle .titleTxt {
+                            font-weight: bold;
+                            font-size:30px;
+                            margin-bottom:15px;
+                        }
+
+                        .subTitle .txt {
+                            font-size:15px;
+                        }
+
+                    
     /* footer */
 
 
