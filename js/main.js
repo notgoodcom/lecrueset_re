@@ -77,12 +77,12 @@ $(function(){
 
     $(".wrapper").on("mouseover", ".menu li a, header.top .gnb .subGnb", function(){
         var sub = $("header.top .gnb .subGnb");
-        sub.show(200); 
+        sub.show(); 
     });
 
     $(".wrapper").on("mouseout", "header.top .gnb .subGnb", function(){
         var sub = $("header.top .gnb .subGnb");
-        sub.hide(200); 
+        sub.hide(); 
     });
 
 });
