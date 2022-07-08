@@ -65,18 +65,14 @@ $(function(){
 
     // subMenu open & close
 
-    var sub = $("header.top .gnb .subGnb");
 
-    $(".wrapper").on("mouseenter", ".menu li a", function(){
+    $(".wrapper").on("mouseover", ".menu li a", function(){
+        var sub = $("header.top .gnb .subGnb");
         sub.show(); 
-    })
+    });
 
-    $(".wrapper").on("mouseleave",".menu li a, header.top .gnb .subGnb", function(){
-        setTimeout(function(){
-            if(!$("header.top .gnb .subGnb:hover").length && !$("header.top .gnb .subGnb").length){
-                $("header.top .gnb .subGnb").hide();
-            }
-        }, 1000);
+    $(".wrapper").on("mouseout", "header.top .gnb .subGnb", function(){
+        sub.hide(); 
     });
 
 });
