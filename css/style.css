@@ -249,7 +249,7 @@ a:hover {
                 margin:100px 0px 0px;
             }
 
-                .section .contentWrap > div > div {
+                .section .contentWrap .content {
                     margin:0 auto 100px;
                 }
 
