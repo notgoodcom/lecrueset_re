@@ -140,6 +140,7 @@ a:hover {
                     top:91px;
                     background:#EAEAEA;
                     padding:20px 0;
+                    display: none;
                 }
                     header.top .gnb .subGnb .subMenu {
                         width:1280px;
@@ -222,6 +223,12 @@ a:hover {
                             color:#222;
                             font-size:15px;
                             margin-top:10px;
+                        }
+
+                        .slider .wrap .sliderInfo .btn-line {
+                            border:1px solid #222;
+                            color:#222;
+                            margin-top:20px;
                         }
 
 
