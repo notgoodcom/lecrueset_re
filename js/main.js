@@ -73,7 +73,7 @@ $(function(){
 
     // subMenu close
 
-    $(".wrapper").on("mouseout", ".menu li a, .subGnb", function(){
+    $(".wrapper").on("mouseout", ".header.top .gnb .subGnb", function(){
         var _this = $(this);
         var sub = $("header.top .gnb .subGnb");
         sub.hide(); 
