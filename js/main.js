@@ -35,14 +35,14 @@ $(function(){
             }
                 
             // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
-            var $imageContainer = $(".topBanner");
-                $imageContainer.append(strDOM);
+            var $bnContainer = $(".topBanner");
+            $bnContainer.append(strDOM);
         }
 
 
     // subMenu open
 
-    $(".wrapper").on("mousehover", ".menu li a", function(){
+    $(".wrapper").on("mouseenter", ".menu li a", function(){
         var _this = $(this);
         var sub = $("header.top .gnb .subGnb");
         sub.show(); 
