@@ -37,7 +37,8 @@
         {
             "name" : "middleBanner",
             "imageUrl" : "images/middleBn.jpg",
-            "num" : "1"
+            "num" : "1",
+            "src" : "#"
         }
     ]
 }

@@ -24,6 +24,7 @@ $(function(){
         function createImages(objImageInfo) {
             var images = objImageInfo.topBanner; //top banner
             var slide = objImageInfo.bannerNav; //main slider
+            var bn = objImageInfo.middleBanner; //main slider
             var strDOM = "";
             for (var i = 0; i < images.length; i++) {
                 // N번째 이미지 정보를 구하기
@@ -52,13 +53,25 @@ $(function(){
                 strDOM += '</div>';
                 strDOM += '</div>';
             }
+
+            for (var i = 0; i < bn.length; i++) {
+                // N번째 이미지 정보를 구하기
+                var banner = bn[i];
+        
+                //  N번째 이미지 패널을 생성
+                strDOM += '<a class="bnBox" href="' + banner.src + '">';
+                strDOM += '<img src="' + banner.imageUrl + '" alt="' + image.name +'">';
+                strDOM += '</a>';
+            }
                 
             // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
             var $bnContainer = $(".topBanner");
             var $imageContainer = $(".sliderWrap");
+            var $midBnContainer = $(".sliderWrap");
 
             $bnContainer.append(strDOM);
             $imageContainer.append(strDOM);
+            $midBnContainer.append(strDOM);
 
         }
 
