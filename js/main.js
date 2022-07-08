@@ -65,7 +65,7 @@ $(function(){
 
     // subMenu open
 
-    $(".wrapper").on("mouseenter", ".menu li a", function(){
+    $(".wrapper").on("mouseover", ".menu li a", function(){
         var _this = $(this);
         var sub = $("header.top .gnb .subGnb");
         sub.show(); 
@@ -73,7 +73,7 @@ $(function(){
 
     // subMenu close
 
-    $(".wrapper").on("mouseleave", ".menu li a, .subGnb", function(){
+    $(".wrapper").on("mouseout", ".menu li a, .subGnb", function(){
         var _this = $(this);
         var sub = $("header.top .gnb .subGnb");
         sub.hide(); 
