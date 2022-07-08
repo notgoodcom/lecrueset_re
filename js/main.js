@@ -22,8 +22,8 @@ $(function(){
         
         // JSON 포멧 데이터 처리
         function createImages(objImageInfo) {
-            var images = objImageInfo.topBanner;
-            var slide = objImageInfo.bannerNav;
+            var images = objImageInfo.topBanner; //top banner
+            var slide = objImageInfo.bannerNav; //main slider
             var strDOM = "";
             for (var i = 0; i < images.length; i++) {
                 // N번째 이미지 정보를 구하기
@@ -73,7 +73,7 @@ $(function(){
 
     // subMenu close
 
-    $(".wrapper").on("mouseover", ".menu li a, .subGnb", function(){
+    $(".wrapper").on("mouseout", ".menu li a, .subGnb", function(){
         var _this = $(this);
         var sub = $("header.top .gnb .subGnb");
         sub.hide(); 
