@@ -26,6 +26,9 @@ $(function(){
             var slide = objImageInfo.bannerNav; //main slider
             var bn = objImageInfo.middleBanner; //main slider
             var strDOM = "";
+            var strDOM02 = "";
+            var strDOM03 = "";
+
             for (var i = 0; i < images.length; i++) {
                 // N번째 이미지 정보를 구하기
                 var image = images[i];
@@ -41,17 +44,17 @@ $(function(){
                 var sd = slide[i];
         
                 //  N번째 이미지 패널을 생성
-                strDOM += '<div class="slider" style="background-image:url(' + sd.imageUrl + ')">';
-                strDOM += '<div class="wrap">';
-                strDOM += '<div class="sliderInfo">';
-                strDOM += '<div class="cate">' + sd.cate + '</div>';
-                strDOM += '<div class="line"></div>';
-                strDOM += '<div class="slideTitle">' + sd.title + '</div>';
-                strDOM += '<div class="slideTxt">' + sd.txt + '</div>';
-                strDOM += '<a class="btn btn-line" href="' + sd.url + '">VIEW MORE</a>';
-                strDOM += '</div>';
-                strDOM += '</div>';
-                strDOM += '</div>';
+                strDOM02 += '<div class="slider" style="background-image:url(' + sd.imageUrl + ')">';
+                strDOM02 += '<div class="wrap">';
+                strDOM02 += '<div class="sliderInfo">';
+                strDOM02 += '<div class="cate">' + sd.cate + '</div>';
+                strDOM02 += '<div class="line"></div>';
+                strDOM02 += '<div class="slideTitle">' + sd.title + '</div>';
+                strDOM02 += '<div class="slideTxt">' + sd.txt + '</div>';
+                strDOM02 += '<a class="btn btn-line" href="' + sd.url + '">VIEW MORE</a>';
+                strDOM02 += '</div>';
+                strDOM02 += '</div>';
+                strDOM02 += '</div>';
             }
 
             for (var i = 0; i < bn.length; i++) {
@@ -59,9 +62,9 @@ $(function(){
                 var banner = bn[i];
         
                 //  N번째 이미지 패널을 생성
-                strDOM += '<a class="bnBox" href="' + banner.src + '">';
-                strDOM += '<img src="' + banner.imageUrl + '" alt="' + image.name +'">';
-                strDOM += '</a>';
+                strDOM03 += '<a class="bnBox" href="' + banner.src + '">';
+                strDOM03 += '<img src="' + banner.imageUrl + '" alt="' + banner.name +'">';
+                strDOM03 += '</a>';
             }
                 
             // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
@@ -70,8 +73,8 @@ $(function(){
             var $midBnContainer = $(".bannerWrap");
 
             $bnContainer.append(strDOM);
-            $imageContainer.append(strDOM);
-            $midBnContainer.append(strDOM);
+            $imageContainer.append(strDOM02);
+            $midBnContainer.append(strDOM03);
 
         }
 
