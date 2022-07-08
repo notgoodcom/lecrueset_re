@@ -66,7 +66,7 @@ $(function(){
     // subMenu open & close
 
 
-    $(".wrapper").on("mouseover", ".menu li a", function(){
+    $(".wrapper").on("mouseover", ".menu li a, header.top .gnb .subGnb", function(){
         var sub = $("header.top .gnb .subGnb");
         sub.show(); 
     });
