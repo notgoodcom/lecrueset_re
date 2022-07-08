@@ -72,6 +72,7 @@ $(function(){
     });
 
     $(".wrapper").on("mouseout", "header.top .gnb .subGnb", function(){
+        var sub = $("header.top .gnb .subGnb");
         sub.hide(); 
     });
 
