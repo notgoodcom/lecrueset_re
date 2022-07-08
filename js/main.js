@@ -44,7 +44,7 @@ $(function(){
 
     $(".wrapper").on("mousehover", ".menu li a", function(){
         var _this = $(this);
-        var sub = $(".subGnb");
+        var sub = $("header.top .gnb .subGnb");
         sub.show(); 
     })
 
