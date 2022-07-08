@@ -67,7 +67,7 @@ $(function(){
             // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
             var $bnContainer = $(".topBanner");
             var $imageContainer = $(".sliderWrap");
-            var $midBnContainer = $(".sliderWrap");
+            var $midBnContainer = $(".bannerWrap");
 
             $bnContainer.append(strDOM);
             $imageContainer.append(strDOM);
