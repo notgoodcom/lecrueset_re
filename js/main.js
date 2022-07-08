@@ -82,7 +82,31 @@ $(function(){
 
     $(".wrapper").on("mouseout", "header.top .gnb .subGnb", function(){
         var sub = $("header.top .gnb .subGnb");
-        sub.hide(); 
+        sub.hide();
+        $(".menu li a").removeClass("on"); 
+    });
+
+
+    //submenu hover
+
+    // $(".wrapper").on("mouseover",".subGnb .subMenu .wrap .sub",function(){
+    //     var _this = $(this);
+    //     var menu = $(".menu li");
+
+    //     if(_this == 0) {
+    //         menu.eq(0).children(a).addClass("on");
+    //     }
+    // });
+
+    $(".subGnb .subMenu .wrap .sub").each(function(index){
+        var _this = $(this);
+        var menu = $(".menu li");
+
+        if(_this + index == menu + index) {
+            _this.mouseover(function(){
+                menu.eq(index).addClass("on");
+            });
+        }
     });
 
 });
