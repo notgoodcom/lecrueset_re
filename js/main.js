@@ -63,21 +63,20 @@ $(function(){
         }
 
 
-    // subMenu open
+    // subMenu open & close
 
-    $(".wrapper").on("mouseover", ".menu li a", function(){
-        var _this = $(this);
-        var sub = $("header.top .gnb .subGnb");
+    var sub = $("header.top .gnb .subGnb");
+
+    $(".wrapper").on("mouseenter", ".menu li a", function(){
         sub.show(); 
     })
 
-    // subMenu close
-
-    $(".wrapper").on("mouseout", ".header.top .gnb .subGnb", function(){
-        var _this = $(this);
-        var sub = $("header.top .gnb .subGnb");
-        sub.hide(); 
-    })
-
+    $(".wrapper").on("mouseleave",".menu li a, header.top .gnb .subGnb", function(){
+        setTimeout(function(){
+            if(!$("header.top .gnb .subGnb:hover").length && !$("header.top .gnb .subGnb").length){
+                $("header.top .gnb .subGnb").hide();
+            }
+        }, 1000);
+    });
 
 });
