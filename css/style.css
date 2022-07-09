@@ -308,6 +308,8 @@ a:hover {
                             color:#eee;
                             margin:0 8px;
                             font-size:10px;
+                            position: relative;
+                            top: -2px;
                         }
 
                         footer.footer .footerGnb .wrap .f-gnb li:last-child:after {
@@ -363,6 +365,12 @@ a:hover {
                                 color:#eee;
                                 margin:0 8px;
                                 font-size:10px;
+                                position: relative;
+                                top: -2px;
+                            }
+
+                            footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li:nth-of-type(4):after {
+                                display:none;
                             }
 
                             footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li:last-child:after {
