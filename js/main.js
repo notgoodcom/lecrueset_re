@@ -67,9 +67,9 @@ $(function(){
             //     strDOM03 += '</a>';
             // }
                 
-            var strDOM = image.name;
-            var strDOM02 = sd.name;
-            var strDOM03 = banner.name;
+            var strDOM = images.name[0];
+            var strDOM02 = slide.name[0];
+            var strDOM03 = bn.name[0];
 
             // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
             var $bnContainer = $(".topBanner");
