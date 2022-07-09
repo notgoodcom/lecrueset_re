@@ -325,6 +325,11 @@ a:hover {
                                 font-weight: bold;
                                 color:#222;
                             }
+                            
+                            footer.footer .footerGnb .wrap .f-gnb li a:hover {
+                                text-decoration: underline;
+                            }
+
 
 
                     footer.footer .footerGnb .wrap .snsIconWrap {
@@ -375,4 +380,27 @@ a:hover {
 
                             footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li:last-child:after {
                                 display:none;
+                            }
+ 
+                    footer.footer .footerWrap .wrap .csCenterInfo {
+                        margin-left:auto;
+                        width:25%;
+                    }
+
+
+                        footer.footer .footerWrap .wrap .csCenterInfo div {
+                            display: flex;
+                            flex-direction: row;
+                        }
+
+                            footer.footer .footerWrap .wrap .csCenterInfo div h6 {
+                                font-size:15px;
+                            }
+
+                            footer.footer .footerWrap .wrap .csCenterInfo div p {
+                                font-size:13px;
+                            }
+
+                            footer.footer .footerWrap .wrap .csCenterInfo div span {
+                                font-size:13px;
                             }
