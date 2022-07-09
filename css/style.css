@@ -395,14 +395,19 @@ a:hover {
 
                             footer.footer .footerWrap .wrap .csCenterInfo div h3 {
                                 font-size:20px;
+                                margin:0px;
                             }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div h6 {
                                 font-size:15px;
+                                margin-right:3px;
+                                align-self:center;
+                                margin:0px;
                             }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div p {
                                 font-size:13px;
+                                margin-right:3px;
                             }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div span {
