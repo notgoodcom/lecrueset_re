@@ -384,13 +384,14 @@ a:hover {
  
                     footer.footer .footerWrap .wrap .csCenterInfo {
                         margin-left:auto;
-                        width:30%;
+                        width:25%;
                     }
 
 
                         footer.footer .footerWrap .wrap .csCenterInfo div {
                             display: flex;
                             flex-direction: row;
+                            margin-left:20px;
                         }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div h3 {
