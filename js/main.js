@@ -54,7 +54,11 @@ $(function(){
             //     strDOM02 += '<a class="btn btn-line" href="' + sd.url + '">VIEW MORE</a>';
             //     strDOM02 += '</div>';
             //     strDOM02 += '</div>';
-            //     strDOM02 += '</div>';
+            //     strDOM02 += '</div>';    
+
+                var strDOM02 = "<div class='slider' style='background-image:url('" + sd.imageUrl + "')'></div>"
+
+
             }
 
             for (var i = 0; i < bn.length; i++) {
@@ -73,11 +77,11 @@ $(function(){
             var $midBnContainer = $(".bannerWrap");
 
             // $bnContainer.append(strDOM);
-            // $imageContainer.append(strDOM02);
+            $imageContainer.append(strDOM02);
             // $midBnContainer.append(strDOM03);
 
             console.log(image.name);
-            console.log(sd.name);
+            // console.log(sd.name);
             console.log(banner.name);
 
         }
