@@ -394,12 +394,25 @@ a:hover {
                             margin-left:20px;
                         }
 
-                            footer.footer .footerWrap .wrap .csCenterInfo div h3 {
+                        footer.footer .footerWrap .wrap .csCenterInfo div.csCall {
+                            margin:20px 0 10px;
+                        }
+
+                        footer.footer .footerWrap .wrap .csCenterInfo div.csWorkTime {
+                            margin-bottom:5px;
+                        }
+
+                        footer.footer .footerWrap .wrap .csCenterInfo .btn-cs {
+                            margin-left:20px;
+                        }
+
+
+                            footer.footer .footerWrap .wrap .csCenterInfo .csCall h1 {
                                 font-size:20px;
                                 margin:0px;
                             }
 
-                            footer.footer .footerWrap .wrap .csCenterInfo div h6 {
+                            footer.footer .footerWrap .wrap .csCenterInfo .csCall p {
                                 font-size:15px;
                                 margin-right:3px;
                                 align-self:center;
@@ -409,6 +422,7 @@ a:hover {
                             footer.footer .footerWrap .wrap .csCenterInfo div p {
                                 font-size:13px;
                                 margin-right:3px;
+                                margin:0px;
                             }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div span {
