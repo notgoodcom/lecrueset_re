@@ -404,8 +404,19 @@ a:hover {
 
                         footer.footer .footerWrap .wrap .csCenterInfo .btn-cs {
                             margin-left:20px;
+                            color:#222;
+                            font-size:13px;
                         }
+                            footer.footer .footerWrap .wrap .csCenterInfo .btn-cs i {
+                                margin-left:5px;
+                                font-size:10px;
+                                position:relative;
+                                top:-2px;
+                            }
 
+                        footer.footer .footerWrap .wrap .csCenterInfo .btn-cs:hover {
+                            text-decoration: underline;
+                        }
 
                             footer.footer .footerWrap .wrap .csCenterInfo .csCall h3 {
                                 font-size:20px;
