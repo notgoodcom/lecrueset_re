@@ -296,7 +296,12 @@ a:hover {
                         margin-right:auto;
                         display:flex;
                         flex-direction: row;
+                        margin-bottom:0px;
                     } 
+
+                        footer.footer .footerGnb .wrap .f-gnb li {
+                            align-self: center;
+                        }
 
                         footer.footer .footerGnb .wrap .f-gnb li:after {
                             content:"|";
@@ -307,6 +312,15 @@ a:hover {
                         footer.footer .footerGnb .wrap .f-gnb li:last-child:after {
                             display:none;
                         }
+
+                            footer.footer .footerGnb .wrap .f-gnb li a {
+                                color:#888;
+                            }
+
+                            footer.footer .footerGnb .wrap .f-gnb li:nth-of-type(4) a {
+                                font-weight: bold;
+                                color:#222;
+                            }
 
 
                     footer.footer .footerGnb .wrap .snsIconWrap {
