@@ -351,16 +351,17 @@ a:hover {
                     }
 
                         footer.footer .footerGnb .wrap .snsIconWrap a i {
-                            color:#ccc;
+                            color:#cacaca;
                             font-size:16px;
                             position:absolute;
                             left:49.5%;
                             top:49.5%;
                             transform:translate(-49.5%, -49.5%);
+                            margin-top: -1.5px;
                         }
 
                         footer.footer .footerGnb .wrap .snsIconWrap a.snsIcon-blog i {
-                            font-size:21px;
+                            font-size:22px;
                         }
 
 
