@@ -29,15 +29,15 @@ $(function(){
             var strDOM02 = "";
             var strDOM03 = "";
 
-            // for (var i = 0; i < images.length; i++) {
-            //     // N번째 이미지 정보를 구하기
-            //     var image = images[i];
+            for (var i = 0; i < images.length; i++) {
+                // N번째 이미지 정보를 구하기
+                var image = images[i];
         
             //     //  N번째 이미지 패널을 생성
             //     strDOM += '<a class="imgWrap" href="' + image.src + '"style="background-image:url(' + image.url + ')">';
             //     // strDOM += '<img src="' + image.url + '" alt="' + image.name +'">';
             //     strDOM += '</a>';
-            // }
+            }
 
             // for (var i = 0; i < slide.length; i++) {
             //     // N번째 이미지 정보를 구하기
@@ -66,12 +66,6 @@ $(function(){
             //     strDOM03 += '<img src="' + banner.imageUrl + '" alt="' + banner.name +'">';
             //     strDOM03 += '</a>';
             // }
-            
-            images.length();
-                
-            var strDOM = images.name;
-            // var strDOM02 = slide.name;
-            // var strDOM03 = bn.name;
 
             // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
             var $bnContainer = $(".topBanner");
@@ -82,7 +76,7 @@ $(function(){
             // $imageContainer.append(strDOM02);
             // $midBnContainer.append(strDOM03);
 
-            console.log(strDOM);
+            console.log(image.name);
             console.log(strDOM02);
             console.log(strDOM03);
 
