@@ -384,7 +384,7 @@ a:hover {
  
                     footer.footer .footerWrap .wrap .csCenterInfo {
                         margin-left:auto;
-                        width:25%;
+                        width:30%;
                     }
 
 
@@ -392,6 +392,10 @@ a:hover {
                             display: flex;
                             flex-direction: row;
                         }
+
+                            footer.footer .footerWrap .wrap .csCenterInfo div h3 {
+                                font-size:20px;
+                            }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div h6 {
                                 font-size:15px;
