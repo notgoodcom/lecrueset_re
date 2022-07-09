@@ -415,16 +415,16 @@ a:hover {
                             footer.footer .footerWrap .wrap .csCenterInfo .csCall p {
                                 font-size:15px;
                                 align-self:center;
-                                margin:0px 0px 0px 5px;
+                                margin:0px 10px 0px 0px;
                             }
 
-                            footer.footer .footerWrap .wrap .csCenterInfo div p {
+                            footer.footer .footerWrap .wrap .csCenterInfo .csWorkTime p {
                                 font-size:13px;
-                                margin:0px 0px 0px 5px;
+                                margin:0px 10px 0px 0px;
                                 align-self:center;
                             }
 
-                            footer.footer .footerWrap .wrap .csCenterInfo div span {
+                            footer.footer .footerWrap .wrap .csCenterInfo .csWorkTime span {
                                 font-size:13px;
                                 align-self:center;
                             }
