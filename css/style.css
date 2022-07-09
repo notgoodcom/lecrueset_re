@@ -187,6 +187,8 @@ a:hover {
             height:600px;
             width:100%;
             overflow:hidden;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
         }
 
             .slider {
@@ -224,7 +226,6 @@ a:hover {
                         .slider .wrap .sliderInfo .slideTitle {
                             color:#222;
                             font-size:70px;
-                            font-weight: bold;
                         }
 
                         .slider .wrap .sliderInfo .slideTxt {
