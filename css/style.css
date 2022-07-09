@@ -355,6 +355,7 @@ a:hover {
                         footer.footer .footerWrap .wrap .companyInfo .companyName {
                             font-size:15px;
                             color:#222;
+                            margin-bottom:15px;
                         }
 
                         footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt {
@@ -364,6 +365,10 @@ a:hover {
                             font-size:13px;
                             flex-wrap:wrap;
                         }
+
+                            footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li {
+                                margin-bottom:3px;
+                            }
 
                             footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li:after {
                                 content:"|";
@@ -382,6 +387,7 @@ a:hover {
                                 display:none;
                             }
  
+                            
                     footer.footer .footerWrap .wrap .csCenterInfo {
                         margin-left:auto;
                         width:25%;
