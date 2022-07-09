@@ -350,6 +350,8 @@ a:hover {
                         }
                         footer.footer .footerGnb .wrap .snsIconWrap a svg {
                             fill:#888;
+                            width:14px;
+                            height:14px;
                         }
 
 
