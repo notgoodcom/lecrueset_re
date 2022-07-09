@@ -39,9 +39,9 @@ $(function(){
             //     strDOM += '</a>';
             }
 
-            // for (var i = 0; i < slide.length; i++) {
-            //     // N번째 이미지 정보를 구하기
-            //     var sd = slide[i];
+            for (var i = 0; i < slide.length; i++) {
+                // N번째 이미지 정보를 구하기
+                var sd = slide[i];
         
             //     //  N번째 이미지 패널을 생성
             //     strDOM02 += '<div class="slider" style="background-image:url(' + sd.imageUrl + ')">';
@@ -55,17 +55,17 @@ $(function(){
             //     strDOM02 += '</div>';
             //     strDOM02 += '</div>';
             //     strDOM02 += '</div>';
-            // }
+            }
 
-            // for (var i = 0; i < bn.length; i++) {
-            //     // N번째 이미지 정보를 구하기
-            //     var banner = bn[i];
+            for (var i = 0; i < bn.length; i++) {
+                // N번째 이미지 정보를 구하기
+                var banner = bn[i];
         
             //     //  N번째 이미지 패널을 생성
             //     strDOM03 += '<a class="bnBox" href="' + banner.src + '">';
             //     strDOM03 += '<img src="' + banner.imageUrl + '" alt="' + banner.name +'">';
             //     strDOM03 += '</a>';
-            // }
+            }
 
             // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
             var $bnContainer = $(".topBanner");
@@ -77,8 +77,8 @@ $(function(){
             // $midBnContainer.append(strDOM03);
 
             console.log(image.name);
-            console.log(strDOM02);
-            console.log(strDOM03);
+            console.log(sd.name);
+            console.log(banner.name);
 
         }
 
