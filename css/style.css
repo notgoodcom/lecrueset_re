@@ -276,4 +276,28 @@ a:hover {
     /* footer */
 
 
-        
+        footer.footer {
+            width:100%;
+        }
+
+            footer.footer .footerGnb {
+                border-top:1px solid #eaeaea;
+                border-bottom:1px solid #eaeaea;
+            }
+
+                footer.footer .footerGnb .wrap {
+                    display: flex;
+                    flex-direction: row;
+                }
+
+                    footer.footer .footerGnb .wrap .f-gnb {
+                        margin-right:auto;
+                        display:flex;
+                        flex-direction: row;
+                    } 
+
+                        footer.footer .footerGnb .wrap .f-gnb li:after {
+                            content:"|";
+                            color:#eee;
+                            margin:0 5px;
+                        }
