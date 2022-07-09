@@ -342,6 +342,7 @@ a:hover {
                     footer.footer .footerWrap .wrap .companyInfo {
                         margin-right:auto;
                         color:#999;
+                        width:70%;
                     }
 
                         footer.footer .footerWrap .wrap .companyInfo .companyName {
@@ -354,6 +355,7 @@ a:hover {
                             display: flex;
                             flex-direction: row;
                             font-size:13px;
+                            flex-wrap:wrap;
                         }
 
                             footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li:after {
