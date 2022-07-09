@@ -341,8 +341,8 @@ a:hover {
                     footer.footer .footerGnb .wrap .snsIconWrap a {
                         border:1px solid #dadada;
                         border-radius: 100%;
-                        width:30px;
-                        height:30px;
+                        width:32px;
+                        height:32px;
                         vertical-align: middle;
                         text-align: center;
                         margin-left:20px;
@@ -354,17 +354,17 @@ a:hover {
                             color:#ccc;
                             font-size:16px;
                             position:absolute;
-                            left:50%;
-                            top:50%;
+                            left:49.5%;
+                            top:49.5%;
                             transform:translate(-49.5%, -49.5%);
                         }
 
                         footer.footer .footerGnb .wrap .snsIconWrap a.snsIcon-blog i {
-                            font-size:20px;
+                            font-size:21px;
                         }
 
 
-                        
+
             footer.footer .footerWrap {
                 padding:20px 0;
             }
