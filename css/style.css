@@ -391,15 +391,15 @@ a:hover {
                         footer.footer .footerWrap .wrap .csCenterInfo div {
                             display: flex;
                             flex-direction: row;
-                            margin-left:20px;
                         }
 
                         footer.footer .footerWrap .wrap .csCenterInfo div.csCall {
-                            margin:20px 0 10px;
+                            margin:20px 0 10px 20px;
                         }
 
                         footer.footer .footerWrap .wrap .csCenterInfo div.csWorkTime {
                             margin-bottom:5px;
+                            margin-left:20px;
                         }
 
                         footer.footer .footerWrap .wrap .csCenterInfo .btn-cs {
@@ -414,17 +414,17 @@ a:hover {
 
                             footer.footer .footerWrap .wrap .csCenterInfo .csCall p {
                                 font-size:15px;
-                                margin-right:3px;
                                 align-self:center;
-                                margin:0px;
+                                margin:0px 0px 0px 5px;
                             }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div p {
                                 font-size:13px;
-                                margin-right:3px;
-                                margin:0px;
+                                margin:0px 0px 0px 5px;
+                                align-self:center;
                             }
 
                             footer.footer .footerWrap .wrap .csCenterInfo div span {
                                 font-size:13px;
+                                align-self:center;
                             }
