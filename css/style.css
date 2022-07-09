@@ -343,17 +343,15 @@ a:hover {
                         border-radius: 100%;
                         width:30px;
                         height:30px;
+                        vertical-align: middle;
+                        text-align: center;
+                        margin-left:20px;
                     }
 
                         footer.footer .footerGnb .wrap .snsIconWrap a i {
                             color:#888;
+                            font-size:14px;
                         }
-                        footer.footer .footerGnb .wrap .snsIconWrap a svg {
-                            fill:#888;
-                            width:14px;
-                            height:14px;
-                        }
-
 
             footer.footer .footerWrap {
                 padding:20px 0;
