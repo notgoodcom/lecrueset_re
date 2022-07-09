@@ -334,7 +334,24 @@ a:hover {
 
                     footer.footer .footerGnb .wrap .snsIconWrap {
                         margin-left:auto;
+                        display:flex;
+                        flex-direction: row;
                     }
+
+                    footer.footer .footerGnb .wrap .snsIconWrap a {
+                        border:1px solid #dadada;
+                        border-radius: 100%;
+                        width:30px;
+                        height:30px;
+                    }
+
+                        footer.footer .footerGnb .wrap .snsIconWrap a i {
+                            color:#888;
+                        }
+                        footer.footer .footerGnb .wrap .snsIconWrap a svg {
+                            fill:#888;
+                        }
+
 
             footer.footer .footerWrap {
                 padding:20px 0;
