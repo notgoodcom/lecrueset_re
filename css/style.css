@@ -349,9 +349,14 @@ a:hover {
                     }
 
                         footer.footer .footerGnb .wrap .snsIconWrap a i {
-                            color:#888;
-                            font-size:14px;
+                            color:#ccc;
+                            font-size:16px;
                         }
+
+                        footer.footer .footerGnb .wrap .snsIconWrap a.snsIcon-blog i {
+                            font-size:20px;
+                        }
+
 
             footer.footer .footerWrap {
                 padding:20px 0;
