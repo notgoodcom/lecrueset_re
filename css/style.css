@@ -283,11 +283,13 @@ a:hover {
             footer.footer .footerGnb {
                 border-top:1px solid #eaeaea;
                 border-bottom:1px solid #eaeaea;
+                padding:15px 0;
             }
 
                 footer.footer .footerGnb .wrap {
                     display: flex;
                     flex-direction: row;
+                    margin:0 auto;
                 }
 
                     footer.footer .footerGnb .wrap .f-gnb {
@@ -301,3 +303,48 @@ a:hover {
                             color:#eee;
                             margin:0 5px;
                         }
+
+                        footer.footer .footerGnb .wrap .f-gnb li:last-child:after {
+                            display:none;
+                        }
+
+
+                    footer.footer .footerGnb .wrap .snsIconWrap {
+                        margin-left:auto;
+                    }
+
+            footer.footer .footerWrap {
+                padding:20px 0;
+            }
+
+                footer.footer .footerWrap .wrap {
+                    margin:0 auto;
+                    display: flex;
+                    flex-direction: row;
+                }
+
+                    footer.footer .footerWrap .wrap .companyInfo {
+                        margin-right:auto;
+                        color:#999;
+                    }
+
+                        footer.footer .footerWrap .wrap .companyInfo .companyName {
+                            font-size:15px;
+                            color:#222;
+                        }
+
+                        footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt {
+                            color:#999;
+                            display: flex;
+                            flex-direction: row;
+                        }
+
+                            footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li:after {
+                                content:"|";
+                                color:#eee;
+                                margin:0 5px;
+                            }
+
+                            footer.footer .footerWrap .wrap .companyInfo .companyInfoTxt li:last-child:after {
+                                display:none;
+                            }
