@@ -28,10 +28,10 @@ function createData(objImageInfo) {
         var obj = cs[i];
 
         //  N번째 이미지 패널을 생성
-        str01 += '<div class="itemWrap" style="background-image:url('+ cs.image +')">';
+        str01 += '<div class="itemWrap" style="background-image:url('+ obj.image +')">';
         str01 += '<div class="itemTxtWrap">';
-        str01 += '<h6 class="itemTitle">' + cs.name +'</h6>';
-        str01 += '<p class="itemPriceWrap"><em class="discountBefore">' + cs.price +'</em><span class="discount">' + cs.finalPrice +'</span></p>';
+        str01 += '<h6 class="itemTitle">' + obj.name +'</h6>';
+        str01 += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.price +'</em><span class="discount">' + obj.finalPrice +'</span></p>';
         str01 += '</div>';
         str01 += '</div>';
     }
