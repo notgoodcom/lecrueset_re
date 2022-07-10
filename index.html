@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/imagesload.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -22,21 +23,6 @@
             <footer data-include-path="footer.html"></footer> <!-- footer -->
         </div>
         <script src="js/includeHTML.js"></script>
-        <script src="js/imagesload.js"></script>
         <script src="js/dataload.js"></script>
-        <script>
-            $.getJSON('./img.json', function (json) 
-            {
-            var imgList= "";
-
-            $.each(json.topBanner, function () {
-                imgList += '<a class="imgWrap" href="' + this.src + '"style="background-image:url(' + this.url + ')">';
-            });
-
-            $('.topBanner').append(imgList);
-
-            });
-
-        </script>
     </body>
 </html>
