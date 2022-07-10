@@ -339,7 +339,7 @@ a:hover {
                     }
 
                     footer.footer .footerGnb .wrap .snsIconWrap a {
-                        border:1px solid #dadada;
+                        border:1px solid #eaeaea;
                         border-radius: 100%;
                         width:32px;
                         height:32px;
@@ -351,7 +351,7 @@ a:hover {
                     }
 
                         footer.footer .footerGnb .wrap .snsIconWrap a i {
-                            color:#cacaca;
+                            color:#d9d9d9;
                             font-size:16px;
                             position:absolute;
                             left:49.5%;
