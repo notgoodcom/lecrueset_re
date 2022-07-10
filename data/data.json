@@ -4,7 +4,7 @@
             "type": "casseroles",
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 24cm(색상선택)",
-            "image" : "./data/img/cr01.jpg",
+            "image" : "./data/img/cs01.jpg",
             "price" : "550000",
             "finalPrice" : "275000",
             "pick" : "best"
@@ -13,7 +13,7 @@
             "type": "casseroles",
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 16cm - 마르세유",
-            "image" : "./data/img/cr02.jpg",
+            "image" : "./data/img/cs02.jpg",
             "price" : "330000",
             "finalPrice" : "198000",
             "pick" : "best"
@@ -21,8 +21,8 @@
         {
             "type": "casseroles",
             "cate": "무쇠주물",
-            "name": "시그니처 원형냄비 20cm - 마르세유",
-            "image" : "./data/img/cr03.jpg",
+            "name": "시그니처 원형냄비 20cm - 코스탈",
+            "image" : "./data/img/cs03.jpg",
             "price" : "430000",
             "finalPrice" : "2580000",
             "pick" : "best"
@@ -30,8 +30,8 @@
         {
             "type": "casseroles",
             "cate": "무쇠주물",
-            "name": "시그니처 원형냄비 22cm - 코스탈",
-            "image" : "./data/img/cr03.jpg",
+            "name": "시그니처 원형냄비 22cm - 화이트",
+            "image" : "./data/img/cr04.jpg",
             "price" : "430000",
             "finalPrice" : "2580000"
         },
