@@ -12,7 +12,6 @@ function startDataFile(){
         type: 'GET',
         dataType : 'json',
         cache : false,
-        async: true,
         success : function (data) {
             createData(data)
         }
