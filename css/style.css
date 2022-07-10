@@ -290,6 +290,16 @@ a:hover {
                             font-size:15px;
                         }
 
+
+                .bannerArea01 {} 
+                      
+                    .bannerArea01 .bannerWrap {
+                        border-radius: 20px;
+                        overflow:hidden;
+                        width:100%;
+                    }
+                
+
                     
     /* footer */
 
