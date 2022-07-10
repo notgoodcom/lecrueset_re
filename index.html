@@ -24,5 +24,19 @@
         <script src="js/includeHTML.js"></script>
         <script src="js/imagesload.js"></script>
         <script src="js/dataload.js"></script>
+        <script>
+            $.getJSON('./img.json', function (json) 
+            {
+            var imgList= "";
+
+            $.each(json.topBanner, function () {
+                imgList += '<a class="imgWrap" href="' + this.src + '"style="background-image:url(' + this.url + ')">';
+            });
+
+            $('.topBanner').append(imgList);
+
+            });
+
+        </script>
     </body>
 </html>
