@@ -20,7 +20,7 @@ function startDataFile(){
 
 // JSON 포멧 데이터 처리
 function createData(objImageInfo) {
-    var cs = objImageInfo.cs; //cs
+    var cs = objImageInfo.newItem; //cs
     var str01 = "";
 
     for (var i = 0; i < cs.length; i++) {
