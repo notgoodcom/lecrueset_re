@@ -395,11 +395,7 @@
             "price" : "28000",
             "finalPrice" : "16800"
         }
-    ]
-
-}
-
-{
+    ],
     "topBanner" : [
         {
             "name" : "topBanner",
@@ -442,4 +438,5 @@
             "src" : "#"
         }
     ]
+
 }
