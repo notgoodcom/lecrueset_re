@@ -5,10 +5,8 @@ $(function(){
 
     // 이미지json 불러오기
 
-    window.onload = function () {
-        startLoadFile();
-    };
-    
+    startLoadFile();
+
         function startLoadFile(){
             $.ajax({
                 url: './img.json',
@@ -33,10 +31,10 @@ $(function(){
                 // N번째 이미지 정보를 구하기
                 var image = images[i];
         
-            //     //  N번째 이미지 패널을 생성
-            //     strDOM += '<a class="imgWrap" href="' + image.src + '"style="background-image:url(' + image.url + ')">';
-            //     // strDOM += '<img src="' + image.url + '" alt="' + image.name +'">';
-            //     strDOM += '</a>';
+                //  N번째 이미지 패널을 생성
+                strDOM += '<a class="imgWrap" href="' + image.src + '"style="background-image:url(' + image.url + ')">';
+                // strDOM += '<img src="' + image.url + '" alt="' + image.name +'">';
+                strDOM += '</a>';
             }
 
             for (var i = 0; i < slide.length; i++) {
