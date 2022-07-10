@@ -77,53 +77,6 @@
 
 
 
-
-var data = {
-    "topBanner" : [
-        {
-            "name" : "topBanner",
-            "url" : "./images/bannerTop.jpg",
-            "src" : "#"
-        }
-    ],
-    "bannerNav": [
-        {
-            "name" : "nav01",
-            "imageUrl" : "./images/slider01.jpg",
-            "num" : "1",
-            "cate" : "sale",
-            "title" : "Summer Lovin'",
-            "txt" : "올 여름 식탁, 시원하고 청량한 컬러감으로 찾아갑니다.",
-            "url" : "#"
-        },
-        {
-            "name" : "nav02",
-            "imageUrl" : "./images/slider02.jpg",
-            "num" : "2",
-            "cate" : "new",
-            "title" : "북유럽 컬렉션",
-            "txt" : "베스트 아이템 단품 출시"
-        },
-        {
-            "name" : "nav03",
-            "imageUrl" : "./images/slider03.jpg",
-            "num" : "3",
-            "cate" : "best",
-            "title" : "르크루제 시그니쳐",
-            "txt" : "부엌의 여왕"
-        }
-    ],
-    "middleBanner" : [
-        {
-            "name" : "middleBanner",
-            "imageUrl" : "./images/middleBn.jpg",
-            "num" : "1",
-            "src" : "#"
-        }
-    ]
-}
-
-
 $.getJSON('./img.json', function (json) 
 {
   var imgList= "";
