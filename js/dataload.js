@@ -44,7 +44,7 @@ function createData(objImageInfo) {
 
         //  N번째 이미지 패널을 생성
         str02 += '<div class="itemWrap">';
-        str02 += '<div class="itemImg">'+ bs.image +'</div>';
+        str02 += '<div class="itemImg" style="background-image:url('+ bs.image +')"></div>';
         str02 += '<div class="itemInfo">';
         str02 += '<p class="itemCate">' + bs.cate +'</p>';
         str02 += '<a class="itemName">' + bs.name +'</a>';
