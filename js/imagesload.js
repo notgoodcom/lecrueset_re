@@ -124,7 +124,7 @@ var data = {
 }
 
 
-$.getJSON(data, function (json) 
+$.getJSON('./img.json', function (json) 
 {
   var imgList= "";
 
@@ -133,7 +133,7 @@ $.getJSON(data, function (json)
   });
 
  $('.topBanner').append(imgList);
- 
+
 });
 
 
