@@ -50,6 +50,11 @@ a:hover {
                     background-repeat: no-repeat;
                 }
 
+                .bn01 {
+                    background-image: url(../images/bannerTop.jpg);
+                }
+
+
 
             header.top .gnb {
                 width:100%;
