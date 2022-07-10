@@ -3,7 +3,7 @@
 //데이터 불러오기
 
 window.onload = function () {
-    startDateFile();
+    startDataFile();
 };
 
 function startDataFile(){
