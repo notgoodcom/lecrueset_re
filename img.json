@@ -2,14 +2,14 @@
     "topBanner" : [
         {
             "name" : "topBanner",
-            "url" : "images/bannerTop.jpg",
+            "url" : "./images/bannerTop.jpg",
             "src" : "#"
         }
     ],
     "bannerNav": [
         {
             "name" : "nav01",
-            "imageUrl" : "images/slider01.jpg",
+            "imageUrl" : "./images/slider01.jpg",
             "num" : "1",
             "cate" : "sale",
             "title" : "Summer Lovin'",
@@ -18,7 +18,7 @@
         },
         {
             "name" : "nav02",
-            "imageUrl" : "images/slider02.jpg",
+            "imageUrl" : "./images/slider02.jpg",
             "num" : "2",
             "cate" : "new",
             "title" : "북유럽 컬렉션",
@@ -26,7 +26,7 @@
         },
         {
             "name" : "nav03",
-            "imageUrl" : "images/slider03.jpg",
+            "imageUrl" : "./images/slider03.jpg",
             "num" : "3",
             "cate" : "best",
             "title" : "르크루제 시그니쳐",
@@ -36,7 +36,7 @@
     "middleBanner" : [
         {
             "name" : "middleBanner",
-            "imageUrl" : "images/middleBn.jpg",
+            "imageUrl" : "./images/middleBn.jpg",
             "num" : "1",
             "src" : "#"
         }
@@ -44,12 +44,12 @@
     " collection": [
         {
             "name" : "le creuset pet",
-            "imageUrl" : "images/collic_bn01.jpg",
+            "imageUrl" : "./images/collic_bn01.jpg",
             "src" : "#"
         },
         {
             "name" : "북유럽 컬렉션",
-            "imageUrl" : "images/collic_bn02.jpg",
+            "imageUrl" : "./images/collic_bn02.jpg",
             "src" : "#"
         }
     ]
