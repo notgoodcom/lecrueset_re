@@ -83,28 +83,28 @@
 const URL = "./img.json";
 $.getJSON(URL,function(data){
 	const items = data.bannerNav;
-    	console.log(items);
+    
+    var strDOM02 = "";
+
+
+    for (var i = 0; i < items.length; i++) {
+        const a = items[i]; //code, name
+    
+        
+        strDOM02 += '<div class="slider" style="background-image:url(' + sd.imageUrl + ')">';
+        strDOM02 += '<div class="wrap">';
+        strDOM02 += '<div class="sliderInfo">';
+        strDOM02 += '<div class="cate">' + sd.cate + '</div>';
+        strDOM02 += '<div class="line"></div>';
+        strDOM02 += '<div class="slideTitle">' + sd.title + '</div>';
+        strDOM02 += '<div class="slideTxt">' + sd.txt + '</div>';
+        strDOM02 += '<a class="btn btn-line" href="' + sd.url + '">VIEW MORE</a>';
+        strDOM02 += '</div>';
+        strDOM02 += '</div>';
+        strDOM02 += '</div>';   
+    
+      }
+    
+      $(".sliderWrap").append(strDOM02);
+
 })
-
-var strDOM02 = "";
-
-
-for (var i = 0; i < items.length; i++) {
-    const a = items[i]; //code, name
-
-	
-    strDOM02 += '<div class="slider" style="background-image:url(' + sd.imageUrl + ')">';
-    strDOM02 += '<div class="wrap">';
-    strDOM02 += '<div class="sliderInfo">';
-    strDOM02 += '<div class="cate">' + sd.cate + '</div>';
-    strDOM02 += '<div class="line"></div>';
-    strDOM02 += '<div class="slideTitle">' + sd.title + '</div>';
-    strDOM02 += '<div class="slideTxt">' + sd.txt + '</div>';
-    strDOM02 += '<a class="btn btn-line" href="' + sd.url + '">VIEW MORE</a>';
-    strDOM02 += '</div>';
-    strDOM02 += '</div>';
-    strDOM02 += '</div>';   
-
-  }
-
-  $(".sliderWrap").append(strDOM02);
