@@ -37,7 +37,7 @@ function createData(objImageInfo) {
     }
 
     // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
-    var $sec01Container = $(".itemSlider");
+    var $sec01Container = $(".items");
 
     $sec01Container.append(str01);
 
