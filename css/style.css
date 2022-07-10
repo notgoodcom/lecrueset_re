@@ -75,7 +75,7 @@ a:hover {
                     header.top .gnb .gnbWrap .menu {
                         display: flex;
                         flex-direction: row;
-                        width:700px;
+                        width:750px;
                         margin-left:100px;
                         flex-shrink: 0;
                         height: 90px;
@@ -152,7 +152,7 @@ a:hover {
                     }
 
                         header.top .gnb .subGnb .subMenu .wrap {
-                            width:700px;
+                            width:750px;
                             display: flex;
                             flex-direction: row;
                             margin-left:300px;
