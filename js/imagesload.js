@@ -173,6 +173,6 @@ data.topBanner.forEach( function(obj) {
     img.src = obj.url;
     img.setAttribute("class", "banner-img");
     img.setAttribute("alt", "effy");
-    document.getElementById("topBanner").appendChild(img);
+    document.getElementById("topBanner").append(img);
   });
 
