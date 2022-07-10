@@ -80,8 +80,8 @@
 //     }
 
 
-const URL = "./img.json";
-$.getJSON(URL,function(data){
+const jsonUrl = "./img.json";
+$.getJSON(jsonUrl,function(data){
 	const items = data.bannerNav;
     
     var strDOM02 = "";
