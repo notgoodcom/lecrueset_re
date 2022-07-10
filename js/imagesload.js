@@ -9,6 +9,7 @@ window.onload = function () {
             url: './img.json',
             type: 'GET',
             dataType : 'json',
+            cache : false,
             success : function (data) {
                 createImages(data)
             }
