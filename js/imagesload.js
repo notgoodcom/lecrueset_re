@@ -51,9 +51,6 @@ window.onload = function () {
             strDOM02 += '</div>';
             strDOM02 += '</div>';    
 
-            var strDOM02 = "<div class='slider' style='background-image:url('" + sd.imageUrl + "')'></div>"
-
-
         }
 
         for (var i = 0; i < bn.length; i++) {
