@@ -5,8 +5,10 @@ $(function(){
 
     // 이미지json 불러오기
 
-    startLoadFile();
-
+    window.onload = function () {
+        startLoadFile();
+    };
+    
         function startLoadFile(){
             $.ajax({
                 url: './img.json',
