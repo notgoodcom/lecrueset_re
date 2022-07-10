@@ -10,7 +10,7 @@ window.onload = function () {
             type: 'GET',
             dataType : 'json',
             cache : false,
-            async: false,
+            async: true,
             success : function (data) {
                 createImages(data)
             }
