@@ -71,12 +71,12 @@ window.onload = function () {
         var $imageContainer = $(".sliderWrap");
         var $midBnContainer = $(".bannerWrap");
 
-        // $bnContainer.append(strDOM);
-        $imageContainer.append(strDOM02);
+        $bnContainer.append(strDOM);
+        // $imageContainer.append(strDOM02);
         // $midBnContainer.append(strDOM03);
 
-        console.log(image.name);
+        // console.log(image.name);
         // console.log(sd.name);
-        console.log(banner.name);
+        // console.log(banner.name);
 
     }
