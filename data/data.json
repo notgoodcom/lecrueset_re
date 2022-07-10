@@ -341,6 +341,60 @@
             "finalPrice" : "21700"
         }
 
+    ],
+
+    "bestItem" : [
+        {
+            "type": "casseroles",
+            "cate": "무쇠주물",
+            "name": "시그니처 원형냄비 24cm(색상선택)",
+            "image" : "./data/img/cs01.jpg",
+            "price" : "550000",
+            "finalPrice" : "275000",
+            "pick" : "best"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "플라워 접시 19cm - 아이스 그린",
+            "image" : "./data/img/sw01.jpg",
+            "price" : "44000",
+            "finalPrice" : "26400",
+            "pick" : "best"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "플라워 접시 20cm - 코스탈블루",
+            "image" : "./data/img/sw02.jpg",
+            "price" : "51000",
+            "finalPrice" : "30600"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "플라워 접시 19cm - 코스탈블루",
+            "image" : "./data/img/sw03.jpg",
+            "price" : "44000",
+            "finalPrice" : "26400",
+            "pick" : "best"
+        },
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "마시멜로우 머그 - 쉘핑크",
+            "image" : "./data/./data/img/ol01.jpg",
+            "price" : "37000",
+            "finalPrice" : "22200"
+        },
+        {   
+            "type":"onlineProduct",
+            "cate": "온라인 스페셜",
+            "name": "야채디쉬(S) - 호박",
+            "image" : "./data/img/ol02.jpg",
+            "price" : "28000",
+            "finalPrice" : "16800"
+        }
     ]
 
 }
