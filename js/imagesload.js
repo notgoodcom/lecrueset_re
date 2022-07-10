@@ -7,7 +7,7 @@ window.onload = function () {
     function startLoadFile(){
         $.ajax({
             url: './img.json',
-            type: 'POST',
+            type: 'GET',
             dataType : 'json',
             success : function (data) {
                 createImages(data)
