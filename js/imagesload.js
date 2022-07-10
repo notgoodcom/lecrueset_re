@@ -88,7 +88,7 @@ $.getJSON(URL,function(data){
 
 
     for (var i = 0; i < items.length; i++) {
-        const a = items[i]; //code, name
+        const sd = items[i]; //code, name
     
         
         strDOM02 += '<div class="slider" style="background-image:url(' + sd.imageUrl + ')">';
