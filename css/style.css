@@ -291,6 +291,8 @@ a:hover {
                         }
 
 
+                .section01 {} 
+
                 .bannerArea01 {} 
                       
                     .bannerArea01 .bannerWrap {
@@ -299,8 +301,19 @@ a:hover {
                         width:100%;
                     }
                 
+                .section02 {} 
 
-                    
+                .collectionArea {} 
+
+                .section03 {} 
+
+                .videoArea {
+                    width:100%;
+                }   
+                
+                .instagramArea {}  
+      
+                
     /* footer */
 
 

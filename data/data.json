@@ -242,7 +242,7 @@
             "type":"onlineProduct",
             "cate": "온라인 스페셜",
             "name": "마시멜로우 머그 - 쉘핑크",
-            "image" : "./data/./data/img/ol01.jpg",
+            "image" : "./data/img/ol01.jpg",
             "price" : "37000",
             "finalPrice" : "22200"
         },
@@ -383,7 +383,7 @@
             "type":"onlineProduct",
             "cate": "온라인 스페셜",
             "name": "마시멜로우 머그 - 쉘핑크",
-            "image" : "./data/data/img/ol01.jpg",
+            "image" : "./data/img/ol01.jpg",
             "price" : "37000",
             "finalPrice" : "22200"
         },
