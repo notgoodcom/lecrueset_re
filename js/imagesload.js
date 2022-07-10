@@ -17,10 +17,10 @@ window.onload = function () {
     }
     
     // JSON 포멧 데이터 처리
-    function createImages(objImageInfo) {
-        var images = objImageInfo.topBanner; //top banner
-        var slide = objImageInfo.bannerNav; //main slider
-        var bn = objImageInfo.middleBanner; //main slider
+    function createImages(objImage) {
+        var images = objImage.topBanner; //top banner
+        var slide = objImage.bannerNav; //main slider
+        var bn = objImage.middleBanner; //main slider
         var strDOM = "";
         var strDOM02 = "";
         var strDOM03 = "";
@@ -74,19 +74,5 @@ window.onload = function () {
         $midBnContainer.append(strDOM03);
 
     }
-
-
-
-// $.getJSON('./img.json', function (json) 
-// {
-//   var imgList= "";
-
-//   $.each(json.topBanner, function () {
-//     imgList += '<a class="imgWrap" href="' + this.src + '"style="background-image:url(' + this.url + ')">';
-//   });
-
-//  $('.topBanner').append(imgList);
-
-// });
 
 
