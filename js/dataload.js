@@ -26,7 +26,7 @@ function createData(objImageInfo) {
     for (var i = 0; i < cs.length; i++) {
         // N번째 이미지 정보를 구하기
         var obj = cs[i];
-        var idx = this.index();
+        var idx = obj.index();
 
         //  N번째 이미지 패널을 생성
         str01 += '<div class="itemWrap" style="background-image:url('+ obj.image +')" clsss="newItem' + idx + '">';
