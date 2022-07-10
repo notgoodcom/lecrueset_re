@@ -72,8 +72,6 @@ window.onload = function () {
         $imageContainer.append(strDOM02);
         $midBnContainer.append(strDOM03);
 
-
-
     }
 
 

@@ -40,17 +40,5 @@
             "num" : "1",
             "src" : "#"
         }
-    ],
-    " collection": [
-        {
-            "name" : "le creuset pet",
-            "imageUrl" : "./images/collic_bn01.jpg",
-            "src" : "#"
-        },
-        {
-            "name" : "북유럽 컬렉션",
-            "imageUrl" : "./images/collic_bn02.jpg",
-            "src" : "#"
-        }
     ]
 }
