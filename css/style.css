@@ -322,6 +322,8 @@ a:hover {
                         
                         .section01 .itemSlider .items {
                             width:calc(100% - 150px);
+                            display:flex;
+                            flex-direction: row;
                         }
 
                             .section01 .itemSlider .items .item {
@@ -331,6 +333,8 @@ a:hover {
                                 flex-direction: column;
                                 transition: all 0.3s;
                                 justify-content: center;
+                                width:350px;
+                                height:300px;
                             }
 
                                 .section01 .itemSlider .items .item .itemTxtWrap {
