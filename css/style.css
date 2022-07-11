@@ -150,6 +150,8 @@ a:hover {
                     background:#EAEAEA;
                     padding:20px 0;
                     display: none;
+                    z-index:1;
+                    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
                 }
                     header.top .gnb .subGnb .subMenu {
                         width:1280px;
