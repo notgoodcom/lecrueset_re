@@ -24,7 +24,17 @@
                 add_data += '</div>';
                 sec01.append(add_data);
             });
-        });    
+        });  
+        
+        $('.items').slick({
+            accessibility: true,
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 3,
+            adaptiveHeight: false, 
+            arrows: true
+        });
     });
 
 </script>
