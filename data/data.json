@@ -296,7 +296,8 @@
             "image" : "./data/img/cs01.jpg",
             "price" : "550000",
             "finalPrice" : "275000",
-            "pick" : "best"
+            "pick" : "best",
+            "url" : "#"
         },
         {
             "type": "casseroles",
@@ -305,7 +306,8 @@
             "image" : "./data/img/cs02.jpg",
             "price" : "330000",
             "finalPrice" : "198000",
-            "pick" : "best"
+            "pick" : "best",
+            "url" : "#"
         },
         {
             "type": "casseroles",
@@ -314,7 +316,8 @@
             "image" : "./data/img/cs03.jpg",
             "price" : "430000",
             "finalPrice" : "2580000",
-            "pick" : "best"
+            "pick" : "best",
+            "url" : "#"
         },
         {
             "type": "stoneware",
@@ -322,7 +325,8 @@
             "name": "북유럽 컬렉션 카푸치노 컵&받침 - 시솔트",
             "image" : "./data/img/sw07.jpg",
             "price" : "",
-            "finalPrice" : "87000"
+            "finalPrice" : "87000",
+            "url" : "#"
         },
         {
             "type": "stoneware",
@@ -330,7 +334,8 @@
             "name": "북유럽 컬렉션 플라워디쉬 20cm",
             "image" : "./data/img/sw08.jpg",
             "price" : "51000",
-            "finalPrice" : "35700"
+            "finalPrice" : "35700",
+            "url" : "#"
         },
         {
             "type": "stoneware",
@@ -338,7 +343,8 @@
             "name": "북유럽 컬렉션 플라워디쉬 12cm",
             "image" : "./data/img/sw09.jpg",
             "price" : "31000",
-            "finalPrice" : "21700"
+            "finalPrice" : "21700",
+            "url" : "#"
         }
 
     ],
