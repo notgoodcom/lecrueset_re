@@ -320,10 +320,6 @@ a:hover {
                         justify-content: center;
                     }
                         
-                        .itemPrev, .itemNext {
-                            width:75px;
-                            flex-shrink: 0;
-                        }
 
                         .section01 .itemSlider .items {
                             width:calc(100% - 150px);
@@ -385,13 +381,17 @@ a:hover {
                             align-self:center;
                             margin-right:auto;
                             font-size:20px;
+                            width:75px;
+                            flex-shrink: 0;
                         }
 
-                        .section01 .itemSlider .itemPrev {
+                        .section01 .itemSlider .itemNext {
                             color:#222;
                             align-self:center;
                             margin-left:auto;
                             font-size:20px;
+                            width:75px;
+                            flex-shrink: 0;
                         }                       
 
                 .bannerArea01 {} 
