@@ -312,14 +312,50 @@ a:hover {
 
                 .section01 {} 
 
+                        
+
+
                 .bannerArea01 {} 
                       
-                    .bannerArea01 .bannerWrap {
-                        border-radius: 20px;
-                        overflow:hidden;
-                        width:100%;
+                    .bannerArea01 .middleBnContent {
+                        position:relative;
                     }
+
+                        .bannerArea01 .bannerWrap {
+                            border-radius: 20px;
+                            overflow:hidden;
+                            width:100%;
+                        }
                 
+                        .bannerArea01 .middleBnContent .bannerPrev,
+                        .bannerArea01 .middleBnContent .bannerNext  {
+                            background:rgba(255,255,255,0.6);
+                            color:#222;
+                            width:50px;
+                            height:100px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            position:absolute;
+                        }
+
+                        .bannerArea01 .middleBnContent .bannerPrev {
+                            left:0px;
+                            top:0px;
+                        }
+
+                        .bannerArea01 .middleBnContent .bannerNext {
+                            right:0px;
+                            top:0px;
+                        }
+
+                            .bannerArea01 .middleBnContent .bannerPrev i,
+                            .bannerArea01 .middleBnContent .bannerNext i {
+                                align-self: center;
+                            }
+
+
+
                 .section02 {} 
 
                 .collectionArea {} 
