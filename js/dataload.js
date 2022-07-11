@@ -69,7 +69,7 @@ $(function(){
     var sec01 = $(".items");
 
     $.getJSON('./data/data.json', function(data){
-		$.each(data.newItem, function(i, product){
+		$.each(data.newItem, function(i, obj){
 			var add_data = '';
             add_data += '<div class="item" style="background-image:url('+ obj.image +')">';
             add_data += '<div class="itemTxtWrap">';
