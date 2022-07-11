@@ -37,6 +37,19 @@ $(function(){
         
     });
 
+    $('.items').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
 
+    $('.itemPrev').click(function(){
+        $(".items").slick('slickPrev');
+    });
+
+    $('.itemNext').click(function(){
+        $(".items").slick('slickNext');
+    });
 
 });
