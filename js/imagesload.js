@@ -77,15 +77,15 @@
 
 
 
-var imageJson = "./img.json"
+// var imageJson = "./img.json"
 
-$.getJSON(imageJson,function(img){
-    var items = [];
+// $.getJSON(imageJson,function(img){
+//     var items = [];
 
-    $.each(img.topBanner, function(i, bn){
-        items+= '<a class="imgWrap" href="' + bn.src + '"style="background-image:url(' + bn.url + ')">'
-        items+= '</a>'
-    })
+//     $.each(img.topBanner, function(i, bn){
+//         items+= '<a class="imgWrap" href="' + bn.src + '"style="background-image:url(' + bn.url + ')">'
+//         items+= '</a>'
+//     })
     
-    $(".videoArea").append(items);
-})
+//     $(".videoArea").append(items);
+// })
