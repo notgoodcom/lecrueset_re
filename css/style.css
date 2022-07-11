@@ -320,6 +320,11 @@ a:hover {
                         justify-content: center;
                     }
                         
+                        .itemPrev, .itemNext {
+                            width:75px;
+                            flex-shrink: 0;
+                        }
+
                         .section01 .itemSlider .items {
                             width:calc(100% - 150px);
                             display:flex;
