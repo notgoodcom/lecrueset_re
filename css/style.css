@@ -217,8 +217,18 @@ a:hover {
                 background-image:url(../images/slider03.jpg);
                 color:#fff !important;
             }
+            .b-white {
+                color:#fff;
+            }
 
+            .btn-white {
+                border-color:#fff;
+                color:#fff;
+            }
 
+            .line-white {
+                background:#fff;
+            }
                 .slider .wrap {
                     width:1280px;
                     height: 600px;
@@ -248,7 +258,7 @@ a:hover {
                             color:#222;
                             font-size:70px;
                             font-weight: normal;
-                            letter-spacing: -5%;;
+                            letter-spacing: -5px;;
                         }
 
                         .slider .wrap .sliderInfo .slideTxt {
