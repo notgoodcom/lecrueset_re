@@ -315,9 +315,7 @@ a:hover {
                 } 
 
                     .section01 .itemSlider {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
+                        position:relative;
                     }
                         
 
@@ -325,16 +323,16 @@ a:hover {
                             width:calc(100% - 150px);
                             height:300px;
                             overflow:hidden;
-                            display: flex;
+                            margin:0 auto;
                         }
 
-                            .section01 .itemSlider .items .item {
+                            .section01 .itemSlider .items .itemBox {
                                 border-radius: 20px;
                                 overflow:hidden;
-                                display: flex;
+                                display: flex !important;
                                 flex-direction: column;
                                 justify-content: center;
-                                width:350px;
+                                width:350px !important;
                                 height:300px;
                                 flex-shrink: 0;
                                 background-size:350px 350px;
@@ -346,16 +344,16 @@ a:hover {
                                 cursor:pointer;
                             }
 
-                            .section01 .itemSlider .items .item.on {
+                            .section01 .itemSlider .items .itemBox.on {
                                 background-size:500px 500px;
                             }
 
 
-                            .section01 .itemSlider .items .item:before {
+                            .section01 .itemSlider .items .itemBox:before {
                                 display:none;
                             }
 
-                            .section01 .itemSlider .items .item.on:before {
+                            .section01 .itemSlider .items .itemBox.on:before {
                                 display:block;
                                 position:absolute;
                                 background:rgba(0,0,0,0.3);
@@ -364,11 +362,11 @@ a:hover {
                                 content:"";
                             }
 
-                                .section01 .itemSlider .items .item .itemTxtWrap {
+                                .section01 .itemSlider .items .itemBox .itemTxtWrap {
                                     display: none;
                                 }
 
-                                .section01 .itemSlider .items .item.on .itemTxtWrap {
+                                .section01 .itemSlider .items .itemBox.on .itemTxtWrap {
                                     margin:auto;
                                     align-self:center;
                                     position:relative;
@@ -376,12 +374,12 @@ a:hover {
                                     display:block;
                                 }
 
-                                    .section01 .itemSlider .items .item .itemTxtWrap .itemTitle {
+                                    .section01 .itemSlider .items .itemBox .itemTxtWrap .itemTitle {
                                         color:#fff;
                                         font-size:15px;
                                         margin-bottom:5px;
                                     }
-                                    .section01 .itemSlider .items .item .itemTxtWrap .itemPriceWrap {
+                                    .section01 .itemSlider .items .itemBox .itemTxtWrap .itemPriceWrap {
                                         display: flex;
                                         flex-direction: row;
                                         margin:auto;
@@ -389,11 +387,24 @@ a:hover {
                                     }
 
                                         .itemTxtWrap .itemPriceWrap .discountBefore {
-                                            color:#888;
+                                            color:#ccc;
                                             text-decoration: line-through;
                                             font-style: normal;
                                             font-size:13px;
-                                            margin-right:5px;
+                                            margin-right:8px;
+                                            padding-top:5px;
+                                            display:inline-block;
+                                        }
+
+                                        .itemTxtWrap .itemPriceWrap .discountBefore:after {
+                                            content:"원";
+                                            font-size:12px;
+                                            margin-left:3px;
+                                            text-decoration: none;
+                                        }
+
+                                        .itemTxtWrap .itemPriceWrap .discountBefore:empty {
+                                            display: none;
                                         }
 
                                         .itemTxtWrap .itemPriceWrap .discount {
@@ -402,27 +413,43 @@ a:hover {
                                             color:#fff;
                                         }
 
+                                        .itemTxtWrap .itemPriceWrap .discount:after {
+                                            content:"원";
+                                            font-size:13px;
+                                            margin-left:3px;
+                                            font-weight: normal;
+                                        } 
 
-                                
-                        .section01 .itemSlider .itemPrev {
-                            color:#222;
-                            align-self:center;
-                            margin-right:auto;
-                            font-size:20px;
-                            width:75px;
-                            flex-shrink: 0;
-                            text-align: center;
+
+                        .section01 .itemSlider .itemArrrow {
+                            position:relative;
+                            width:100%;
                         }
 
-                        .section01 .itemSlider .itemNext {
-                            color:#222;
-                            align-self:center;
-                            margin-left:auto;
-                            font-size:20px;
-                            width:75px;
-                            flex-shrink: 0;
-                            text-align: center;
-                        }                       
+                            .section01 .itemSlider .itemArrrow .itemPrev {
+                                color:#222;
+                                align-self:center;
+                                margin-right:auto;
+                                font-size:30px;
+                                width:75px;
+                                text-align: center;
+                                position:absolute;
+                                left:0px;
+                                top:-180px;
+                            }
+
+                            .section01 .itemSlider .itemArrrow .itemNext {
+                                color:#222;
+                                align-self:center;
+                                margin-left:auto;
+                                font-size:30px;
+                                width:75px;
+                                text-align: center;
+                                position:absolute;
+                                right:0px;
+                                top:-180px;
+                            }                       
+
 
                 .bannerArea01 {} 
                       
