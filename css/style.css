@@ -342,7 +342,8 @@ a:hover {
                                 width:350px;
                                 height:300px;
                                 flex-shrink: 0;
-                                background-size:100%;
+                                background-size:300px;
+                                background-repeat: no-repeat;
                                 background-position: top center;
                             }
 
