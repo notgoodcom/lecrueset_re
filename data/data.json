@@ -400,6 +400,24 @@
             "image" : "./data/img/ol02.jpg",
             "price" : "28000",
             "finalPrice" : "16800"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "북유럽 컬렉션 플라워디쉬 20cm",
+            "image" : "./data/img/sw08.jpg",
+            "price" : "51000",
+            "finalPrice" : "35700",
+            "url" : "#"
+        },
+        {
+            "type": "stoneware",
+            "cate": "스톤웨어",
+            "name": "북유럽 컬렉션 플라워디쉬 12cm",
+            "image" : "./data/img/sw09.jpg",
+            "price" : "31000",
+            "finalPrice" : "21700",
+            "url" : "#"
         }
     ]
 

@@ -451,7 +451,9 @@ a:hover {
                             }                       
 
 
-                .bannerArea01 {} 
+                .bannerArea01 {
+                    position:relative;
+                } 
                       
                     .bannerArea01 .middleBnContent {
                         position:relative;
@@ -493,7 +495,107 @@ a:hover {
 
 
 
-                .section02 {} 
+                .section02 {
+                    position:relative;
+                } 
+
+                    .section02 .itemList {
+                        display:flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+
+                        .section02 .itemList .itemWrap {
+                            width:290px;
+                            display: flex;
+                            flex-direction: column;
+                            flex-shrink: 0;
+                            margin:0px 40px 40px 0px;
+                        }
+
+
+                        .section02 .itemList .itemWrap:nth-child(4),
+                        .section02 .itemList .itemWrap:nth-child(8) {
+                            margin-right:0px;
+                        }
+
+                            .section02 .itemList .itemWrap .itemImg {
+                                width:290px;
+                                height:290px;
+                                border-radius: 20px;
+                                background-size:290px 290px;
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                                cursor:pointer;
+                                transition: all 0.4s;
+                            }
+
+                            .section02 .itemList .itemWrap .itemImg:hover {
+                                box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+                                background-size:500px 500px;
+                            }
+
+                            .section02 .itemList .itemWrap .itemInfo {
+                                margin-top:15px;
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                                .itemWrap .itemInfo .itemCate {
+                                    color:#888;
+                                    font-size:13px;
+                                    margin-bottom:5px;
+                                }
+
+                                .itemWrap .itemInfo .itemName {
+                                    font-size:15px;
+                                    margin-bottom:10px;
+                                    color:#222;
+                                }
+
+                                .itemWrap:hover .itemInfo .itemName {
+                                    text-decoration: underline;
+                                }
+
+
+                                .itemWrap .itemInfo .itemPrice {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+
+                                    .itemWrap .itemInfo .itemPrice .discountBefore {
+                                        align-self: center;
+                                        color:#888;
+                                        font-size:13px;
+                                        text-decoration: line-through;
+                                        margin-right:10px;
+                                        font-style: normal;
+                                    }
+
+                                    .itemWrap .itemInfo .itemPrice .discountBefore:empty {
+                                        display: none;
+                                    }
+
+                                    .itemWrap .itemInfo .itemPrice .discountBefore:after {
+                                        content:'원';
+                                        text-decoration: none;
+                                        margin-left:3px;
+                                    }
+
+                                    .itemWrap .itemInfo .itemPrice .discount {
+                                        font-weight: bold;
+                                        font-size:20px;
+                                    }
+
+                                    .itemWrap .itemInfo .itemPrice .discount:after {
+                                        content:'원';
+                                        text-decoration: none;
+                                        font-size:15px;
+                                        font-weight: normal;
+                                        margin-left:3px;
+                                    }
+
+
 
                 .collectionArea {} 
 
