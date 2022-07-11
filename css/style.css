@@ -318,7 +318,6 @@ a:hover {
                         display: flex;
                         flex-direction: row;
                         justify-content: center;
-                        transition: all 0.3s;
                     }
                         
 
@@ -343,6 +342,7 @@ a:hover {
                                 background-position: center center;
                                 position:relative;
                                 margin-right:40px;
+                                transition: all 0.4s;
                             }
 
                             .section01 .itemSlider .items .item.on {
@@ -351,11 +351,11 @@ a:hover {
 
 
                             .section01 .itemSlider .items .item:before {
-                                opacity:0;
+                                display:none;
                             }
 
                             .section01 .itemSlider .items .item.on:before {
-                                opacity:1;
+                                display:block;
                                 position:absolute;
                                 background:rgba(0,0,0,0.3);
                                 width:100%;
@@ -364,7 +364,7 @@ a:hover {
                             }
 
                                 .section01 .itemSlider .items .item .itemTxtWrap {
-                                    opacity:0;
+                                    display: none;
                                 }
 
                                 .section01 .itemSlider .items .item.on .itemTxtWrap {
@@ -372,7 +372,7 @@ a:hover {
                                     align-self:center;
                                     position:relative;
                                     z-index:1;
-                                    opacity:1;
+                                    display:block;
                                 }
 
                                     .section01 .itemSlider .items .item .itemTxtWrap .itemTitle {

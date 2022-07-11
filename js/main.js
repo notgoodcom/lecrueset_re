@@ -37,6 +37,20 @@ $(function(){
         
     });
 
+    //section01 hover 
+
+    $(".wrapper").on("mouseenter", ".itemSlider .items .item", function(){
+        var _this = $(this);
+        if(_this.hasClass('on')){
+            $(".itemSlider .items .item").removeClass("on");
+        }else{
+            _this.addClass("on");
+        }
+    });
+
+    $(".wrapper").on("mouseleave", ".itemSlider .items .item", function(){
+        $(".itemSlider .items .item").removeClass("on");
+    });
 
 
 });
