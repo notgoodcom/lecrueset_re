@@ -29,28 +29,20 @@
 
     $(function(){
 
-        $('.items').each(function(){
-            $(this).slick({
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-            });
+
+        var slider02 = $('.items').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
         });
 
-        // $('.items').slick({
-        //     slidesToShow: 3,
-        //     slidesToScroll: 1,
-        //     autoplay: true,
-        //     autoplaySpeed: 2000,
-        // });
-
         $('.itemPrev').click(function(){
-            $(".items").slick('slickPrev');
+            slider02.slick('slickPrev');
         });
 
         $('.itemNext').click(function(){
-            $(".items").slick('slickNext');
+            slider02.slick('slickNext');
         });
     });
 

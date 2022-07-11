@@ -38,5 +38,22 @@ $(function(){
     });
 
 
+    var slider = $('.items').bxSlider({
+        auto: false,
+        slideWidth: '1040px',
+        slideHeight: '250px',
+        minSlides: 6,
+        maxSlides: 6,
+        moveSlides: 1,
+        slideMargin: 10,
+        pager:false,
+        controls:false,
+        delay:500,
+        autoHover:true,
+        responsive:true,
+        nextSelector: '.cl01_list .right-arrow',
+        prevSelector: '.cl01_list .left-arrow',
+        useCSS: true
+    });
 
 });
