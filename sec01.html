@@ -24,7 +24,36 @@
                 add_data += '</div>';
                 sec01.append(add_data);
             });
-        });  
+        }); 
+        
+        var slider = $('.items').bxSlider({
+            auto: false,
+            minSlides: 3,
+            maxSlides: 3,
+            moveSlides: 1,
+            slideMargin: 10,
+            pager:false,
+            controls:false,
+            delay:500,
+            autoHover:true,
+            responsive:true,
+            nextSelector: '.itemNext',
+            prevSelector: '.itemPrev',
+            useCSS: true
+        });
+
+        $('.itemPrev').click(function(){
+            
+            slider.goToPrevSlide();
+            
+        });
+        
+        $('.itemNext').click(function(){
+            
+            slider.goToNextSlide();
+            
+        });
+
     });
 
 </script>
