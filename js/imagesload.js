@@ -86,4 +86,6 @@ $.getJSON(imageJson,function(img){
         items+= '<a class="imgWrap" href="' + bn.src + '"style="background-image:url(' + bn.url + ')">'
         items+= '</a>'
     })
+    
+    $(".videoArea").append(items);
 })
