@@ -310,10 +310,73 @@ a:hover {
                         }
 
 
-                .section01 {} 
+                .section01 {
+                    content:"";
+                } 
 
+                    .section01 .itemSlider {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
                         
+                        .section01 .itemSlider .items {
+                            width:calc(100% - 150px);
+                        }
 
+                            .section01 .itemSlider .items .item {
+                                border-radius: 20px;
+                                overflow:hidden;
+                                display: flex;
+                                flex-direction: column;
+                                transition: all 0.3s;
+                                justify-content: center;
+                            }
+
+                                .section01 .itemSlider .items .item .itemTxtWrap {
+                                    margin:auto;
+                                    background:rgba(0,0,0,0.4)
+                                }
+
+                                    .section01 .itemSlider .items .item .itemTxtWrap .itemTitle {
+                                        color:#fff;
+                                        font-size:15px;
+                                        margin-bottom:5px;
+                                    }
+                                    .section01 .itemSlider .items .item .itemTxtWrap .itemPriceWrap {
+                                        display: flex;
+                                        flex-direction: row;
+                                    }
+
+                                        .itemTxtWrap .itemPriceWrap .discountBefore {
+                                            color:#888;
+                                            text-decoration: line-through;
+                                            font-style: normal;
+                                            font-size:13px;
+                                            margin-right:5px;
+                                        }
+
+                                        .itemTxtWrap .itemPriceWrap .discount {
+                                            font-weight: bold;
+                                            font-size:20px;
+                                            color:#fff;
+                                        }
+
+
+                                
+                        .section01 .itemSlider .itemPrev {
+                            color:#222;
+                            align-self:center;
+                            margin-right:auto;
+                            font-size:20px;
+                        }
+
+                        .section01 .itemSlider .itemPrev {
+                            color:#222;
+                            align-self:center;
+                            margin-left:auto;
+                            font-size:20px;
+                        }                       
 
                 .bannerArea01 {} 
                       
