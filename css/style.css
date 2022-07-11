@@ -217,18 +217,7 @@ a:hover {
                 background-image:url(../images/slider03.jpg);
                 color:#fff !important;
             }
-            .b-white {
-                color:#fff;
-            }
 
-            .btn-white {
-                border-color:#fff;
-                color:#fff;
-            }
-
-            .line-white {
-                background:#fff;
-            }
                 .slider .wrap {
                     width:1280px;
                     height: 600px;
@@ -276,6 +265,20 @@ a:hover {
                             font-size:15px;
                             padding:12px;
                         }
+
+                        .b-white {
+                            color:#fff;
+                        }
+            
+                        .btn-white {
+                            border-color:#fff;
+                            color:#fff;
+                        }
+            
+                        .line-white {
+                            background:#fff;
+                        }
+
 
 
         /* content */                          
