@@ -11,23 +11,8 @@
 </div>
 <script>
 
-    $(function(){
-        var sec01 = $(".items");
-        $.getJSON('./data/data.json', function(data){
-            $.each(data.newItem, function(i, obj){
-                var add_data = '';
-                add_data += '<div class="item" style="background-image:url('+ obj.image +')">';
-                add_data += '<div class="itemTxtWrap">';
-                add_data += '<h6 class="itemTitle">' + obj.name +'</h6>';
-                add_data += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.price +'</em><span class="discount">' + obj.finalPrice +'</span></p>';
-                add_data += '</div>';
-                add_data += '</div>';
-                sec01.append(add_data);
-            });
-        });  
-    });
 
-    $(function(){
+   $(function(){
 
 
         // var slider02 = $('.items').slick({
@@ -48,7 +33,7 @@
         var slider = $('.items').bxSlider({
             auto: false,
             minSlides: 3,
-            maxSlides: 3,
+            maxSlides: 6,
             moveSlides: 1,
             slideMargin: 10,
             pager:false,
@@ -73,6 +58,24 @@
         });
 
     });
+
+    $(function(){
+        var sec01 = $(".items");
+        $.getJSON('./data/data.json', function(data){
+            $.each(data.newItem, function(i, obj){
+                var add_data = '';
+                add_data += '<div class="item" style="background-image:url('+ obj.image +')">';
+                add_data += '<div class="itemTxtWrap">';
+                add_data += '<h6 class="itemTitle">' + obj.name +'</h6>';
+                add_data += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.price +'</em><span class="discount">' + obj.finalPrice +'</span></p>';
+                add_data += '</div>';
+                add_data += '</div>';
+                sec01.append(add_data);
+            });
+        });  
+    });
+
+
 
 
 </script>
