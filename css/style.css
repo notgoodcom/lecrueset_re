@@ -383,6 +383,7 @@ a:hover {
                             font-size:20px;
                             width:75px;
                             flex-shrink: 0;
+                            text-align: center;
                         }
 
                         .section01 .itemSlider .itemNext {
@@ -392,6 +393,7 @@ a:hover {
                             font-size:20px;
                             width:75px;
                             flex-shrink: 0;
+                            text-align: center;
                         }                       
 
                 .bannerArea01 {} 
