@@ -337,6 +337,8 @@ a:hover {
                                 width:350px;
                                 height:300px;
                                 flex-shrink: 0;
+                                background-size:100%;
+                                background-position: top center;
                             }
 
                                 .section01 .itemSlider .items .item .itemTxtWrap {
