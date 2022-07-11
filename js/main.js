@@ -51,7 +51,7 @@ $(function(){
         responsive:true,
         nextSelector: '.itemNext',
         prevSelector: '.itemPrev',
-        useCSS: true
+        useCSS: false
     });
 
     $('.itemPrev').click(function(){
