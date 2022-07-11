@@ -38,32 +38,5 @@ $(function(){
     });
 
 
-    var slider = $('.items').bxSlider({
-        auto: false,
-        minSlides: 3,
-        maxSlides: 3,
-        moveSlides: 1,
-        slideMargin: 10,
-        pager:false,
-        controls:false,
-        delay:500,
-        autoHover:true,
-        responsive:true,
-        nextSelector: '.itemNext',
-        prevSelector: '.itemPrev',
-        useCSS: false
-    });
-
-    $('.itemPrev').click(function(){
-		 
-        slider.goToPrevSlide();
-         
-    });
-       
-     $('.itemNext').click(function(){
-        
-        slider.goToNextSlide();
-         
-    });
 
 });
