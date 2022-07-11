@@ -266,16 +266,16 @@ a:hover {
                             padding:12px;
                         }
 
-                        .b-white {
+                        .slider .wrap .sliderInfo .b-white {
                             color:#fff;
                         }
             
-                        .btn-white {
+                        .slider .wrap .sliderInfo .btn-white {
                             border-color:#fff;
                             color:#fff;
                         }
             
-                        .line-white {
+                        .slider .wrap .sliderInfo .line-white {
                             background:#fff;
                         }
 
