@@ -38,4 +38,11 @@ $(function(){
     });
 
 
+
+    //slider 01
+
+    $('.sliderWrap').slick({
+        setting-name: setting-value
+      });
+
 });
