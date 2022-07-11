@@ -37,19 +37,33 @@ $(function(){
         
     });
 
-    $('.items').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
+
+    var slider = $('.items').bxSlider({
+        auto: false,
+        minSlides: 3,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideMargin: 10,
+        pager:false,
+        controls:false,
+        delay:500,
+        autoHover:true,
+        responsive:true,
+        nextSelector: '.itemNext',
+        prevSelector: '.itemPrev',
+        useCSS: true
     });
 
     $('.itemPrev').click(function(){
-        $(".items").slick('slickPrev');
+		 
+        slider.goToPrevSlide();
+         
     });
-
-    $('.itemNext').click(function(){
-        $(".items").slick('slickNext');
+       
+     $('.itemNext').click(function(){
+        
+        slider.goToNextSlide();
+         
     });
 
 });
