@@ -49,4 +49,6 @@ $(function(){
         adaptiveHeight: false
       });
 
+    $('.sliderBanner').slick();
+
 });
