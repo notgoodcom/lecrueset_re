@@ -44,3 +44,16 @@
         <a class="nextBtn"></a>
     </div>
 </nav>
+<script>
+    $(document).ready(function(){
+        $('.sliderWrap').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: false
+        });
+
+        $('.sliderBanner').slick();
+    });
+</script>
