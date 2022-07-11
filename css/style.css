@@ -323,8 +323,6 @@ a:hover {
 
                         .section01 .itemSlider .items {
                             width:calc(100% - 150px);
-                            display:flex;
-                            flex-direction: row;
                             overflow:hidden;
                         }
 
@@ -341,6 +339,7 @@ a:hover {
                                 background-size:300px;
                                 background-repeat: no-repeat;
                                 background-position: top center;
+                                float:left;
                             }
 
                                 .section01 .itemSlider .items .item .itemTxtWrap {
