@@ -20,3 +20,24 @@
         <a class="btn btn-lg btn-light">전체보기</a>
     </div>
 </div>
+<script>
+    $(function(){
+        var sec02 = $(".bestItem");
+        $.getJSON('./data/data.json', function(data){
+            $.each(data.bestItem, function(i, bs){
+                var str02 = '';
+                str02 += '<div class="itemWrap">';
+                str02 += '<div class="itemImg" style="background-image:url('+ bs.image +')"></div>';
+                str02 += '<div class="itemInfo">';
+                str02 += '<p class="itemCate">' + bs.cate +'</p>';
+                str02 += '<a class="itemName">' + bs.name +'</a>';
+                str02 += '<p class="itemPrice"><em class="discountBefore">' + bs.price +'</em><span class="discount">' + bs.finalPrice +'</span></p>';
+                str02 += '</div>';
+                str02 += '</div>';
+                
+                sec02.append(str02);
+            });
+        });    
+    });
+
+</script>
