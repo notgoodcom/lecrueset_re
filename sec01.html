@@ -4,9 +4,9 @@
         <p class="txt">새로운 뉴트럴 컬러의 르쿠르제는 만나보세요</p>
     </div>
     <div class="itemSlider">
-        <a class="itemPrev slick-prev"><i class="bi bi-chevron-left"></i></a>
+        <a class="itemPrev"><i class="bi bi-chevron-left"></i></a>
         <div class="items"></div>
-        <a class="itemNext slick-next"><i class="bi bi-chevron-right"></i></a>
+        <a class="itemNext"><i class="bi bi-chevron-right"></i></a>
     </div>
 </div>
 <script>
@@ -60,6 +60,14 @@
                 // settings: "unslick"
                 // instead of a settings object
             ]
+        });
+
+        $('.itemPrev').click(function(){
+            $(".items").slick('slickPrev');
+        });
+
+        $('.itemNext').click(function(){
+            $(".items").slick('slickNext');
         });
     });
 
