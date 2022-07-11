@@ -28,5 +28,19 @@
         </div>
         <script src="js/includeHTML.js"></script>
         <script src="js/dataload.js"></script>
+        <script>
+            $(function(){
+                $('.sliderWrap').slick({
+                    dots: false,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 1,
+                    adaptiveHeight: false
+                });
+
+                $('.sliderBanner').slick();
+                
+            })
+        </script>
     </body>
 </html>
