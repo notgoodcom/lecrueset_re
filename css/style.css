@@ -324,6 +324,7 @@ a:hover {
                             width:calc(100% - 150px);
                             display:flex;
                             flex-direction: row;
+                            overflow:hidden;
                         }
 
                             .section01 .itemSlider .items .item {
