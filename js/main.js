@@ -41,4 +41,12 @@ $(function(){
 
     //slider 01
 
+    $('.sliderWrap').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: false
+      });
+
 });
