@@ -215,7 +215,9 @@ a:hover {
 
             .slide03 {
                 background-image:url(../images/slider03.jpg);
+                color:#fff;
             }
+
 
                 .slider .wrap {
                     width:1280px;

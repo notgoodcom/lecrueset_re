@@ -47,11 +47,13 @@
 <script>
     $(document).ready(function(){
         $('.sliderWrap').slick({
-            dots: false,
+            accessibility: true,
+            dots: true,
             infinite: true,
             speed: 300,
             slidesToShow: 1,
-            adaptiveHeight: false
+            adaptiveHeight: false, 
+            arrows: true
         });
     });
 </script>
