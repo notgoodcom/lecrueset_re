@@ -753,11 +753,12 @@ a:hover {
                                     align-self: center;
                                     background-repeat: no-repeat;
                                     background-size:250px 250px;
-                                    background-position: top center;
+                                    background-position: center -30px;
                                 }
 
                                 .cateItem .cate-itemWrap:nth-child(1) .itemImg {
-                                    background-size:400px 400px;
+                                    background-size: 500px 500px;
+                                    background-position: center -30px;
                                 }
 
 
@@ -765,7 +766,8 @@ a:hover {
                                     position:absolute;
                                     bottom:0;
                                     left:0;
-                                    padding:15px;
+                                    padding:15px 20px;
+                                    width: calc(100% - 40px);
                                 }
 
                                 .cateItem .cate-itemWrap .itemInfo .itemName {
