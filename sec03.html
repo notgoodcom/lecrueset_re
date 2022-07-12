@@ -6,7 +6,7 @@
     <ul class="cateNav">
         <li class="cs"><button>무쇠주물</button></li>
         <li class="sw"><button>스톤웨어</button></li>
-        <li class="tms"><button>TMS/법랑</button></li>
+        <li class="tns"><button>TMS/법랑</button></li>
         <li class="cw"><button>조리용품</button></li>
         <li class="ol"><button>온라인 스페셜</button></li>
     </ul>
@@ -33,6 +33,42 @@
 
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
+                printJsonSec03();
+            });
+
+            $(".cateNav li button").click(function(){
+                var _this = $(this);
+
+                $(".cate-itemWrap").remove();
+
+                if(_this.parents().hasClass('cs')){
+                    $.each(data.cs, function(i, cateTem){
+                        printJsonSec03();
+                    });
+                }else if(_this.parents().hasClass('sw')){
+                    $.each(data.sw, function(i, cateTem){
+                        printJsonSec03();
+                    });
+                }else if(_this.parents().hasClass('tns')){
+                    $.each(data.tns, function(i, cateTem){
+                        printJsonSec03();
+                    });
+                }else if(_this.parents().hasClass('cw')){
+                    $.each(data.cw, function(i, cateTem){
+                        printJsonSec03();
+                    });
+                }else if(_this.parents().hasClass('ol')){
+                    $.each(data.ol, function(i, cateTem){
+                        printJsonSec03();
+                    });
+                }
+            });
+
+            //slice
+            sec03.children('div').slice(5).hide();
+
+            
+            function printJsonSec03(){
                 var str03 = '';
                 str03 += '<div class="cate-itemWrap">';
                 str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
@@ -43,31 +79,8 @@
                 str03 += '</div>';
                 
                 sec03.append(str03);
-            });
+            }
 
-            $(".cateNav li button").click(function(){
-                var _this = $(this);
-                var idx = $(".cateNav li").index();
-
-                $(".cate-itemWrap").remove();
-
-                if(_this.parents().eq(idx) == data.eq())
-                $.each(data.sw, function(i, cateTem){
-                    var str03 = '';
-                    str03 += '<div class="cate-itemWrap">';
-                    str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-                    str03 += '<div class="itemInfo">';
-                    str03 += '<a class="itemName">' + cateTem.name +'</a>';
-                    str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-                    str03 += '</div>';
-                    str03 += '</div>';
-                    
-                    sec03.append(str03);
-                });
-            });
-
-            //slice
-            sec03.children('div').slice(5).hide();
         }); 
         
     });
