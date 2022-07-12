@@ -702,12 +702,16 @@ a:hover {
                                     border:none;
                                     background:#fff;
                                     font-size:15px;
-                                    color:#222;
+                                    color:#888;
                                     appearance: none;
                                     width:100%;
                                     height:100%;
                                 }
                 
+                                .section03 .cateNav li.on button {
+                                    color:#222;
+                                }
+
                         .section03 .cateItem {
                             display: grid;
                             grid-template-columns: 600px 320px 320px;
@@ -716,6 +720,11 @@ a:hover {
                             .cateItem .cate-itemWrap {
                                 border:1px solid #eaeaea;
                                 border-radius: 20px;
+                                position:relative;
+                                display: flex;
+                                flex-direction: column;
+                                overflow:hidden;
+                                justify-content: center;
                             }
 
                             .cateItem .cate-itemWrap:nth-child(1) {
@@ -737,6 +746,61 @@ a:hover {
                             .cateItem .cate-itemWrap:nth-child(4) {
                                 margin-right:20px;
                             }
+
+                                .cateItem .cate-itemWrap .itemImg {
+                                    width:90%;
+                                    height:90%;
+                                    align-self: center;
+                                    background-repeat: no-repeat;
+                                    background-size:400px 400px;
+                                    background-position: center center;
+                                }
+
+                                .cateItem .cate-itemWrap .itemInfo {
+                                    position:absolute;
+                                    bottom:0;
+                                    left:0;
+                                    padding:15px;
+                                }
+
+                                .cateItem .cate-itemWrap .itemInfo .itemName {
+                                    color:#222;
+                                    font-size:15px;
+                                    margin-bottom:15px;
+                                }
+
+                                .cateItem .cate-itemWrap .itemInfo .itemPrice {
+                                    display: flex;
+                                    flex-direction: row;
+                                }
+
+                                .cateItem .cate-itemWrap .itemInfo .itemPrice .discountBefore {
+                                    color:#888;
+                                    text-decoration: line-through;
+                                    font-size:13px;
+                                    font-style: normal;
+                                    margin-right:5px;
+                                }
+
+                                .cateItem .cate-itemWrap .itemInfo .itemPrice .discountBefore:after {
+                                    content:"원";
+                                    font-size:13px;
+                                    margin-left:3px;
+                                    text-decoration: none;
+                                }
+
+                                .cateItem .cate-itemWrap .itemInfo .itemPrice .discount {
+                                    color:#222;
+                                    font-size:20px;
+                                    font-weight: bold;
+                                }
+
+                                .cateItem .cate-itemWrap .itemInfo .itemPrice .discount:after {
+                                    content:"원";
+                                    font-size:15px;
+                                    margin-left:3px;
+                                } 
+
 
 
 
