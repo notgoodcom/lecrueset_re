@@ -679,6 +679,14 @@ a:hover {
                             position:relative;
                         }
                 
+                        .section03 .cateItem {
+                            display: flex;
+                        }
+
+                            .cateItem .cate-itemWrap {
+                                display: none;
+                            }
+
                 .videoArea {
                     width:100%;
                 }   
