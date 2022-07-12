@@ -66,7 +66,15 @@ $(function(){
     });
 
     $(".cateNav li button").on(function(){
-        var box =  $(".cate-itemWrap").hasClass()
+        var _this = $(this);
+        var _val = _this.val();
+        var _class =  $(".cate-itemWrap").hasClass()
+
+        if(_val == _class){
+            _this.parents('li').addClass('on');
+        }else{
+            $(".cateNav li button").parents('li').removeClass('on');         
+        }
     });
 
 });
