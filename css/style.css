@@ -613,6 +613,39 @@ a:hover {
                         }
 
 
+                        .collectionArea .collectionContent .collection-sec .collectionImg {
+                            border-radius: 20px;
+                            overflow:hidden;
+                        }
+
+                        .collectionArea .collectionContent .collection-sec .collectionTxtWrap {
+                            margin:0 100px;
+                            align-self:center;
+                        }
+
+                            .collectionArea .collectionContent .collection-sec .collectionTxtWrap .title {
+                                font-size:35px;
+                            }
+
+                            .collectionArea .collectionContent .collection-sec .collectionTxtWrap .txt {
+                                margin:25px 0px;
+                                font-size:15px;
+                            }
+
+                            .collectionArea .collectionContent .collection-sec .collectionTxtWrap .btn {
+                                background:#f7f7f7;
+                                font-size:15px;
+                            }
+
+                                .collectionArea .collectionContent .collection-sec .collectionTxtWrap .btn i {
+                                    margin-left:5px;
+                                    font-size:10px;
+                                    position:relative;
+                                    top:-2px;
+                                }
+
+
+
                 .section03 {} 
 
                 .videoArea {
