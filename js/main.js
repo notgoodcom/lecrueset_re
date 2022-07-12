@@ -53,6 +53,16 @@ $(function(){
     });
 
 
+    //cate effect
+
+    $(".wrapper").on("click",".cateNav li button",function(){
+        var _this = $(this);
+        if(_this.parents("li").hasClass("on")){
+            $(".cateNav li button").parents("li").removeClass("on")
+        } else {
+            _this.parents("li").addClass("on");
+        }
+    });
 
 
 

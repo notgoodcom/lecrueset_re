@@ -670,6 +670,7 @@ a:hover {
                         width:100%;
                         border-bottom:1px solid #eaeaea;
                         height:60px;
+                        margin-bottom:50px;
                     }
 
 
@@ -678,13 +679,23 @@ a:hover {
                             display: flex;
                             flex-direction: row;
                             margin:0 auto;
-                            height:60px;
+                            height:59px;
                         }
 
                             .section03 .cateNav li {
                                 height:100%;
                                 width:calc(100% / 5);
                                 position:relative;
+                            }
+
+                            .section03 .cateNav li.on:after {
+                                content:"";
+                                position:absolute;
+                                width:100%;
+                                background:#ED6E00;
+                                height:3px;
+                                bottom:0px;
+                                left:0px;
                             }
 
                                 .section03 .cateNav li button {

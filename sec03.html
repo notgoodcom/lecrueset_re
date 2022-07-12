@@ -35,7 +35,7 @@
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
                 var str03 = '';
-                str03 += '<div class="cate-itemWrap">';
+                str03 += '<div class="cate-itemWrap" class="'+ cateTem.type +'">';
                 str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
                 str03 += '<div class="itemInfo">';
                 str03 += '<a class="itemName">' + cateTem.name +'</a>';
@@ -54,7 +54,7 @@
                 $(".cate-itemWrap").remove();
                 $.each(data[_val], function(i, cateTem){
                     var str03 = '';
-                    str03 += '<div class="cate-itemWrap">';
+                    str03 += '<div class="cate-itemWrap" class="'+ cateTem.type +'">';
                     str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
                     str03 += '<div class="itemInfo">';
                     str03 += '<a class="itemName">' + cateTem.name +'</a>';
