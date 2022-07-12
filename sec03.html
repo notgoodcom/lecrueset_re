@@ -31,9 +31,8 @@
         var sec03 = $(".cateItem");
 
         var myObj = "./data/data.json";
-
-        var names = Object.getOwnPropertyNames(myObj);
-            alert(names[0]);
+        var obj = Object.keys(myObj);
+        console.log(obj)
 
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
