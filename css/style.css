@@ -666,26 +666,38 @@ a:hover {
                     position:realtive;
                 } 
                     .section03 .cateNav {
-                        width:100%;
-                        border-bottom:#eaeaea;
+                        width: calc(100% - 300px);
+                        border-bottom:1px solid #eaeaea;
                         height:60px;
                         display: flex;
                         flex-direction: row;
                     }
 
-                        .section03 .cateNav .li {
+                        .section03 .cateNav li {
                             height:100%;
                             width:calc(100% / 5);
                             position:relative;
                         }
+
+                            .section03 .cateNav li button {
+                                border:none;
+                                background:#fff;
+                                font-size:15px;
+                                color:#222;
+                                appearance: none;
+                                width:100%;
+                                height:100%;
+                            }
                 
                         .section03 .cateItem {
-                            display: flex;
+                            display: grid;
                         }
 
                             .cateItem .cate-itemWrap {
-                                
+                                border:1px solid #eaeaea;
                             }
+
+
 
                 .videoArea {
                     width:100%;
