@@ -692,7 +692,6 @@ a:hover {
                         .section03 .cateItem {
                             display: grid;
                             grid-template-columns: 600px, 300px, 300px;
-                            grid-template-rows: 600px, 300px, 300px;
                         }
 
                             .cateItem .cate-itemWrap {
