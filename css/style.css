@@ -40,7 +40,7 @@ a:hover {
         font-size:15px;
         color:#222;
         margin:0 auto;
-        box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
         padding: 14px 16px;
         border:1px solid #eaeaea;
     }
@@ -176,7 +176,7 @@ a:hover {
                     padding:20px 0;
                     display: none;
                     z-index:1;
-                    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+                    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
                 }
                     header.top .gnb .subGnb .subMenu {
                         width:1280px;
@@ -381,7 +381,7 @@ a:hover {
                             .section01 .itemSlider .items .itemBox.on:before {
                                 display:block;
                                 position:absolute;
-                                background:rgba(0,0,0,0.3);
+                                background:rgba(0,0,0,0.1);
                                 width:100%;
                                 height:100%;
                                 content:"";
@@ -556,7 +556,7 @@ a:hover {
                             }
 
                             .section02 .itemList .itemWrap .itemImg:hover {
-                                box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+                                box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
                                 background-size:500px 500px;
                             }
 
@@ -756,7 +756,7 @@ a:hover {
                             }
 
                             .cateItem .cate-itemWrap:hover {
-                                box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+                                box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
                             }
 
                             .cateItem .cate-itemWrap:nth-child(1) {
