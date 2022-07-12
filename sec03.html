@@ -8,7 +8,7 @@
         <li class="sw"><button>스톤웨어</button></li>
         <li class="tns"><button>TMS/법랑</button></li>
         <li class="cw"><button>조리용품</button></li>
-        <li class="ol"><button>온라인 스페셜</button></li>
+        <li class="online"><button>온라인 스페셜</button></li>
     </ul>
     <div class="itemList cateItem">
         <!-- <div class="cate-itemWrap">
@@ -103,7 +103,7 @@
                         sec03.append(str03);
                     });
                 }else if(_this.parents().hasClass('ol')){
-                    $.each(data.ol, function(i, cateTem){
+                    $.each(data.online, function(i, cateTem){
                         var str03 = '';
                         str03 += '<div class="cate-itemWrap">';
                         str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
