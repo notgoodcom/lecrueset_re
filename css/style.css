@@ -612,6 +612,9 @@ a:hover {
                             flex-direction: row;
                         }
 
+                        .collectionArea .collectionContent .collection-sec.right-sec {
+                            margin-bottom:0px;
+                        }
 
                         .collectionArea .collectionContent .collection-sec .collectionImg {
                             border-radius: 20px;
@@ -647,6 +650,7 @@ a:hover {
                                 font-size:15px;
                                 color:#222;
                                 height:40px;
+                                padding: 8px 12px;
                             }
 
                                 .collectionArea .collectionContent .collection-sec .collectionTxtWrap .btn i {
