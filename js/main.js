@@ -65,6 +65,8 @@ $(function(){
         }
     });
 
-
+    $(".cateNav li button").on(function(){
+        var box =  $(".cate-itemWrap").hasClass()
+    });
 
 });
