@@ -28,6 +28,21 @@ a:hover {
     width:1280px;
 }
 
+.itemMoreButtonArea .btn {
+    width:180px;
+    height:50px;
+    font-size:15px;
+    color:#222;
+}
+
+    .itemMoreButtonArea .btn i {
+        margin-left:3px;
+        font-size:10px;
+        position:relative;
+        top:-2px;
+    }
+
+
     /* header */
 
         header.top {
@@ -712,6 +727,7 @@ a:hover {
                                     color:#222;
                                 }
 
+
                         .section03 .cateItem {
                             display: grid;
                             grid-template-columns: 600px 320px 320px;
@@ -726,6 +742,7 @@ a:hover {
                                 overflow:hidden;
                                 justify-content: center;
                                 cursor:pointer;
+                                transition: all 0.3s;
                             }
 
                             .cateItem .cate-itemWrap:hover {
