@@ -32,6 +32,8 @@
 
         var myObj = "./data/data.json";
 
+        var names = Object.getOwnPropertyNames(myObj);
+            console.log(names);
 
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
@@ -45,8 +47,6 @@
                 str03 += '</div>';
                 
                 sec03.append(str03);
-                var names = Object.getOwnPropertyNames(myObj);
-                console.log(names[0]);
             });
 
             // $(".cateNav li button").click(function(){
