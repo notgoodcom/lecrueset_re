@@ -684,14 +684,16 @@ a:hover {
                         }
 
                             .cateItem .cate-itemWrap {
-                                display: none;
+                                
                             }
 
                 .videoArea {
                     width:100%;
                 }   
                 
-                .instagramArea {}  
+                .instagramArea {
+                    position: relative;
+                }  
       
                 
     /* footer */

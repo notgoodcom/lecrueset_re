@@ -53,9 +53,7 @@ $(function(){
     });
 
 
-    //slice
 
-    $(".cateItem .cate-itemWrap").slice(0,4).show();
 
 
 });
