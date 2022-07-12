@@ -771,7 +771,7 @@ a:hover {
                                 .cateItem .cate-itemWrap .itemInfo .itemName {
                                     color:#222;
                                     font-size:15px;
-                                    margin-bottom:15px;
+                                    margin-bottom:25px;
                                 }
 
                                 .cateItem .cate-itemWrap .itemInfo .itemPrice {
@@ -785,6 +785,7 @@ a:hover {
                                     font-size:13px;
                                     font-style: normal;
                                     margin-right:5px;
+                                    align-self: center;
                                 }
 
                                 .cateItem .cate-itemWrap .itemInfo .itemPrice .discountBefore:after {
