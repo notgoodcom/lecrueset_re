@@ -32,8 +32,8 @@
 
         var myObj = "./data/data.json";
 
-        var names = Object.keys(myObj[0]);
-            console.log(names);
+        var names = Object.getOwnPropertyNames(myObj);
+            alert(names[0]);
 
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
