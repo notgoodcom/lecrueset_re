@@ -44,6 +44,7 @@
                 str03 += '</div>';
                 
                 sec03.append(str03);
+                sec03.children('div.cate-itemWrap').addClass(cateTem.type);
             });
 
             //load array
@@ -63,6 +64,7 @@
                     str03 += '</div>';
                     
                     sec03.append(str03);
+                    sec03.children('div.cate-itemWrap').addClass(cateTem[_val].type);
                 });
                 //slice
                 sec03.children('div').slice(5).hide(); 
