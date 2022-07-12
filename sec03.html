@@ -64,19 +64,18 @@
                 }
 
             });
-            
             function printJsonSec03(){
-                    var str03 = '';
-                    str03 += '<div class="cate-itemWrap">';
-                    str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-                    str03 += '<div class="itemInfo">';
-                    str03 += '<a class="itemName">' + cateTem.name +'</a>';
-                    str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-                    str03 += '</div>';
-                    str03 += '</div>';
-                    
-                    sec03.append(str03);
-                }
+                var str03 = '';
+                str03 += '<div class="cate-itemWrap">';
+                str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                str03 += '<div class="itemInfo">';
+                str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                str03 += '</div>';
+                str03 += '</div>';
+                
+                sec03.append(str03);
+            }
 
             //slice
             sec03.children('div').slice(5).hide();
