@@ -32,7 +32,7 @@
 
         var myObj = "./data/data.json";
 
-        var names = Object.getOwnPropertyNames(myObj);
+        var names = Object.keys(myObj[0]);
             console.log(names);
 
         $.getJSON('./data/data.json', function(data){
