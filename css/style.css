@@ -701,7 +701,7 @@ a:hover {
                             }
 
                             .cateItem .cate-itemWrap:nth-child(1) {
-                                grid-column: 1 / 2;
+                                grid-column: 1 / span 2;
                             }
 
 
