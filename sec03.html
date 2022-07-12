@@ -11,7 +11,7 @@
         <li class="ol"><a>온라인 스페셜</a></li>
     </ul>
     <div class="itemList cateItem">
-        <div class="cate-itemWrap">
+        <!-- <div class="cate-itemWrap">
             <div class="itemImg"></div>
             <div class="itemInfo">
                 <a class="itemName"></a>
@@ -20,7 +20,7 @@
                     <p class="discount">26,000</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="itemMoreButtonArea">
         <a class="btn btn-lg btn-light">전체보기</a>
@@ -39,7 +39,7 @@
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
                 var str03 = '';
-                str03 += '<div class="itemWrap">';
+                str03 += '<div class="cate-itemWrap">';
                 str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
                 str03 += '<div class="itemInfo">';
                 str03 += '<a class="itemName">' + cateTem.name +'</a>';
@@ -54,7 +54,7 @@
                 $(".cate-itemWrap").remove();
                 $.each(data.cs, function(i, cateTem){
                     var str03 = '';
-                    str03 += '<div class="itemWrap">';
+                    str03 += '<div class="cate-itemWrap">';
                     str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
                     str03 += '<div class="itemInfo">';
                     str03 += '<a class="itemName">' + cateTem.name +'</a>';
@@ -70,7 +70,7 @@
                 $(".cate-itemWrap").remove();
                 $.each(data.sw, function(i, cateTem){
                     var str03 = '';
-                    str03 += '<div class="itemWrap">';
+                    str03 += '<div class="cate-itemWrap">';
                     str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
                     str03 += '<div class="itemInfo">';
                     str03 += '<a class="itemName">' + cateTem.name +'</a>';
@@ -86,7 +86,7 @@
                 $(".cate-itemWrap").remove();
                 $.each(data.tms, function(i, cateTem){
                     var str03 = '';
-                    str03 += '<div class="itemWrap">';
+                    str03 += '<div class="cate-itemWrap">';
                     str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
                     str03 += '<div class="itemInfo">';
                     str03 += '<a class="itemName">' + cateTem.name +'</a>';
@@ -100,7 +100,7 @@
 
         }); 
         
-        $(".cateItem").slice(0,5).show();
+        $(".cateItem .cate-itemWrap").slice(0,5).show();
     });
 
 </script>
