@@ -1,6 +1,9 @@
 <div class="bannerArea01 w-1280 content">
     <div class="middleBnContent">
-        <div class="bannerWrap">
+        <div class="bannerWrap" id="bannerWrap">
+            <a class="bnBox" href="#">
+                <img src="images/middleBn.jpg">
+            </a>
             <a class="bnBox" href="#">
                 <img src="images/middleBn.jpg">
             </a>
@@ -11,14 +14,24 @@
 </div>
 <script>
     $(document).ready(function(){
-        $('.bannerWrap').slick({
-            accessibility: true,
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: false, 
-            arrows: true
-        });
+            //section01
+
+            $("#itemsWrap").slick({
+                autoplay: true,
+                accessibility: true,
+                dots: false,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 3,
+                adaptiveHeight: false, 
+                arrows: true
+            });
+
+            $('.itemPrev').click(function(){
+                $("#itemsWrap").slick('slickPrev');
+            });
+            $('.itemNext').click(function(){
+                $("#itemsWrap").slick('slickNext');
+            });
     });
 </script>

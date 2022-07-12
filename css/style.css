@@ -597,7 +597,21 @@ a:hover {
 
 
 
-                .collectionArea {} 
+                .collectionArea {
+                    position:relative;
+                } 
+
+                    .collectionArea .collectionContent {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                        .collectionArea .collectionContent .collection-sec {
+                            margin-bottom:100px;
+                            display: flex;
+                            flex-direction: row;
+                        }
+
 
                 .section03 {} 
 
