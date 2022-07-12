@@ -52,7 +52,7 @@
 
                 $(".cate-itemWrap").remove();
 
-                $.each(data[_val], function(i, cateTem){
+                $.each(data + _val, function(i, cateTem){
                     var str03 = '';
                     str03 += '<div class="cate-itemWrap">';
                     str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
