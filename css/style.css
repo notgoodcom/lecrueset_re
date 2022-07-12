@@ -669,9 +669,15 @@ a:hover {
                         width:100%;
                         border-bottom:#eaeaea;
                         height:60px;
+                        display: flex;
+                        flex-direction: row;
                     }
 
-                        .section03 .cateNav .
+                        .section03 .cateNav .li {
+                            height:100%;
+                            width:calc(100% / 5);
+                            position:relative;
+                        }
                 
                 .videoArea {
                     width:100%;
