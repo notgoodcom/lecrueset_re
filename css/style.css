@@ -725,6 +725,11 @@ a:hover {
                                 flex-direction: column;
                                 overflow:hidden;
                                 justify-content: center;
+                                cursor:pointer;
+                            }
+
+                            .cateItem .cate-itemWrap:hover {
+                                box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
                             }
 
                             .cateItem .cate-itemWrap:nth-child(1) {
@@ -773,12 +778,16 @@ a:hover {
                                 .cateItem .cate-itemWrap .itemInfo .itemName {
                                     color:#222;
                                     font-size:15px;
-                                    margin-bottom:25px;
+                                }
+
+                                .cateItem .cate-itemWrap:hover .itemInfo .itemName {
+                                    text-decoration: underline;
                                 }
 
                                 .cateItem .cate-itemWrap .itemInfo .itemPrice {
                                     display: flex;
                                     flex-direction: row;
+                                    margin:5px 0px 0px;
                                 }
 
                                 .cateItem .cate-itemWrap .itemInfo .itemPrice .discountBefore {
