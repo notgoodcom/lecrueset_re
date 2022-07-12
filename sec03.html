@@ -39,13 +39,13 @@
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
                 var str03 = '';
-                str02 += '<div class="itemWrap">';
-                str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-                str02 += '<div class="itemInfo">';
-                str02 += '<a class="itemName">' + cateTem.name +'</a>';
-                str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-                str02 += '</div>';
-                str02 += '</div>';
+                str03 += '<div class="itemWrap">';
+                str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                str03 += '<div class="itemInfo">';
+                str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                str03 += '</div>';
+                str03 += '</div>';
                 
                 sec03.append(str03);
             });
@@ -54,13 +54,13 @@
                 $(".cate-itemWrap").remove();
                 $.each(data.cs, function(i, cateTem){
                     var str03 = '';
-                    str02 += '<div class="itemWrap">';
-                    str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-                    str02 += '<div class="itemInfo">';
-                    str02 += '<a class="itemName">' + cateTem.name +'</a>';
-                    str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-                    str02 += '</div>';
-                    str02 += '</div>';
+                    str03 += '<div class="itemWrap">';
+                    str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                    str03 += '<div class="itemInfo">';
+                    str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                    str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                    str03 += '</div>';
+                    str03 += '</div>';
                     
                     sec03.append(str03);
                 });
@@ -70,28 +70,29 @@
                 $(".cate-itemWrap").remove();
                 $.each(data.sw, function(i, cateTem){
                     var str03 = '';
-                    str02 += '<div class="itemWrap">';
-                    str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-                    str02 += '<div class="itemInfo">';
-                    str02 += '<a class="itemName">' + cateTem.name +'</a>';
-                    str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-                    str02 += '</div>';
-                    str02 += '</div>';
+                    str03 += '<div class="itemWrap">';
+                    str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                    str03 += '<div class="itemInfo">';
+                    str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                    str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                    str03 += '</div>';
+                    str03 += '</div>';
                     
                     sec03.append(str03);
                 });
             });
             
-            sw.click(function(){
-                $.each(data.sw, function(i, cateTem){
+            tms.click(function(){
+                $(".cate-itemWrap").remove();
+                $.each(data.tms, function(i, cateTem){
                     var str03 = '';
-                    str02 += '<div class="itemWrap">';
-                    str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-                    str02 += '<div class="itemInfo">';
-                    str02 += '<a class="itemName">' + cateTem.name +'</a>';
-                    str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-                    str02 += '</div>';
-                    str02 += '</div>';
+                    str03 += '<div class="itemWrap">';
+                    str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                    str03 += '<div class="itemInfo">';
+                    str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                    str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                    str03 += '</div>';
+                    str03 += '</div>';
                     
                     sec03.append(str03);
                 });
