@@ -29,11 +29,6 @@
 <script>
     $(function(){
         var sec03 = $(".cateItem");
-
-        var myObj = "./data/data.json";
-        var obj = getOwnPropertyNames(myObj);
-        console.log(obj)
-
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
                 var str03 = '';
@@ -48,79 +43,79 @@
                 sec03.append(str03);
             });
 
-            // $(".cateNav li button").click(function(){
-            //     var _this = $(this);
+            $(".cateNav li button").click(function(){
+                var _this = $(this);
 
-            //     $(".cate-itemWrap").remove();
+                $(".cate-itemWrap").remove();
 
-            //     if(_this.parents().hasClass('cs')){
-            //         $.each(data.cs, function(i, cateTem){
-            //             var str03 = '';
-            //             str03 += '<div class="cate-itemWrap">';
-            //             str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-            //             str03 += '<div class="itemInfo">';
-            //             str03 += '<a class="itemName">' + cateTem.name +'</a>';
-            //             str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-            //             str03 += '</div>';
-            //             str03 += '</div>';
+                if(_this.parents().hasClass('cs')){
+                    $.each(data.cs, function(i, cateTem){
+                        var str03 = '';
+                        str03 += '<div class="cate-itemWrap">';
+                        str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                        str03 += '<div class="itemInfo">';
+                        str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                        str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                        str03 += '</div>';
+                        str03 += '</div>';
                         
-            //             sec03.append(str03);
-            //         });
-            //     }else if(_this.parents().hasClass('sw')){
-            //         $.each(data.sw, function(i, cateTem){
-            //             var str03 = '';
-            //             str03 += '<div class="cate-itemWrap">';
-            //             str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-            //             str03 += '<div class="itemInfo">';
-            //             str03 += '<a class="itemName">' + cateTem.name +'</a>';
-            //             str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-            //             str03 += '</div>';
-            //             str03 += '</div>';
+                        sec03.append(str03);
+                    });
+                }else if(_this.parents().hasClass('sw')){
+                    $.each(data.sw, function(i, cateTem){
+                        var str03 = '';
+                        str03 += '<div class="cate-itemWrap">';
+                        str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                        str03 += '<div class="itemInfo">';
+                        str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                        str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                        str03 += '</div>';
+                        str03 += '</div>';
                         
-            //             sec03.append(str03);
-            //         });
-            //     }else if(_this.parents().hasClass('tns')){
-            //         $.each(data.tns, function(i, cateTem){
-            //             var str03 = '';
-            //             str03 += '<div class="cate-itemWrap">';
-            //             str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-            //             str03 += '<div class="itemInfo">';
-            //             str03 += '<a class="itemName">' + cateTem.name +'</a>';
-            //             str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-            //             str03 += '</div>';
-            //             str03 += '</div>';
+                        sec03.append(str03);
+                    });
+                }else if(_this.parents().hasClass('tns')){
+                    $.each(data.tns, function(i, cateTem){
+                        var str03 = '';
+                        str03 += '<div class="cate-itemWrap">';
+                        str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                        str03 += '<div class="itemInfo">';
+                        str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                        str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                        str03 += '</div>';
+                        str03 += '</div>';
                         
-            //             sec03.append(str03);
-            //         });
-            //     }else if(_this.parents().hasClass('cw')){
-            //         $.each(data.cw, function(i, cateTem){
-            //             var str03 = '';
-            //             str03 += '<div class="cate-itemWrap">';
-            //             str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-            //             str03 += '<div class="itemInfo">';
-            //             str03 += '<a class="itemName">' + cateTem.name +'</a>';
-            //             str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-            //             str03 += '</div>';
-            //             str03 += '</div>';
+                        sec03.append(str03);
+                    });
+                }else if(_this.parents().hasClass('cw')){
+                    $.each(data.cw, function(i, cateTem){
+                        var str03 = '';
+                        str03 += '<div class="cate-itemWrap">';
+                        str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                        str03 += '<div class="itemInfo">';
+                        str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                        str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                        str03 += '</div>';
+                        str03 += '</div>';
                         
-            //             sec03.append(str03);
-            //         });
-            //     }else if(_this.parents().hasClass('ol')){
-            //         $.each(data.online, function(i, cateTem){
-            //             var str03 = '';
-            //             str03 += '<div class="cate-itemWrap">';
-            //             str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
-            //             str03 += '<div class="itemInfo">';
-            //             str03 += '<a class="itemName">' + cateTem.name +'</a>';
-            //             str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
-            //             str03 += '</div>';
-            //             str03 += '</div>';
+                        sec03.append(str03);
+                    });
+                }else if(_this.parents().hasClass('ol')){
+                    $.each(data.online, function(i, cateTem){
+                        var str03 = '';
+                        str03 += '<div class="cate-itemWrap">';
+                        str03 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                        str03 += '<div class="itemInfo">';
+                        str03 += '<a class="itemName">' + cateTem.name +'</a>';
+                        str03 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                        str03 += '</div>';
+                        str03 += '</div>';
                         
-            //             sec03.append(str03);
-            //         });
-            //     }
+                        sec03.append(str03);
+                    });
+                }
 
-            // });
+            });
 
             //slice
             sec03.children('div').slice(5).hide();
