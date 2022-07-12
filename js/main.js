@@ -57,6 +57,7 @@ $(function(){
 
     $(".wrapper").on("click",".cateNav li button",function(){
         var _this = $(this);
+        $(".cateNav li button").parents("li").removeClass("on")
         if(_this.parents("li").hasClass("on")){
             $(".cateNav li button").parents("li").removeClass("on")
         } else {
