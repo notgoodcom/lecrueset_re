@@ -620,9 +620,17 @@ a:hover {
                             flex-shrink: 0;
                         }
 
+                        .collectionArea .collectionContent .collection-sec.right-sec .collectionImg {
+                            order:1;
+                        }
+
                         .collectionArea .collectionContent .collection-sec .collectionTxtWrap {
                             margin:0 100px;
                             align-self:center;
+                        }
+
+                        .collectionArea .collectionContent .collection-sec.right-sec .collectionTxtWrap {
+                            order:0;
                         }
 
                             .collectionArea .collectionContent .collection-sec .collectionTxtWrap .title {
@@ -637,6 +645,8 @@ a:hover {
                             .collectionArea .collectionContent .collection-sec .collectionTxtWrap .btn {
                                 background:#f7f7f7;
                                 font-size:15px;
+                                color:#222;
+                                height:40px;
                             }
 
                                 .collectionArea .collectionContent .collection-sec .collectionTxtWrap .btn i {
