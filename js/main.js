@@ -55,7 +55,7 @@ $(function(){
 
     //slice
 
-    $(".cateItem .cate-itemWrap").slice(0,5).show();
+    $(".cateItem .cate-itemWrap").slice(0,4).show();
 
 
 });
