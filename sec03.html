@@ -29,9 +29,6 @@
 <script>
     $(function(){
         var sec03 = $(".cateItem");
-        var json = './data/data.json'
-        var myArray = JSON.parse(json);
-            console.log(myArray);
 
         $.getJSON('./data/data.json', function(data){
             $.each(data.cs, function(i, cateTem){
