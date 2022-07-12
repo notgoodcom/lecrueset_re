@@ -671,6 +671,7 @@ a:hover {
                         height:60px;
                         display: flex;
                         flex-direction: row;
+                        padding:0 150px;
                     }
 
                         .section03 .cateNav li {
@@ -702,7 +703,23 @@ a:hover {
                             .cateItem .cate-itemWrap:nth-child(1) {
                                 grid-column: 1;
                                 grid-row: 1 / 3;
+                                height:580px;
+                                margin-right:20px
                             }
+
+                            .cateItem .cate-itemWrap:nth-child(2) {
+                                margin-right:20px;
+                                margin-bottom:20px;
+                            }
+
+                            .cateItem .cate-itemWrap:nth-child(3) {
+                                margin-bottom:20px;
+                            }
+
+                            .cateItem .cate-itemWrap:nth-child(4) {
+                                margin-right:20px;
+                            }
+
 
 
                 .videoArea {
