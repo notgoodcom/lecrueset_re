@@ -665,30 +665,37 @@ a:hover {
                 .section03 {
                     position:realtive;
                 } 
-                    .section03 .cateNav {
-                        width: calc(100% - 300px);
+
+                    .section03 .navWrap {
+                        width:100%;
                         border-bottom:1px solid #eaeaea;
                         height:60px;
-                        display: flex;
-                        flex-direction: row;
-                        padding:0 150px;
                     }
 
-                        .section03 .cateNav li {
-                            height:100%;
-                            width:calc(100% / 5);
-                            position:relative;
+
+                        .section03 .cateNav {
+                            width: calc(100% - 300px);
+                            display: flex;
+                            flex-direction: row;
+                            margin:0 auto;
+                            height:60px;
                         }
 
-                            .section03 .cateNav li button {
-                                border:none;
-                                background:#fff;
-                                font-size:15px;
-                                color:#222;
-                                appearance: none;
-                                width:100%;
+                            .section03 .cateNav li {
                                 height:100%;
+                                width:calc(100% / 5);
+                                position:relative;
                             }
+
+                                .section03 .cateNav li button {
+                                    border:none;
+                                    background:#fff;
+                                    font-size:15px;
+                                    color:#222;
+                                    appearance: none;
+                                    width:100%;
+                                    height:100%;
+                                }
                 
                         .section03 .cateItem {
                             display: grid;
