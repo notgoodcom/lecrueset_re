@@ -662,8 +662,17 @@ a:hover {
 
 
 
-                .section03 {} 
+                .section03 {
+                    position:realtive;
+                } 
+                    .section03 .cateNav {
+                        width:100%;
+                        border-bottom:#eaeaea;
+                        height:60px;
+                    }
 
+                        .section03 .cateNav .
+                
                 .videoArea {
                     width:100%;
                 }   

@@ -4,61 +4,20 @@
         <p class="txt"></p>
     </div>
     <ul class="cateNav">
-        <li><a>무쇠주물</a></li>
-        <li><a>스톤웨어</a></li>
-        <li><a>TMS/법랑</a></li>
-        <li><a>조리용품</a></li>
-        <li><a>온라인 스페셜</a></li>
+        <li class="cs"><a>무쇠주물</a></li>
+        <li class="sw"><a>스톤웨어</a></li>
+        <li class="tms"><a>TMS/법랑</a></li>
+        <li class="cw"><a>조리용품</a></li>
+        <li class="ol"><a>온라인 스페셜</a></li>
     </ul>
     <div class="itemList cateItem">
-        <div class="itemWrap">
+        <div class="cate-itemWrap">
             <div class="itemImg"></div>
             <div class="itemInfo">
                 <a class="itemName"></a>
                 <div class="itemPrice">
-                    <span class="before">44,000</span>
-                    <p class="price">26,000</p>
-                </div>
-            </div>
-        </div>
-        <div class="itemWrap">
-            <div class="itemImg"></div>
-            <div class="itemInfo">
-                <a class="itemName"></a>
-                <div class="itemPrice">
-                    <span class="before">44,000</span>
-                    <p class="price">26,000</p>
-                </div>
-            </div>
-        </div>
-        <div class="itemWrap">
-            <div class="itemImg"></div>
-            <div class="itemInfo">
-                <a class="itemName"></a>
-                <div class="itemPrice">
-                    <span class="before">44,000</span>
-                    <p class="price">26,000</p>
-                </div>
-            </div>
-        </div>
-        <div class="itemWrap">
-            <div class="itemImg"></div>
-            <div class="itemInfo">
-                <a class="itemName"></a>
-                <div class="itemPrice">
-                    <span class="before">44,000</span>
-                    <p class="price">26,000</p>
-                </div>
-            </div>
-        </div>
-        <div class="itemWrap">
-            <div class="itemImg"></div>
-            <div class="itemInfo">
-                <p class="itemCate"></p>
-                <a class="itemName"></a>
-                <div class="itemPrice">
-                    <span class="before">44,000</span>
-                    <p class="price">26,000</p>
+                    <span class="discountBefore">44,000</span>
+                    <p class="discount">26,000</p>
                 </div>
             </div>
         </div>
@@ -67,3 +26,78 @@
         <a class="btn btn-lg btn-light">전체보기</a>
     </div>
 </div>
+<script>
+    $(function(){
+        var sec03 = $(".cateItem");
+
+        var cs = $("cateNav .cs a");
+        var sw = $("cateNav .sw a");
+        var tms = $("cateNav .tms a");
+        var cw = $("cateNav .cw a");
+        var ol = $("cateNav .ol a");
+
+        $.getJSON('./data/data.json', function(data){
+            $.each(data.cs, function(i, cateTem){
+                var str03 = '';
+                str02 += '<div class="itemWrap">';
+                str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                str02 += '<div class="itemInfo">';
+                str02 += '<a class="itemName">' + cateTem.name +'</a>';
+                str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                str02 += '</div>';
+                str02 += '</div>';
+                
+                sec03.append(str03);
+            });
+
+            cs.click(function(){
+                $(".cate-itemWrap").remove();
+                $.each(data.cs, function(i, cateTem){
+                    var str03 = '';
+                    str02 += '<div class="itemWrap">';
+                    str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                    str02 += '<div class="itemInfo">';
+                    str02 += '<a class="itemName">' + cateTem.name +'</a>';
+                    str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                    str02 += '</div>';
+                    str02 += '</div>';
+                    
+                    sec03.append(str03);
+                });
+            });
+
+            sw.click(function(){
+                $(".cate-itemWrap").remove();
+                $.each(data.sw, function(i, cateTem){
+                    var str03 = '';
+                    str02 += '<div class="itemWrap">';
+                    str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                    str02 += '<div class="itemInfo">';
+                    str02 += '<a class="itemName">' + cateTem.name +'</a>';
+                    str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                    str02 += '</div>';
+                    str02 += '</div>';
+                    
+                    sec03.append(str03);
+                });
+            });
+            
+            sw.click(function(){
+                $.each(data.sw, function(i, cateTem){
+                    var str03 = '';
+                    str02 += '<div class="itemWrap">';
+                    str02 += '<div class="itemImg" style="background-image:url('+ cateTem.image +')"></div>';
+                    str02 += '<div class="itemInfo">';
+                    str02 += '<a class="itemName">' + cateTem.name +'</a>';
+                    str02 += '<p class="itemPrice"><em class="discountBefore">' + cateTem.price +'</em><span class="discount">' + cateTem.finalPrice +'</span></p>';
+                    str02 += '</div>';
+                    str02 += '</div>';
+                    
+                    sec03.append(str03);
+                });
+            });
+
+        });    
+    });
+
+</script>
