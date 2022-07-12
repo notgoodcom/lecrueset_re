@@ -616,6 +616,8 @@ a:hover {
                         .collectionArea .collectionContent .collection-sec .collectionImg {
                             border-radius: 20px;
                             overflow:hidden;
+                            width:620px;
+                            flex-shrink: 0;
                         }
 
                         .collectionArea .collectionContent .collection-sec .collectionTxtWrap {
