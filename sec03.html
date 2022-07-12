@@ -47,7 +47,11 @@
 
             $(".cateNav li button").click(function(){
                 var _this = $(this);
+                var idx = $(".cateNav li").index();
+
                 $(".cate-itemWrap").remove();
+
+                if(_this.parents().eq(idx) == data.eq())
                 $.each(data.sw, function(i, cateTem){
                     var str03 = '';
                     str03 += '<div class="cate-itemWrap">';
@@ -65,7 +69,6 @@
 
         }); 
         
-        $(".cateItem .cate-itemWrap").slice(0,5).show();
     });
 
 </script>

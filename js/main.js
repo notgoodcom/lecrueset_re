@@ -53,5 +53,9 @@ $(function(){
     });
 
 
+    //slice
+
+    $(".cateItem .cate-itemWrap").slice(0,5).show();
+
 
 });
