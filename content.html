@@ -152,6 +152,8 @@
         $("#sec03").load("sec03.html");
 
         var sec01 = $(".items");
+        var instaItem = $(".instagramList .listWrap");
+
         $.getJSON('./data/data.json', function(data){
             $.each(data.newItem, function(i, obj){
                 var add_data = '';
@@ -163,6 +165,13 @@
                 add_data += '</div>';
                 sec01.append(add_data);
             });
+
+            $.each(data.instagram, function(i, inObj){
+                var instItem = '';
+                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
+                instItem += '</div>';
+                instaItem.append(instItem);
+            });     
 
             //slider
 
@@ -224,33 +233,25 @@
             });
 
 
+   
 
-            var instaItem = $(".instagramList .listWrap") 
+            // $("#instItemWrap").slick({
+            //     autoplay: true,
+            //     accessibility: true,
+            //     dots: false,
+            //     infinite: true,
+            //     speed: 1000,
+            //     slidesToShow: 5,
+            //     adaptiveHeight: false, 
+            //     arrows: true
+            // });
 
-            $.each(data.instagram, function(i, inObj){
-                var instItem = '';
-                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
-                instItem += '</div>';
-                instaItem.append(instItem);
-            });        
-
-            $("#instItemWrap").slick({
-                autoplay: true,
-                accessibility: true,
-                dots: false,
-                infinite: true,
-                speed: 1000,
-                slidesToShow: 5,
-                adaptiveHeight: false, 
-                arrows: true
-            });
-
-            $('.instaPrev').click(function(){
-                $("#instItemWrap").slick('slickPrev');
-            });
-            $('.instaNext').click(function(){
-                $("#instItemWrap").slick('slickNext');
-            });
+            // $('.instaPrev').click(function(){
+            //     $("#instItemWrap").slick('slickPrev');
+            // });
+            // $('.instaNext').click(function(){
+            //     $("#instItemWrap").slick('slickNext');
+            // });
 
 
             
