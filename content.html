@@ -223,6 +223,36 @@
                 $("#bannerWrap").slick('slickNext');
             });
 
+
+
+            var instaItem = $(".instagramList .listWrap") 
+
+            $.each(imgData.instagram, function(i, inObj){
+                var instItem = '';
+                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
+                instItem += '</div>';
+                instaItem.append(instItem);
+            });        
+
+            $("#instItemWrap").slick({
+                autoplay: true,
+                accessibility: true,
+                dots: false,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 5,
+                adaptiveHeight: false, 
+                arrows: true
+            });
+
+            $('.instaPrev').click(function(){
+                $("#instItemWrap").slick('slickPrev');
+            });
+            $('.instaNext').click(function(){
+                $("#instItemWrap").slick('slickNext');
+            });
+
+            
         });  
     
     });
