@@ -115,9 +115,9 @@
             <div class="videoWrap w-1280">
                 <div class="videoTxtWrap">
                     <h1 class="title">About Le Creuset</h1>
-                    <h6 class="midTxt">
+                    <h4 class="midTxt">
                         우리 공간, 우리 음식과 잘 어울리는 르쿠르제
-                    </h6>
+                    </h4>
                     <p class="txt">
                         한국지사 설립 10주년을 넘어선 르크루제는 이제 많은 주부들의
                         필수주방 아이템으로 자리잡았습니다.
@@ -135,7 +135,7 @@
                 <p class="txt">Follow us <a href="">@lecreuset_korea</a></p>
             </div>
             <div class="instagramList">
-                <div clas="listWrap"></div>
+                <div clas="listWrap" id="instItemWrap"></div>
                 <a class="instaPrev"><i class="bi bi-chevron-left"></i></a>
                 <a class="instaNext"><i class="bi bi-chevron-right"></i></a>
             </div>
@@ -163,7 +163,6 @@
                 add_data += '</div>';
                 sec01.append(add_data);
             });
-
 
             //slider
 
@@ -224,10 +223,37 @@
                 $("#bannerWrap").slick('slickNext');
             });
 
-
         });  
 
+        var instaItem = $(".instagramList .listWrap") 
+        $.getJSON('./img.json', function(imgData){
+            $.each(imgData.newItem, function(i, inObj){
+                var instItem = '';
+                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
+                instItem += '</div>';
+                instaItem.append(instItem);
+            });        
+    
+            $("#instItemWrap").slick({
+                autoplay: true,
+                accessibility: true,
+                dots: false,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 5,
+                adaptiveHeight: false, 
+                arrows: true
+            });
+
+            $('.instaPrev').click(function(){
+                $("#instItemWrap").slick('slickPrev');
+            });
+            $('.instaNext').click(function(){
+                $("#instItemWrap").slick('slickNext');
+            });
+
+        });
     
     });
-    
+
 </script>
