@@ -224,7 +224,10 @@
             });
 
         });  
-
+    
+    });
+    
+    $(document).ready(function(){
         var instaItem = $(".instagramList .listWrap") 
         $.getJSON('./img.json', function(imgData){
             $.each(imgData[3], function(i, inObj){
@@ -253,7 +256,7 @@
             });
 
         });
-    
-    });
+
+    })
 
 </script>
