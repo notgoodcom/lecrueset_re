@@ -227,7 +227,7 @@
 
             var instaItem = $(".instagramList .listWrap") 
 
-            $.each(imgData.instagram, function(i, inObj){
+            $.each(data.instagram, function(i, inObj){
                 var instItem = '';
                 instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
                 instItem += '</div>';
@@ -251,6 +251,7 @@
             $('.instaNext').click(function(){
                 $("#instItemWrap").slick('slickNext');
             });
+
 
             
         });  
