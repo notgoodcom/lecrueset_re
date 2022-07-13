@@ -227,7 +227,7 @@
 
         var instaItem = $(".instagramList .listWrap") 
         $.getJSON('./img.json', function(imgData){
-            $.each(imgData.instagram, function(i, inObj){
+            $.each(imgData[3], function(i, inObj){
                 var instItem = '';
                 instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
                 instItem += '</div>';
