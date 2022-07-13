@@ -873,6 +873,7 @@ a:hover {
                         .videoArea .videoWrap .videoObjWrap {
                             position:relative;
                             margin-left:auto;
+                            padding-top:40px;
                         }
 
                             .videoArea .videoWrap .videoObjWrap .videoObj {
@@ -883,15 +884,17 @@ a:hover {
                                 justify-content: center;
                                 border-radius: 20px;
                                 position:relative;
+                                overflow:hidden;
                             }
-                                .videoArea .videoWrap .videoObjWrap .videoObj:before {
-                                    background:rgba(0,0,0,0.3);
-                                    width:100%;
-                                    height:100%;
-                                    position:absolute;
-                                    top:0px;
-                                    left:0px;
-                                }
+                            .videoArea .videoWrap .videoObjWrap .videoObj:before {
+                                background:rgba(0,0,0,0.3);
+                                width:100%;
+                                height:100%;
+                                position:absolute;
+                                top:0px;
+                                left:0px;
+                                content:"";
+                            }
 
                                 .videoArea .videoWrap .videoObjWrap .videoObj .playbtn {
                                     align-self: center;
