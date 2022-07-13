@@ -291,16 +291,19 @@ a:hover {
                             padding:12px;
                         }
 
-                        .slider .wrap .sliderInfo .b-white {
+                        .slide03 .wrap .sliderInfo .sliderInfo,
+                        .slide03 .wrap .sliderInfo .cate,
+                        .slide03 .wrap .sliderInfo .slideTitle,
+                        .slide03 .wrap .sliderInfo .slideTxt {   
                             color:#fff;
                         }
             
-                        .slider .wrap .sliderInfo .btn-white {
+                        .slide03 .wrap .sliderInfo .btn {
                             border-color:#fff;
                             color:#fff;
                         }
             
-                        .slider .wrap .sliderInfo .line-white {
+                        .slide03 .wrap .sliderInfo .line {
                             background:#fff;
                         }
 
