@@ -893,7 +893,7 @@ a:hover {
                                 margin-right:20px;
                             }
 
-                        .instagramArea a {
+                        .instagramArea .listWrap  a {
                             position:absolute;
                             width:50px;
                             height:240px;
@@ -904,17 +904,17 @@ a:hover {
                             justify-content: center;
                         }  
 
-                        .instagramArea a.instaPrev {
+                        .instagramArea .listWrap  a.instaPrev {
                             left:0px;
                             top:0px;
                         }
                         
-                        .instagramArea a.instaNext {
+                        .instagramArea .listWrap a.instaNext {
                             right:0px;
                             top:0px;
                         }
 
-                            .instagramArea a i {
+                            .instagramArea .listWrap  a i {
                                 font-size:30px;
                                 align-self: center;;
                             }
