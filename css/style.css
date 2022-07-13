@@ -891,6 +891,14 @@ a:hover {
                                     position:absolute;
                                 }
 
+                                .videoArea .videoWrap .videoTxtWrap .img img.mug01 {
+                                    width:200px;
+                                }
+
+                                .videoArea .videoWrap .videoTxtWrap .img img.mug02 {
+                                    width:300px;
+                                }
+
 
                         .videoArea .videoWrap .videoObjWrap {
                             position:relative;
