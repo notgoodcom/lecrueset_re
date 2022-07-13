@@ -135,7 +135,7 @@
                 <p class="txt">Follow us <a href="">@lecreuset_korea</a></p>
             </div>
             <div class="instagramList">
-                <div clas="listWrap" id="instItemWrap"></div>
+                <div class="listWrap" id="instItemWrap"></div>
                 <a class="instaPrev"><i class="bi bi-chevron-left"></i></a>
                 <a class="instaNext"><i class="bi bi-chevron-right"></i></a>
             </div>
@@ -165,13 +165,6 @@
                 add_data += '</div>';
                 sec01.append(add_data);
             });
-
-            $.each(data.instagram, function(i, inObj){
-                var instItem = '';
-                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
-                instItem += '</div>';
-                instaItem.append(instItem);
-            });     
 
             //slider
 
@@ -233,25 +226,30 @@
             });
 
 
-   
+            $.each(data.instagram, function(i, inObj){
+                var instItem = '';
+                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
+                instItem += '</div>';
+                instaItem.append(instItem);
+            });     
 
-            // $("#instItemWrap").slick({
-            //     autoplay: true,
-            //     accessibility: true,
-            //     dots: false,
-            //     infinite: true,
-            //     speed: 1000,
-            //     slidesToShow: 5,
-            //     adaptiveHeight: false, 
-            //     arrows: true
-            // });
+            $("#instItemWrap").slick({
+                autoplay: true,
+                accessibility: true,
+                dots: false,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 5,
+                adaptiveHeight: false, 
+                arrows: true
+            });
 
-            // $('.instaPrev').click(function(){
-            //     $("#instItemWrap").slick('slickPrev');
-            // });
-            // $('.instaNext').click(function(){
-            //     $("#instItemWrap").slick('slickNext');
-            // });
+            $('.instaPrev').click(function(){
+                $("#instItemWrap").slick('slickPrev');
+            });
+            $('.instaNext').click(function(){
+                $("#instItemWrap").slick('slickNext');
+            });
 
 
             
