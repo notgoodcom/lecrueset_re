@@ -874,6 +874,12 @@ a:hover {
                 .instagramArea {
                     position: relative;
                 }  
+
+                    .instagramArea .subTitle .txt a {
+                        color:#222;
+                        font-weight: bold;
+                        text-decoration: underline;
+                    }
       
                     .instagramArea .instagramList {
                         width:100%;
