@@ -224,14 +224,18 @@
             $('.bannerNext').click(function(){
                 $("#bannerWrap").slick('slickNext');
             });
+            
+        });  
 
 
-            $.each(data.instagram, function(i, inObj){
+        var instaItem = $(".instagramList .listWrap") 
+        $.getJSON('./img.json', function(imgData){
+            $.each(imgData.instagram, function(i, inObj){
                 var instItem = '';
                 instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
                 instItem += '</div>';
                 instaItem.append(instItem);
-            });     
+            });        
 
             $("#instItemWrap").slick({
                 autoplay: true,
@@ -251,9 +255,7 @@
                 $("#instItemWrap").slick('slickNext');
             });
 
-
-            
-        });  
+        });
     
     });
 

@@ -411,45 +411,6 @@
             "price" : "31000",
             "finalPrice" : "21700"
         }
-    ],
-
-    "instagram" : [
-        {
-            "src" : "./data/img/insta01.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta02.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta03.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta04.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta05.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta06.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta07.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta08.jpg",
-            "class" : "instaImg"
-        },
-        {
-            "src" : "./data/img/insta09.jpg",
-            "class" : "instaImg"
-        }     
     ]
 
 }

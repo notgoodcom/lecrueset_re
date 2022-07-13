@@ -40,5 +40,44 @@
             "num" : "1",
             "src" : "#"
         }
+    ],
+
+    "instagram" : [
+        {
+            "src" : "./images/insta01.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta02.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta03.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta04.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta05.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta06.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta07.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta08.jpg",
+            "class" : "instaImg"
+        },
+        {
+            "src" : "./images/insta09.jpg",
+            "class" : "instaImg"
+        }     
     ]
 }
