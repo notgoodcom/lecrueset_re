@@ -892,14 +892,15 @@ a:hover {
                                 }
 
                                 .videoArea .videoWrap .videoTxtWrap .img img.mug01 {
-                                    width:180px;
+                                    width:200px;
                                     bottom:0px;
                                     right:150px;
+                                    z-index:1;
                                 }
 
                                 .videoArea .videoWrap .videoTxtWrap .img img.mug02 {
                                     width:130px;
-                                    bottom:0px;
+                                    bottom:100px;
                                     right:200px;
                                 }
 
