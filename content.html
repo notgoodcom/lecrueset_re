@@ -234,6 +234,15 @@
                 slide.append(sd);
             }); 
 
+            //instagram slide
+            $.each(imgData.instagram, function(i, inObj){
+                var instItem = '';
+                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
+                instItem += '</div>';
+
+                instaItem.append(instItem);
+            });        
+
 
             //nav
             $("#sliderWrap").slick({
@@ -250,15 +259,7 @@
             });
 
 
-            //instagram slide
-            $.each(imgData.instagram, function(i, inObj){
-                var instItem = '';
-                instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
-                instItem += '</div>';
-
-                instaItem.append(instItem);
-            });        
-
+            //instagram
             $("#instItemWrap").slick({
                 autoplay: true,
                 accessibility: true,
