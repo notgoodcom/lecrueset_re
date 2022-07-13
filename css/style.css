@@ -839,6 +839,7 @@ a:hover {
                 .videoArea {
                     width:100%;
                     position:relative;
+                    height:510px;
                 }   
 
                     .videoArea:before {
@@ -847,10 +848,27 @@ a:hover {
                         width:100%;
                         height:350px;
                         position:absolute;
-                        top:0px;
+                        top:40px;
                         left:0px;
                     }
                 
+                        .videoArea .videoWrap {
+                            display: flex;
+                            flex-direction: row;
+                        }
+
+                        .videoArea .videoWrap .videoTxtWrap {
+                            display: flex;
+                            flex-direction: column;
+                            position:relative;
+                        }
+
+                            .videoArea .videoWrap .videoTxtWrap .title {
+                                font-size:55px;
+                                font-weight: bold;
+                            }
+
+
                 .instagramArea {
                     position: relative;
                 }  
