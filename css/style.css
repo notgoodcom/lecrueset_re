@@ -870,6 +870,24 @@ a:hover {
                                 margin:0px 0 25px;
                             }
 
+                        .videoArea .videoWrap .videoObjWrap {
+                            position:relative;
+                        }
+
+                            .videoArea .videoWrap .videoObjWrap .videoObj {
+                                width:550px;
+                                height:380px;
+                                background:url(../images/movie.png);
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                                .videoArea .videoWrap .videoObjWrap .videoObj .playbtn {
+                                    align-self: center;
+                                    color:#fff;
+                                    font-size:40px;
+                                }
+
 
                 .instagramArea {
                     position: relative;
