@@ -865,6 +865,7 @@ a:hover {
                             display: flex;
                             flex-direction: column;
                             position:relative;
+                            width:calc(100% - 550px);
                         }
 
                             .videoArea .videoWrap .videoTxtWrap .title {
