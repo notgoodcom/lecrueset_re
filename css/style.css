@@ -175,7 +175,7 @@ a:hover {
                     background:#EAEAEA;
                     padding:20px 0;
                     display: none;
-                    z-index:1;
+                    z-index:2;
                     box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
                 }
                     header.top .gnb .subGnb .subMenu {
@@ -873,7 +873,7 @@ a:hover {
                         .videoArea .videoWrap .videoObjWrap {
                             position:relative;
                             margin-left:auto;
-                            padding-top:40px;
+                            padding-top:80px;
                         }
 
                             .videoArea .videoWrap .videoObjWrap .videoObj {
@@ -901,6 +901,8 @@ a:hover {
                                     color:#fff;
                                     font-size:60px;
                                     text-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+                                    position:relative;
+                                    z-index:1;
                                 }
 
 
