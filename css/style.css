@@ -873,6 +873,25 @@ a:hover {
                                 margin:0px 0 25px;
                             }
 
+                            .videoArea .videoWrap .videoTxtWrap .midTxt {
+                                font-size:18px;
+                                margin:0px 0 25px;
+                            }
+
+                            .videoArea .videoWrap .videoTxtWrap .txt {
+                                font-size:15px;
+                            }
+
+                            .videoArea .videoWrap .videoTxtWrap .img {
+                                margin-top:auto;
+                                position:relative;
+                            }
+
+                                .videoArea .videoWrap .videoTxtWrap .img img {
+                                    position:absolute;
+                                }
+
+
                         .videoArea .videoWrap .videoObjWrap {
                             position:relative;
                             margin-left:auto;
