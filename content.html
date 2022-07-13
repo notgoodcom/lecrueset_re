@@ -1,7 +1,7 @@
 <section class="section">
     <nav class="sliderBanner">
         <div class="sliderWrap">
-            <div class="slider slide01">
+            <!-- <div class="slider slide01">
                 <div class="wrap">
                     <div class="sliderInfo">
                         <div class="cate">sale</div>
@@ -33,7 +33,7 @@
                         <a class="btn btn-line btn-white" href="#">VIEW MORE</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="sliderPager">
             <a class="prevBtn"><i class="bi bi-chevron-left"></i></a>
@@ -228,12 +228,35 @@
         });  
 
 
-        var instaItem = $(".instagramList .listWrap") 
+        var instaItem = $(".instagramList .listWrap");
+        var slide = $(".sliderWrap");
         $.getJSON('./img.json', function(imgData){
+
+            //nav slide
+            $.each(imgData.bannerNav, function(i, sdslide){
+                var sd = "";
+                sd += '<div class="slider slide'+ sdslide.num +'" style="background-image:url(' + sdslide.imageUrl + ')">';
+                sd += '<div class="wrap">';
+                sd += '<div class="sliderInfo">';
+                sd += '<div class="cate">' + sdslide.cate + '</div>';
+                sd += '<div class="line"></div>';
+                sd += '<div class="slideTitle">' + sdslide.title + '</div>';
+                sd += '<div class="slideTxt">' + sdslide.txt + '</div>';
+                sd += '<a class="btn btn-line" href="' + sdslide.url + '">VIEW MORE</a>';
+                sd += '</div>';
+                sd += '</div>';
+                sd += '</div>';  
+
+                slide.append(sd);
+            }); 
+
+
+            //instagram slide
             $.each(imgData.instagram, function(i, inObj){
                 var instItem = '';
                 instItem += '<div class="insta-item '+ inObj.class +'" style="background-image:url('+ inObj.src +')">';
                 instItem += '</div>';
+
                 instaItem.append(instItem);
             });        
 
