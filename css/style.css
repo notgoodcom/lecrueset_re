@@ -875,15 +875,50 @@ a:hover {
                     position: relative;
                 }  
       
+                    .instagramArea .instagramList {
+                        width:100%;
+                        position:relative;
+                    }
 
-                        .instagramArea .insta-item {
-                            width:240px;
-                            height:240px;
-                            background-size:100%;
-                            background-repeat: no-repeat;
-                            border-radius: 20px;
-                            margin-right:20px;
+                        .instagramArea .listWrap {
+                            width:100%;
                         }
+                            .instagramArea .listWrap .insta-item {
+                                width:240px;
+                                height:240px;
+                                background-size:240px;
+                                background-repeat: no-repeat;
+                                background-position: center center;
+                                border-radius: 20px;
+                                margin-right:20px;
+                            }
+
+                        .instagramArea a {
+                            position:absolute;
+                            width:50px;
+                            height:240px;
+                            background:rgba(255,255,255,0.5);
+                            color:#222;
+                            display:flex;
+                            flex-direction: row;
+                            justify-content: center;
+                        }  
+
+                        .instagramArea a.instaPrev {
+                            left:0px;
+                            top:0px;
+                        }
+                        
+                        .instagramArea a.instaNext {
+                            right:0px;
+                            top:0px;
+                        }
+
+                            .instagramArea a i {
+                                font-size:30px;
+                                align-self: center;;
+                            }
+
 
                 
     /* footer */
