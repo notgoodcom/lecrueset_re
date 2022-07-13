@@ -855,6 +855,7 @@ a:hover {
                         .videoArea .videoWrap {
                             display: flex;
                             flex-direction: row;
+                            margin:0 auto;
                         }
 
                         .videoArea .videoWrap .videoTxtWrap {
@@ -866,6 +867,7 @@ a:hover {
                             .videoArea .videoWrap .videoTxtWrap .title {
                                 font-size:55px;
                                 font-weight: bold;
+                                margin:0px 0 25px;
                             }
 
 
