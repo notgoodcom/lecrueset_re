@@ -359,7 +359,7 @@ a:hover {
                         align-self: center;
                     }
 
-                /* .slick-dots {
+                .slick-dots {
                     display: flex;
                     flex-direction: row;
                     margin:auto;
@@ -370,7 +370,7 @@ a:hover {
                         width:calc(100% / 3);
                         display: flex;
                         justify-content: center;
-                    } */
+                    }
 
                         a.progressBar {
                             width:100%;
