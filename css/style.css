@@ -327,6 +327,8 @@ a:hover {
                     height:40px;
                     display: flex;
                     justify-content: center;
+                    left:0px;
+                    top:0px;
                 }
 
                     .sliderPager a.prevBtn i {
@@ -342,6 +344,8 @@ a:hover {
                     height:40px;
                     display: flex;
                     justify-content: center;
+                    right:0px;
+                    top:0px;
                 }
 
                     .sliderPager a.nextBtn i {
