@@ -388,11 +388,9 @@ a:hover {
                             align-self:center;
                         }
 
-                        a.progressBar.active {
+                        .slick-dots li.slick-active a.progressBar {
                             background:#fff;
                         }
-
-
 
         /* content */                          
         
