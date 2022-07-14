@@ -223,90 +223,132 @@ a:hover {
             border-bottom-right-radius: 50px;
         }
 
-            .slider {
-                width:100%;
-                height:600px;
-                background-position: top center;
-                background-repeat: no-repeat;
+
+            .sliderWrap {
+                position: relative;
             }
 
-            .slide01 {
-                background-image:url(../images/slider01.jpg);
-            }
-
-            .slide02 {
-                background-image:url(../images/slider02.jpg);
-            }
-
-            .slide03 {
-                background-image:url(../images/slider03.jpg);
-                color:#fff !important;
-            }
-
-                .slider .wrap {
-                    width:1280px;
-                    height: 600px;
-                    margin:0 auto;
-                    display:flex;
-                    align-items: center;
+                .slider {
+                    width:100%;
+                    height:600px;
+                    background-position: top center;
+                    background-repeat: no-repeat;
                 }
 
-                    .slider .wrap .sliderInfo {
-                        margin-left:40px;
+                .slide01 {
+                    background-image:url(../images/slider01.jpg);
+                }
+
+                .slide02 {
+                    background-image:url(../images/slider02.jpg);
+                }
+
+                .slide03 {
+                    background-image:url(../images/slider03.jpg);
+                    color:#fff !important;
+                }
+
+                    .slider .wrap {
+                        width:1280px;
+                        height: 600px;
+                        margin:0 auto;
+                        display:flex;
+                        align-items: center;
                     }
-                        .slider .wrap .sliderInfo .cate {
-                            color:#222;
-                            font-size:13px;
-                            letter-spacing:5px;
-                            text-transform: uppercase;
-                        }
 
-                        .slider .wrap .sliderInfo .line {
-                            background:#222;
-                            width:1px;
-                            height:50px;
-                            margin:5px 0px 5px 20px;
+                        .slider .wrap .sliderInfo {
+                            margin-left:40px;
                         }
+                            .slider .wrap .sliderInfo .cate {
+                                color:#222;
+                                font-size:13px;
+                                letter-spacing:5px;
+                                text-transform: uppercase;
+                            }
 
-                        .slider .wrap .sliderInfo .slideTitle {
-                            color:#222;
-                            font-size:70px;
-                            font-weight: normal;
-                            letter-spacing: -5px;;
-                        }
+                            .slider .wrap .sliderInfo .line {
+                                background:#222;
+                                width:1px;
+                                height:50px;
+                                margin:5px 0px 5px 20px;
+                            }
 
-                        .slider .wrap .sliderInfo .slideTxt {
-                            color:#222;
-                            font-size:15px;
-                            margin-top:10px;
-                        }
+                            .slider .wrap .sliderInfo .slideTitle {
+                                color:#222;
+                                font-size:70px;
+                                font-weight: normal;
+                                letter-spacing: -5px;;
+                            }
 
-                        .slider .wrap .sliderInfo .btn-line {
-                            border:1px solid #222;
-                            color:#222;
-                            margin-top:20px;
-                            width:128px;
-                            height:48px;
-                            font-size:15px;
-                            padding:12px;
-                        }
+                            .slider .wrap .sliderInfo .slideTxt {
+                                color:#222;
+                                font-size:15px;
+                                margin-top:10px;
+                            }
 
-                        .slide03 .wrap .sliderInfo .sliderInfo,
-                        .slide03 .wrap .sliderInfo .cate,
-                        .slide03 .wrap .sliderInfo .slideTitle,
-                        .slide03 .wrap .sliderInfo .slideTxt {   
-                            color:#fff;
-                        }
-            
-                        .slide03 .wrap .sliderInfo .btn {
-                            border-color:#fff;
-                            color:#fff;
-                        }
-            
-                        .slide03 .wrap .sliderInfo .line {
-                            background:#fff;
-                        }
+                            .slider .wrap .sliderInfo .btn-line {
+                                border:1px solid #222;
+                                color:#222;
+                                margin-top:20px;
+                                width:128px;
+                                height:48px;
+                                font-size:15px;
+                                padding:12px;
+                            }
 
+                            .slide03 .wrap .sliderInfo .sliderInfo,
+                            .slide03 .wrap .sliderInfo .cate,
+                            .slide03 .wrap .sliderInfo .slideTitle,
+                            .slide03 .wrap .sliderInfo .slideTxt {   
+                                color:#fff;
+                            }
+                
+                            .slide03 .wrap .sliderInfo .btn {
+                                border-color:#fff;
+                                color:#fff;
+                            }
+                
+                            .slide03 .wrap .sliderInfo .line {
+                                background:#fff;
+                            }
+
+
+            .sliderPager {
+                position: absolute;
+                bottom:40px;
+                width:750px;
+                height:40px;
+            }
+
+                .sliderPager a.prevBtn {
+                    border-radius: 100%;
+                    border:1px solid #fff;
+                    width:40px;
+                    height:40px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                    .sliderPager a.prevBtn i {
+                        color:#fff;
+                        font-size:30px;
+                        align-self: center;
+                    }
+
+                .sliderPager a.nextBtn {
+                    border-radius: 100%;
+                    border:1px solid #fff;
+                    width:40px;
+                    height:40px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                    .sliderPager a.nextBtn i {
+                        color:#fff;
+                        font-size:30px;
+                        align-self: center;
+                    }
 
 
         /* content */                          
