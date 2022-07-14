@@ -37,11 +37,9 @@
         </div>
         <div class="sliderPager w-1280">
             <a class="prevBtn"><i class="bi bi-chevron-left"></i></a>
-            <div class="pager">
-                <a class="paging"></a>
-                <a class="paging"></a>
-                <a class="paging"></a>
-            </div>
+            <ul class="slick-dots">
+                <li><button type="button"></button></li>
+            </ul>
             <a class="nextBtn"><i class="bi bi-chevron-right"></i></a>
         </div>
     </nav>
@@ -263,6 +261,13 @@
                 arrows: true,
                 fade: true,
                 cssEase: 'linear'
+            });
+
+            $('.prevBtn').click(function(){
+                $("#sliderWrap").slick('slickPrev');
+            });
+            $('.nextBtn').click(function(){
+                $("#sliderWrap").slick('slickNext');
             });
 
 

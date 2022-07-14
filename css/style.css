@@ -322,6 +322,8 @@ a:hover {
                 height:40px;
                 left:50%;
                 transform:translateX(-50%);
+                display: flex;
+                flex-direction: row;
             }
 
                 .sliderPager a.prevBtn {
@@ -331,13 +333,12 @@ a:hover {
                     height:40px;
                     display: flex;
                     justify-content: center;
-                    left:0px;
-                    top:0px;
+                    margin-right:auto;
                 }
 
                     .sliderPager a.prevBtn i {
                         color:#fff;
-                        font-size:25px;
+                        font-size:20px;
                         align-self: center;
                     }
 
@@ -348,15 +349,34 @@ a:hover {
                     height:40px;
                     display: flex;
                     justify-content: center;
-                    right:0px;
-                    top:0px;
+                    margin-right:auto;
                 }
 
                     .sliderPager a.nextBtn i {
                         color:#fff;
-                        font-size:25px;
+                        font-size:20px;
                         align-self: center;
                     }
+
+                .slick-dots {
+                    display: flex;
+                    flex-direction: row;
+                    margin:auto;
+                    width:calc(100% - 200px);
+                }
+
+                    .slick-dots li {
+                        width:calc(100% / 3);
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                        .slick-dots li button {
+                            appearance: none;
+                            width:100%;
+                            height: 3px;
+                            background:rgba(255,255,255,0.5);
+                        }
 
 
         /* content */                          
