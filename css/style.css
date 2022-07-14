@@ -221,6 +221,9 @@ a:hover {
             overflow:hidden;
             border-bottom-left-radius: 50px;
             border-bottom-right-radius: 50px;
+            position: relative;
+            width:100%;
+            height:600px;
         }
 
 
@@ -316,8 +319,9 @@ a:hover {
             .sliderPager {
                 position: absolute;
                 bottom:40px;
-                width:750px;
                 height:40px;
+                left:50%;
+                transform:translateX(-50%);
             }
 
                 .sliderPager a.prevBtn {
@@ -333,7 +337,7 @@ a:hover {
 
                     .sliderPager a.prevBtn i {
                         color:#fff;
-                        font-size:30px;
+                        font-size:25px;
                         align-self: center;
                     }
 
@@ -350,7 +354,7 @@ a:hover {
 
                     .sliderPager a.nextBtn i {
                         color:#fff;
-                        font-size:30px;
+                        font-size:25px;
                         align-self: center;
                     }
 
