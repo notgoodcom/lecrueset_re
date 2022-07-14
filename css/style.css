@@ -359,7 +359,7 @@ a:hover {
                         align-self: center;
                     }
 
-                .slick-dots {
+                .sliderWrap .slick-dots {
                     display: flex;
                     flex-direction: row;
                     width:450px;
@@ -372,7 +372,7 @@ a:hover {
                     z-index: 1;
                 }
 
-                    .slick-dots li {
+                    .sliderWrap .slick-dots li {
                         display: flex;
                         justify-content: center;
                         margin:0 3px;
@@ -380,7 +380,7 @@ a:hover {
                         align-self:center;
                     }
 
-                        a.progressBar {
+                        .sliderWrap a.progressBar {
                             width:100%;
                             height: 3px;
                             background:rgba(0,0,0,0.15);
@@ -389,7 +389,7 @@ a:hover {
                             align-self:center;
                         }
 
-                        .slick-dots li.slick-active a.progressBar {
+                        .sliderWrap .slick-dots li.slick-active a.progressBar {
                             background:#fff;
                         }
 
