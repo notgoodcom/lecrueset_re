@@ -324,6 +324,7 @@ a:hover {
                 transform:translateX(-50%);
                 display: flex;
                 flex-direction: row;
+                width:750px;
             }
 
                 .sliderPager a.prevBtn {
@@ -358,7 +359,7 @@ a:hover {
                         align-self: center;
                     }
 
-                .slick-dots {
+                /* .slick-dots {
                     display: flex;
                     flex-direction: row;
                     margin:auto;
@@ -369,9 +370,9 @@ a:hover {
                         width:calc(100% / 3);
                         display: flex;
                         justify-content: center;
-                    }
+                    } */
 
-                        .slick-dots li a.progressBar {
+                        a.progressBar {
                             width:100%;
                             height: 3px;
                             background:rgba(255,255,255,0.5);
