@@ -375,6 +375,7 @@ a:hover {
                         display: flex;
                         justify-content: center;
                         margin:0 3px;
+                        width:calc(100% / 3);
                     }
 
                         a.progressBar {
