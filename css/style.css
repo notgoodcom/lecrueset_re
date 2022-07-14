@@ -350,7 +350,7 @@ a:hover {
                     height:40px;
                     display: flex;
                     justify-content: center;
-                    margin-right:auto;
+                    margin-left:auto;
                 }
 
                     .sliderPager a.nextBtn i {
