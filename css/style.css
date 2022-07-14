@@ -369,6 +369,7 @@ a:hover {
                     bottom:40px;
                     left:50%;
                     transform:translateX(-50%);
+                    z-index: 1;
                 }
 
                     .slick-dots li {
