@@ -22,15 +22,25 @@
             "num" : "02",
             "cate" : "new",
             "title" : "북유럽 컬렉션",
-            "txt" : "베스트 아이템 단품 출시"
+            "txt" : "르쿠르제, 새로운 컬러를 입다",
+            "class" : "b-white"
         },
         {
             "name" : "nav03",
             "imageUrl" : "./images/slider03.jpg",
             "num" : "03",
+            "cate" : "new",
+            "title" : "소르베 컬렉션",
+            "txt" : "러블리한 식탁 분위기 완성"
+        },
+        {
+            "name" : "nav04",
+            "imageUrl" : "./images/slider04.jpg",
+            "num" : "03",
             "cate" : "best",
             "title" : "르크루제 시그니쳐",
-            "txt" : "부엌의 여왕"
+            "txt" : "부엌의 여왕",
+            "class" : "b-white"
         }
     ],
     "middleBanner" : [

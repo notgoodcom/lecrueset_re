@@ -299,19 +299,19 @@ a:hover {
                                 padding:12px;
                             }
 
-                            .slide03 .wrap .sliderInfo .sliderInfo,
-                            .slide03 .wrap .sliderInfo .cate,
-                            .slide03 .wrap .sliderInfo .slideTitle,
-                            .slide03 .wrap .sliderInfo .slideTxt {   
+                            .slider.b-white .wrap .sliderInfo .sliderInfo,
+                            .slider.b-white .wrap .sliderInfo .cate,
+                            .slider.b-white .wrap .sliderInfo .slideTitle,
+                            .sliderb-white .wrap .sliderInfo .slideTxt. {   
                                 color:#fff;
                             }
                 
-                            .slide03 .wrap .sliderInfo .btn {
+                            .slider.b-white .wrap .sliderInfo .btn {
                                 border-color:#fff;
                                 color:#fff;
                             }
                 
-                            .slide03 .wrap .sliderInfo .line {
+                            .slider.b-white .wrap .sliderInfo .line {
                                 background:#fff;
                             }
 
