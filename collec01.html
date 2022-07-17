@@ -30,7 +30,7 @@
                 <div class="collection-section">
                     <div class="collsction-slider" id="collsction-slider"></div>
                 </div>
-                <div class="collection-product w-1280 content">
+                <div class="collection-product w-1280">
                     <div class="cs">
                         <div class="header">
                             무쇠주물
@@ -80,6 +80,29 @@
                         slidesToScroll:2,
                         adaptiveHeight: false, 
                         arrows: true
+                    });
+
+                });
+
+                var csSection = $("csProductWrap");
+                var swSection = $("swProductWrap");
+                $.getJSON('./data/data.json', function(data){
+                    $.each(data.blueCS, function(i, product){
+                        var bluecs = '';
+                        bluecs += '<div class="itemWrap ' + product.class + '">';
+                        bluecs += '<div class="itemImg"><img src="' + product.scrb + '"></div>';
+                        bluecs += '<div class="itemInfo">';
+                        bluecs += '<a class="itemName">' + product.name +'</a>';
+                        bluecs += '<p class="itemPrice"><em class="discountBefore">' + product.price +'</em><span class="discount">' + bs.finalPrice +'</span></p>';
+                        bluecs += '</div>';
+                        bluecs += '</div>';
+                        csSection.append(bluecs);
+
+                        $(".itemIMG").mouseover(function(){
+                            var _this = $(this);
+                            _this.children('img').attr("src", product.srca);
+                        });
+
                     });
 
                 });
