@@ -79,7 +79,10 @@
                         slidesToShow: 2,
                         slidesToScroll:2,
                         adaptiveHeight: false, 
-                        arrows: false
+                        arrows: false,
+                        customPaging : function(slider, i) {
+                        return "<a class='circle'></a>";
+                        }
                     });
 
                 });

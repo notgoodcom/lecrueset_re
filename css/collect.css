@@ -12,10 +12,27 @@
         margin:0 auto 0px;
         padding-top:840px;
         width:1020px;
-        overflow:hidden;
+        overflow-x:hidden;
         display: flex;
         flex-direction: row;
     }
+
+    .collection-section .collection-slider .slick-dots {
+        bottom:-50px
+    }
+
+        .collection-section .collection-slider .slick-dots a.circle {
+            width:20px;
+            height:20px;
+            content:"";
+            border-radius: 100%;
+            border:1px solid #5131f0;
+        }    
+
+
+        .collection-section .collection-slider .slick-dots li.slick-active a.circle {
+            background-color: #5131f0;
+        }
 
         .collection-section .collection-slider .slick-list {
             margin: 0 -20px 0px 0px;
@@ -27,6 +44,7 @@
             }
 
 
+                .collection-section .collection-slider .slick-slide a.circle.slick-active {}
 
 
             .collection-section .collection-slider .blue-item {
