@@ -480,7 +480,7 @@
         },
         {   
             "class" : "cs09",
-            "name" : "국 그릇  - 코스탈 09",
+            "name" : "국 그릇  - 코스탈",
             "before" : "43000",
             "now" : "25800",
             "srcb": "./data/img/blue09.jpg"
