@@ -92,6 +92,7 @@
                             flex-direction: row;
                             margin-left:auto;
                             align-self: center;
+                            margin-bottom:0px;
                         }
 
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discountBefore {
