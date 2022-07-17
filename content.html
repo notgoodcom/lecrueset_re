@@ -278,6 +278,7 @@
             });
 
 
+
             //instagram
             $("#instItemWrap").slick({
                 autoplay: true,
@@ -297,6 +298,13 @@
                 $("#instItemWrap").slick('slickNext');
             });
 
+
+            // link
+
+            $(".slider01 .btn").click(function(){
+                $("#content").load("collec01.html");
+            });
+            
         });
     
     });
