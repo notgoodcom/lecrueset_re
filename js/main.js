@@ -3,12 +3,6 @@ $(function(){
     $("#content").load("content.html"); //content불러오기
 
 
-    // link
-
-    $(".slider01 .btn").click(function(){
-        $("#content").load("collec01.html");
-    });
-
     // gnb style
 
     $(".wrapper").on("mouseover",".menu li a",function(){
