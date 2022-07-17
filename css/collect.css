@@ -146,17 +146,27 @@
         }
 
 
-            .collection-product .cs .csProductWrap .itemWrap {
-                width:240px;
-                margin-right:20px;
-            }
-
     .collection-product .sw {
         margin-bottom:50px;
     }
-
 
         .collection-product .sw .swProductWrap {
             display: flex;
             flex-direction: row;
         }
+
+            .collection-product .itemWrap {
+                width:240px;
+                margin-right:20px;
+            }
+
+                .collection-product .itemWrap .itemImg {
+                    width:240x;
+                    height:240px;
+                    border-radius: 20px;
+                    overflow: hidden;
+                }
+
+                    .collection-product .itemWrap .itemImg img {
+                        width:100%;
+                    }
