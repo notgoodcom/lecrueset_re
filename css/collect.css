@@ -65,10 +65,6 @@
                     border-radius: 20px;
                 }
 
-                .collection-section .collection-slider .blue-item:hover .itemImg {
-                    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
-                }
-
                 .collection-section .collection-slider .blue-item .itemTxtWrap {
                     display: flex;
                     flex-direction: column;
@@ -164,6 +160,7 @@
             .collection-product .itemWrap {
                 width:240px;
                 margin-right:20px;
+                cursor: pointer;
             }
 
                 .collection-product .itemWrap .itemImg {
@@ -172,6 +169,12 @@
                     border-radius: 20px;
                     overflow: hidden;
                 }
+
+                
+                .collection-product .itemWrap:hover .itemImg {
+                    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+                }
+
 
                     .collection-product .itemWrap .itemImg img {
                         width:100%;
