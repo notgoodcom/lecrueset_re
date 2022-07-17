@@ -173,8 +173,12 @@
                 border-radius: 15px;
                 background:#fff;
                 border:1px solid #eaeaea;
+                flex-shrink: 0;
             }
 
+            .collection-product .itemWrap:last-child {
+                margin-right:0px;
+            }
                 
             .collection-product .itemWrap:hover {
                 box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
