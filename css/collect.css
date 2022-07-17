@@ -176,3 +176,10 @@
                     .collection-product .itemWrap .itemImg img {
                         width:100%;
                     }
+
+
+                    .collection-product .itemWrap .itemInfo .itemName {
+                        height: 43px;
+                        display: block;
+                    }
+
