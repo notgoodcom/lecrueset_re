@@ -98,6 +98,7 @@
 
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discountBefore {
                                 font-size:20px;
+                                align-self: center;
                             }
 
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discountBefore:after {
@@ -107,6 +108,7 @@
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discount {
                                 font-size:32px;
                                 color:#222;
+                                align-self: center;
                             }
 
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discount:after {
