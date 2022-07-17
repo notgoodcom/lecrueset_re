@@ -100,7 +100,13 @@
 
                         $(".itemImg").mouseover(function(){
                             var _this = $(this);
-                            _this.children('img').attr("src", product.srca);
+                            var _img = _this.children('img').attr('src');
+                            if(_img == product.srcb){
+                                _this.children('img').attr("src", product.srca);
+                            }else{
+                                _this.children('img').attr("src", product.srcb);
+                            }
+
                         });
 
                     });
