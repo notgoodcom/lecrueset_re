@@ -28,7 +28,7 @@
             <header data-include-path="header.html"></header> <!-- header -->
             <div class="section">
                 <div class="collection-section">
-                    <div class="collsction-slider" id="collsction-slider"></div>
+                    <div class="collection-slider" id="collsction-slider"></div>
                 </div>
                 <div class="collection-product w-1280">
                     <div class="cs">
@@ -53,7 +53,7 @@
 
             $(document).ready(function(){
 
-                var blueSlider = $(".collsction-slider");
+                var blueSlider = $(".collection-slider");
 
                 $.getJSON('./img.json', function(data){
                     $.each(data.blueSlider, function(i, obj){
@@ -70,7 +70,7 @@
                         blueSlider.append(blue);
                     });
 
-                    $("#collsction-slider").slick({
+                    $("#collection-slider").slick({
                         autoplay: true,
                         accessibility: true,
                         dots: true,
@@ -98,7 +98,7 @@
                         bluecs += '</div>';
                         csSection.append(bluecs);
 
-                        $(".itemIMG").mouseover(function(){
+                        $(".itemImg").mouseover(function(){
                             var _this = $(this);
                             _this.children('img').attr("src", product.srca);
                         });
