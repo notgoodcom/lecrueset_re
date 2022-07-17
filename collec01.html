@@ -99,6 +99,18 @@
                         csSection.append(bluecs);
                     });
 
+                    $.each(prodata.blueSW, function(i, product){
+                        var bluesw = '';
+                        bluesw += '<div class="itemWrap ' + product.class + '">';
+                        bluesw += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        bluesw += '<div class="itemInfo">';
+                        bluesw += '<a class="itemName">' + product.name +'</a>';
+                        bluesw += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        bluesw += '</div>';
+                        bluesw += '</div>';
+                        swSection.append(bluesw);
+                    });
+
                 });
 
 

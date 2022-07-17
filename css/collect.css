@@ -5,7 +5,6 @@
     width:100%;
     height:1650px;
     position:relative;
-    margin-bottom:50px;
 }
 
 
@@ -26,6 +25,9 @@
                 width:500px !important;
                 margin-right:20px;
             }
+
+
+
 
             .collection-section .collection-slider .blue-item {
                 background:#fff;
@@ -90,3 +92,27 @@
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discount:after {
                                 font-size:20px;
                             }
+
+
+.collection-product {
+    margin:50px auto;
+}
+
+    .collection-product .cs {
+        margin-bottom:50px;
+    }
+
+        .collection-product .cs .csProductWrap {
+            display: flex;
+            flex-direction: row;
+        }
+
+    .collection-product .sw {
+        margin-bottom:50px;
+    }
+
+
+        .collection-product .sw .swProductWrap {
+            display: flex;
+            flex-direction: row;
+        }
