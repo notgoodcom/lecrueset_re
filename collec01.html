@@ -1,58 +1,91 @@
-<div class="section">
-    <div class="collection-section">
-        <div class="collsction-slider" id="collsction-slider"></div>
-    </div>
-    <div class="collection-product w-1280 content">
-        <div class="cs">
-            <div class="header">
-                무쇠주물
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>르쿠르제 코리아</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
+        <!-- css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- js -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="slick/slick.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header data-include-path="header.html"></header> <!-- header -->
+            <div class="section">
+                <div class="collection-section">
+                    <div class="collsction-slider" id="collsction-slider"></div>
+                </div>
+                <div class="collection-product w-1280 content">
+                    <div class="cs">
+                        <div class="header">
+                            무쇠주물
+                        </div>
+                        <div class="csProductWrap"></div>
+                    </div>
+                    <div class="sw">
+                        <div class="header">
+                            스톤웨어
+                        </div>
+                        <div class="swProductWrap"></div>
+                    </div>
+                </div>
             </div>
-            <div class="csProductWrap"></div>
+            <footer data-include-path="footer.html"></footer> <!-- footer -->
         </div>
-        <div class="sw">
-            <div class="header">
-                스톤웨어
-            </div>
-            <div class="swProductWrap"></div>
-        </div>
-    </div>
-</div>
-<script>
+        <script src="js/includeHTML.js"></script>
+        <script src="js/main.js"></script>
+        <script>
 
-    $(document).ready(function(){
+            $(document).ready(function(){
 
-        var blueSlider = $(".collsction-slider");
+                var blueSlider = $(".collsction-slider");
 
-        $.getJSON('./img.json', function(data){
-            $.each(data.blueSlider, function(i, obj){
-                var blue = '';
-                blue += '<div class="blue-item">'
-                blue += '<div class="itemImg" style="background-image:url('+ obj.src +')">';
-                blue += '<div class="itemTxtWrap">';
-                blue += '<a class="itemTitle">' + obj.name +'</a>';
-                blue += '<div class="itemPriceWrap"><mark class="sals">' + obj.sale + '</mark>';
-                blue += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.before +'</em><span class="discount">' + obj.now +'</span></p></div>';
-                blue += '</div>';
-                blue += '</div>';
-                blue += '</div>';
-                blueSlider.append(blue);
+                $.getJSON('./img.json', function(data){
+                    $.each(data.blueSlider, function(i, obj){
+                        var blue = '';
+                        blue += '<div class="blue-item">'
+                        blue += '<div class="itemImg" style="background-image:url('+ obj.src +')">';
+                        blue += '<div class="itemTxtWrap">';
+                        blue += '<a class="itemTitle">' + obj.name +'</a>';
+                        blue += '<div class="itemPriceWrap"><mark class="sals">' + obj.sale + '</mark>';
+                        blue += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.before +'</em><span class="discount">' + obj.now +'</span></p></div>';
+                        blue += '</div>';
+                        blue += '</div>';
+                        blue += '</div>';
+                        blueSlider.append(blue);
+                    });
+
+                    $("#collsction-slider").slick({
+                        autoplay: true,
+                        accessibility: true,
+                        dots: false,
+                        infinite: true,
+                        speed: 1000,
+                        slidesToShow: 2,
+                        slidesToScroll:2,
+                        adaptiveHeight: false, 
+                        arrows: true
+                    });
+
+                });
+
+
             });
 
-            $("#collsction-slider").slick({
-                autoplay: true,
-                accessibility: true,
-                dots: false,
-                infinite: true,
-                speed: 1000,
-                slidesToShow: 2,
-                slidesToScroll:2,
-                adaptiveHeight: false, 
-                arrows: true
-            });
-
-        });
-
-
-    });
-
-</script>
+        </script>
+    </body>
+</html>
