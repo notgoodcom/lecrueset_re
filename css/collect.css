@@ -112,6 +112,26 @@
                             }
 
 
+
+    .collection-section .collection-txt {
+        width:1000px;
+        margin:20px auto;
+        color:#222;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+        .collection-section .collection-txt i {
+            font-size:15px;
+            margin-right:5px;
+        }
+
+        .collection-section .collection-txt span {
+            font-size:15px;
+        }
+
+
 .collection-product {
     margin:50px auto;
 }
