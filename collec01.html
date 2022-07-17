@@ -86,8 +86,8 @@
 
                 var csSection = $("csProductWrap");
                 var swSection = $("swProductWrap");
-                $.getJSON('./data/data.json', function(data){
-                    $.each(data.blueCS, function(i, product){
+                $.getJSON('./data/data.json', function(prodata){
+                    $.each(prodata.blueCS, function(i, product){
                         var bluecs = '';
                         bluecs += '<div class="itemWrap ' + product.class + '">';
                         bluecs += '<div class="itemImg"><img src="' + product.scrb + '"></div>';
