@@ -138,6 +138,12 @@
     margin:50px auto;
 }
 
+    .collection-product .header {
+        font-size:20px;
+        margin-bottom:50px;
+        border-bottom:2px solid #eaeaea;
+    }
+
     .collection-product .cs {
         margin-bottom:50px;
     }
