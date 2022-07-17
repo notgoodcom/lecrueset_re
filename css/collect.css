@@ -196,10 +196,6 @@
                         width:100%;
                     }
 
-                    .collection-product .itemWrap:hover .itemImg img {
-                        width:110%;
-                    }
-
                 .collection-product .itemWrap .itemInfo {
                     padding:15px;
                 }
