@@ -411,6 +411,87 @@
             "price" : "31000",
             "finalPrice" : "21700"
         }
+    ],
+    "blueCS" : [
+        {   
+            "class" : "cs01",
+            "name" : "시그니쳐 원형 22cm - 마르세유/코스탈 2종택1",
+            "before" : "480000",
+            "now" : "288000",
+            "srcb": "./data/img/blue01_a.jpg",
+            "srca": "./data/img/blue01_b.jpg"
+        },
+        {   
+            "class" : "cs02",
+            "name" : "시그니쳐 원형 20cm - 마르세유/코스탈 2종택1",
+            "before" : "430000",
+            "now" : "258000",
+            "srcb": "./data/img/blue02_a.jpg",
+            "srca": "./data/img/blue02_b.jpg"
+        },
+        {   
+            "class" : "cs03",
+            "name" : "시그니쳐 원형 18cm - 마르세유/코스탈 2종택1",
+            "before" : "380000",
+            "now" : "228000",
+            "srcb": "./data/img/blue03_a.jpg",
+            "srca": "./data/img/blue03_b.jpg"
+        },
+        {   
+            "class" : "cs04",
+            "name" : "시그니쳐 원형 16cm - 마르세유/코스탈 2종택1",
+            "before" : "330000",
+            "now" : "198000",
+            "srcb": "./data/img/blue04_a.jpg",
+            "srca": "./data/img/blue04_b.jpg"
+        },
+        {   
+            "class" : "cs05",
+            "name" : "시그니쳐 원형 그릴 - 코스탈",
+            "before" : "280000",
+            "now" : "168000",
+            "srcb": "./data/img/blue05_a.jpg"
+        }
+    ],
+    "blueSW" : [
+        {   
+            "class" : "cs06",
+            "name" : "원형 접시 2p세트 (19cm + 23cm) - 2종택1",
+            "before" : "102000",
+            "now" : "61200",
+            "srcb": "./data/img/blue06_a.jpg",
+            "srca": "./data/img/blue06_b.jpg"
+        },
+        {   
+            "class" : "cs07",
+            "name" : "원형접시 23cm - 마르세유/코스탈 2종택1",
+            "before" : "56000",
+            "now" : "33600",
+            "srcb": "./data/img/blue07_a.jpg",
+            "srca": "./data/img/blue07_b.jpg"
+        },
+        {   
+            "class" : "cs08",
+            "name" : "원형접시 19cm - 마르세유/코스탈 2종택1",
+            "before" : "46000",
+            "now" : "27600",
+            "srcb": "./data/img/blue08_a.jpg",
+            "srca": "./data/img/blue08_b.jpg"
+        },
+        {   
+            "class" : "cs09",
+            "name" : "국 그릇  - 코스탈 09",
+            "before" : "43000",
+            "now" : "25800",
+            "srcb": "./data/img/blue09_a.jpg"
+        },
+        {   
+            "class" : "cs10",
+            "name" : "밥 그릇 - 코스탈",
+            "before" : "37000",
+            "now" : "22200",
+            "srcb": "./data/img/blue10_a.jpg"
+        }
     ]
 
 }

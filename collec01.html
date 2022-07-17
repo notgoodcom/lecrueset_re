@@ -1,0 +1,58 @@
+<div class="section">
+    <div class="collection-section">
+        <div class="collsction-slider" id="collsction-slider"></div>
+    </div>
+    <div class="collection-product w-1280 content">
+        <div class="cs">
+            <div class="header">
+                무쇠주물
+            </div>
+            <div class="csProductWrap"></div>
+        </div>
+        <div class="sw">
+            <div class="header">
+                스톤웨어
+            </div>
+            <div class="swProductWrap"></div>
+        </div>
+    </div>
+</div>
+<script>
+
+    $(document).ready(function(){
+
+        var blueSlider = $(".collsction-slider");
+
+        $.getJSON('./img.json', function(data){
+            $.each(data.blueSlider, function(i, obj){
+                var blue = '';
+                blue += '<div class="blue-item">'
+                blue += '<div class="itemImg" style="background-image:url('+ obj.src +')">';
+                blue += '<div class="itemTxtWrap">';
+                blue += '<a class="itemTitle">' + obj.name +'</a>';
+                blue += '<div class="itemPriceWrap"><mark class="sals">' + obj.sale + '</mark>';
+                blue += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.before +'</em><span class="discount">' + obj.now +'</span></p></div>';
+                blue += '</div>';
+                blue += '</div>';
+                blue += '</div>';
+                blueSlider.append(blue);
+            });
+
+            $("#collsction-slider").slick({
+                autoplay: true,
+                accessibility: true,
+                dots: false,
+                infinite: true,
+                speed: 1000,
+                slidesToShow: 2,
+                slidesToScroll:2,
+                adaptiveHeight: false, 
+                arrows: true
+            });
+
+        });
+
+
+    });
+
+</script>

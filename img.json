@@ -14,7 +14,7 @@
             "cate" : "sale",
             "title" : "Summer Lovin'",
             "txt" : "올 여름 식탁, 시원하고 청량한 컬러감으로 찾아갑니다.",
-            "url" : "#"
+            "url" : "colle01.html"
         },
         {
             "name" : "nav02",
@@ -89,5 +89,52 @@
             "src" : "./images/insta09.jpg",
             "class" : "instaImg"
         }     
+    ],
+    "blueSlider" : [
+        {
+            "src" : "./images/blueSlide01.jpg",
+            "name" : "르크루제 시그니처 원형냄비 22cm (2종택1)",
+            "before" : "480000",
+            "now" : "288000",
+            "sale" : "40%"
+        },
+        {
+            "src" : "./images/blueSlide02.jpg",
+            "name" : "시그니쳐 원형 20cm - 마르세유/코스탈 2종택1",
+            "before" : "430000",
+            "now" : "258000",
+            "sale" : "40%"
+        },
+        {
+            "src" : "./images/blueSlide03.jpg",
+            "name" : "원형 접시 2p세트 (19cm + 23cm) - 2종택1",
+            "before" : "102000",
+            "now" : "61200",
+            "sale" : "40%"
+        }
+        ,
+        {
+            "src" : "./images/blueSlide04.jpg",
+            "name" : "원형접시 23cm - 마르세유/코스탈 2종택1",
+            "before" : "56000",
+            "now" : "33600",
+            "sale" : "40%"
+        }
+        ,
+        {
+            "src" : "./images/blueSlide05.jpg",
+            "name" : "원형접시 19cm - 마르세유/코스탈 2종택1",
+            "before" : "46000",
+            "now" : "27600",
+            "sale" : "40%"
+        }
+        ,
+        {
+            "src" : "./images/blueSlide06.jpg",
+            "name" : "시그니쳐 원형 그릴 - 코스탈",
+            "before" : "280000",
+            "now" : "168000",
+            "sale" : "40%"
+        }
     ]
 }
