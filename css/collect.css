@@ -54,7 +54,7 @@
                         color:#222;
                         font-weight: bold;
                         font-size:22px;
-                        margin-bottom:15px;
+                        margin-bottom:10px;
                     }
 
                     .collection-section .collection-slider .blue-item .itemTxtWrap .iteminfoWrap {
@@ -71,13 +71,22 @@
                             display: flex;
                             flex-direction: row;
                             margin-left:auto;
+                            align-self: center;
                         }
 
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discountBefore {
-                                font-size:18px;
+                                font-size:20px;
+                            }
+
+                            .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discountBefore:after {
+                                font-size:15px;
                             }
 
                             .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discount {
                                 font-size:32px;
                                 color:#222;
+                            }
+
+                            .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discount:after {
+                                font-size:20px;
                             }
