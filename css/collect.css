@@ -10,7 +10,7 @@
 
     .collection-section .collection-slider {
         margin:0 auto 0px;
-        padding-top:840px;
+        padding-top:820px;
         width:1020px;
         display: flex;
         flex-direction: row;
@@ -115,7 +115,7 @@
 
     .collection-section .collection-txt {
         width:1000px;
-        margin:20px auto;
+        margin:100px auto 60px;
         color:#222;
         display: flex;
         flex-direction: row;
