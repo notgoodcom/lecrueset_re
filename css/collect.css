@@ -10,7 +10,8 @@
 
 
     .collection-section .collection-slider {
-        margin:840px auto 0px;
+        margin:0 auto 0px;
+        padding-top:840px;
         width:1020px;
         overflow:hidden;
     }
