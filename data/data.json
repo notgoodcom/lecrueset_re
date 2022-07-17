@@ -450,7 +450,7 @@
             "name" : "시그니쳐 원형 그릴 - 코스탈",
             "before" : "280000",
             "now" : "168000",
-            "srcb": "./data/img/blue05_a.jpg"
+            "srcb": "./data/img/blue05.jpg"
         }
     ],
     "blueSW" : [
@@ -483,14 +483,14 @@
             "name" : "국 그릇  - 코스탈 09",
             "before" : "43000",
             "now" : "25800",
-            "srcb": "./data/img/blue09_a.jpg"
+            "srcb": "./data/img/blue09.jpg"
         },
         {   
             "class" : "cs10",
             "name" : "밥 그릇 - 코스탈",
             "before" : "37000",
             "now" : "22200",
-            "srcb": "./data/img/blue10_a.jpg"
+            "srcb": "./data/img/blue10.jpg"
         }
     ]
 
