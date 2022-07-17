@@ -47,3 +47,28 @@
                     font-size:22px;
                     margin-bottom:15px;
                 }
+
+                .collection-section .collection-slider .blue-item .itemTxtWrap .iteminfoWrap {
+                    display: flex;
+                }
+
+                    .collection-section .collection-slider .blue-item .itemTxtWrap .iteminfoWrap .sale {
+                        font-size:38px;
+                        color:#5131f0;
+                        background-color: none;
+                    }
+
+                    .collection-section .collection-slider .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap {
+                        display: flex;
+                        flex-direction: row;
+                        margin-left:auto;
+                    }
+
+                        .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discountBefore {
+                            font-size:18px;
+                        }
+
+                        .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap .discount {
+                            font-size:32px;
+                            color:#222;
+                        }
