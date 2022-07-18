@@ -104,6 +104,10 @@
                         bluecs += '</div>';
                         bluecs += '</div>';
                         csSection.append(bluecs);
+                        $(".itemWrap").hover(function(){
+                            var _this = $(this);
+                            _this.has('itemImg').children('img').attr('src' , product.srca);
+                        });
                     });
 
                     $.each(prodata.blueSW, function(i, product){
