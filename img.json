@@ -14,7 +14,7 @@
             "cate" : "sale",
             "title" : "Summer Lovin'",
             "txt" : "올 여름 식탁, 시원하고 청량한 컬러감으로 찾아갑니다.",
-            "url" : "collec01.html"
+            "url" : "collection01.html"
         },
         {
             "name" : "nav02",
@@ -23,7 +23,8 @@
             "cate" : "new",
             "title" : "북유럽 컬렉션",
             "txt" : "르쿠르제, 새로운 컬러를 입다",
-            "class" : "b-white"
+            "class" : "b-white",
+            "url" : "collection02.html"
         },
         {
             "name" : "nav03",
@@ -31,7 +32,8 @@
             "num" : "03",
             "cate" : "new",
             "title" : "소르베 컬렉션",
-            "txt" : "러블리한 식탁 분위기 완성"
+            "txt" : "러블리한 식탁 분위기 완성",
+            "url" : "event01.html"
         },
         {
             "name" : "nav04",
@@ -40,7 +42,8 @@
             "cate" : "best",
             "title" : "르크루제 시그니쳐",
             "txt" : "부엌의 여왕",
-            "class" : "b-white"
+            "class" : "b-white",
+            "url" : "event02.html"
         }
     ],
     "middleBanner" : [

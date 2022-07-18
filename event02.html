@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>르쿠르제 코리아</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap">
+        <!-- css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/collect.css">
+        <!-- js -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="slick/slick.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header data-include-path="header.html"></header> <!-- header -->
+            <div class="section">
+                <div class="eventWrap w-1280">
+                    <div class="eventHeader">
+                        <h3 class="title">
+                            EVENT
+                        </h3>
+                        <div class="shareIcon">
+                            <a class="naverIcon"></a>
+                            <a class="kakaoIcon"></a>
+                            <a class="facebookIcon"></a>
+                            <a class="InstaIcon"></a>
+                            <a class="twitterIcon"></a>
+                            <a class="urlIcon"></a>
+                        </div>
+                    </div>
+                    <div class="event-section">
+                    </div>
+                    <div class="event-product">
+                        <div class="newSorbe">
+                            <div class="header">
+                                New 소르베
+                            </div>
+                            <div class="newSorbeProductWrap"></div>
+                        </div>
+                        <div class="sorbe">
+                            <div class="header">
+                                소르베
+                            </div>
+                            <ul class="eventTab">
+                            <li><button></button></li>
+                            <li><button></button></li> 
+                            <li><button></button></li> 
+                            </ul>
+                            <div class="sorbeProductWrap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer data-include-path="footer.html"></footer> <!-- footer -->
+        </div>
+        <script src="js/includeHTML.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+
+            $(document).ready(function(){
+
+                var blueSlider = $(".collection-slider");
+
+                $.getJSON('./img.json', function(data){
+                    $.each(data.blueSlider, function(i, obj){
+                        var blue = '';
+                        blue += '<div class="blue-item">'
+                        blue += '<div class="itemImg" style="background-image:url('+ obj.src +')"></div>';
+                        blue += '<div class="itemTxtWrap">';
+                        blue += '<a class="itemTitle">' + obj.name +'</a>';
+                        blue += '<div class="iteminfoWrap"><mark class="sale">' + obj.sale + '</mark>';
+                        blue += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.before +'</em><span class="discount">' + obj.now +'</span></p>';
+                        blue += '</div>';
+                        blue += '</div>';
+                        blue += '</div>';
+                        blueSlider.append(blue);
+                    });
+
+                    $("#collection-slider").slick({
+                        autoplay: true,
+                        accessibility: true,
+                        dots: true,
+                        infinite: true,
+                        speed: 4000,
+                        slidesToShow: 2,
+                        slidesToScroll:2,
+                        adaptiveHeight: false, 
+                        arrows: false,
+                        customPaging : function(slider, i) {
+                        return "<a class='circle'></a>";
+                        }
+                    });
+
+                });
+
+                var csSection = $(".csProductWrap");
+                var swSection = $(".swProductWrap");
+                $.getJSON('./data/data.json', function(prodata){
+                    $.each(prodata.blueCS, function(i, product){
+                        var bluecs = '';
+                        bluecs += '<div class="itemWrap ' + product.class + '">';
+                        bluecs += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        bluecs += '<div class="itemInfo">';
+                        bluecs += '<a class="itemName">' + product.name +'</a>';
+                        bluecs += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        bluecs += '</div>';
+                        bluecs += '</div>';
+                        csSection.append(bluecs);
+                    });
+
+                    $.each(prodata.blueSW, function(i, product){
+                        var bluesw = '';
+                        bluesw += '<div class="itemWrap ' + product.class + '">';
+                        bluesw += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        bluesw += '<div class="itemInfo">';
+                        bluesw += '<a class="itemName">' + product.name +'</a>';
+                        bluesw += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        bluesw += '</div>';
+                        bluesw += '</div>';
+                        swSection.append(bluesw);
+                    });
+
+                });
+
+
+            });
+
+        </script>
+    </body>
+</html>
