@@ -190,7 +190,7 @@
             }
         
                 .collection-product .itemWrap .itemImg {
-                    width:240x;
+                    width:240px;
                     height:240px;
                     border-radius: 20px;
                     overflow: hidden;
@@ -306,8 +306,8 @@
                 }
             
                     .eventWrap .event-product .itemWrap .itemImg {
-                        width:240x;
-                        height:240px;
+                        width:290px;
+                        height:290px;
                         border-radius: 20px;
                         overflow: hidden;
                     }
