@@ -15,7 +15,7 @@
 
 <script>
 
-    $(document).ready(function(){
+    $(function(){
 
         var popUp = $(".popUpImg");
         $.getJSON('./img.json', function(imgData){
@@ -26,7 +26,7 @@
                 pop += '<img src="' + popImg.src + '">';  
                 pop += '</a>';  
 
-                popUp.append(p);
+                popUp.append(popImg);
             }); 
 
             //nav
