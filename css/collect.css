@@ -243,6 +243,7 @@
                 .eventWrap .eventHeader .txtWrap .date {
                     font-size:15px;
                     align-self: center;
+                    margin-bottom:0px;
                 }
 
             .eventWrap .eventHeader .shareIcon {
