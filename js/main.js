@@ -4,14 +4,6 @@ $(function(){
     $(".popUpArea").load("popUp.html"); //popup 불러오기
 
 
-
-    // price comma
-
-    var money = $('.discountBefore').text();
-    var money2 = money.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    $('.discountBefore').text(money2);
-
-
     // gnb style
 
     $(".wrapper").on("mouseover",".menu li a",function(){

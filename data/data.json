@@ -5,8 +5,8 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 24cm(색상선택)",
             "image" : "./data/img/cs01.jpg",
-            "price" : "550000",
-            "finalPrice" : "275000",
+            "price" : "550,000",
+            "finalPrice" : "275,000",
             "pick" : "best"
         },
         {
@@ -14,8 +14,8 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 16cm - 마르세유",
             "image" : "./data/img/cs02.jpg",
-            "price" : "330000",
-            "finalPrice" : "198000",
+            "price" : "330,000",
+            "finalPrice" : "198,000",
             "pick" : "best"
         },
         {
@@ -23,8 +23,8 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 20cm - 코스탈",
             "image" : "./data/img/cs03.jpg",
-            "price" : "430000",
-            "finalPrice" : "258000",
+            "price" : "430,000",
+            "finalPrice" : "258,000",
             "pick" : "best"
         },
         {
@@ -32,32 +32,32 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 22cm - 화이트",
             "image" : "./data/img/cs04.jpg",
-            "price" : "430000",
-            "finalPrice" : "258000"
+            "price" : "430,000",
+            "finalPrice" : "258,000"
         },
         {
             "type": "casseroles",
             "cate": "무쇠주물",
             "name": "[수분커버 증정] 고메밥솥 18CM(2.0L) - 쿨민트",
             "image" : "./data/img/gome01.jpg",
-            "price" : "380000",
-            "finalPrice" : "228000"
+            "price" : "380,000",
+            "finalPrice" : "228,000"
         },
         {
             "type": "casseroles",
             "cate": "무쇠주물",
             "name": "고메밥솥 18CM(2.0L) - 주황",
             "image" : "./data/img/gome02.jpg",
-            "price" : "380000",
-            "finalPrice" : "228000"
+            "price" : "380,000",
+            "finalPrice" : "228,000"
         },
         {
             "type": "casseroles",
             "cate": "무쇠주물",
             "name": "고메밥솥 18CM(2.0L) - 빨강",
             "image" : "./data/img/gome03.jpg",
-            "price" : "380000",
-            "finalPrice" : "228000"
+            "price" : "380,000",
+            "finalPrice" : "228,000"
         }
     ],
 
@@ -67,8 +67,8 @@
             "cate": "스톤웨어",
             "name": "플라워 접시 19cm - 아이스 그린",
             "image" : "./data/img/sw01.jpg",
-            "price" : "44000",
-            "finalPrice" : "26400",
+            "price" : "44,000",
+            "finalPrice" : "26,400",
             "pick" : "best"
         },
         {
@@ -76,16 +76,16 @@
             "cate": "스톤웨어",
             "name": "플라워 접시 20cm - 코스탈블루",
             "image" : "./data/img/sw02.jpg",
-            "price" : "51000",
-            "finalPrice" : "30600"
+            "price" : "51,000",
+            "finalPrice" : "30,600"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "플라워 접시 19cm - 코스탈블루",
             "image" : "./data/img/sw03.jpg",
-            "price" : "44000",
-            "finalPrice" : "26400",
+            "price" : "44,000",
+            "finalPrice" : "26,400",
             "pick" : "best"
         },
         {
@@ -93,24 +93,24 @@
             "cate": "스톤웨어",
             "name": "레온보우 플라워 접시 19cm - 주황",
             "image" : "./data/img/sw04.jpg",
-            "price" : "44000",
-            "finalPrice" : "26400"
+            "price" : "44,000",
+            "finalPrice" : "26,400"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "레온보우 플라워 접시 19cm - 로즈쿼츠",
             "image" : "./data/img/sw05.jpg",
-            "price" : "44000",
-            "finalPrice" : "26400"
+            "price" : "44,000",
+            "finalPrice" : "26,400"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "카푸치노 머그 TypeA(색상선택)",
             "image" : "./data/img/sw06.jpg",
-            "price" : "30000",
-            "finalPrice" : "18000"
+            "price" : "30,000",
+            "finalPrice" : "18,000"
         },
         {
             "type": "stoneware",
@@ -118,23 +118,23 @@
             "name": "북유럽 컬렉션 카푸치노 컵&받침 - 시솔트",
             "image" : "./data/img/sw07.jpg",
             "price" : "",
-            "finalPrice" : "87000"
+            "finalPrice" : "87,000"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "북유럽 컬렉션 플라워디쉬 20cm",
             "image" : "./data/img/sw08.jpg",
-            "price" : "51000",
-            "finalPrice" : "35700"
+            "price" : "51,000",
+            "finalPrice" : "35,700"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "북유럽 컬렉션 플라워디쉬 12cm",
             "image" : "./data/img/sw09.jpg",
-            "price" : "31000",
-            "finalPrice" : "21700"
+            "price" : "31,000",
+            "finalPrice" : "21,700"
         }
     ],
     "tns" : [
@@ -144,7 +144,7 @@
             "name": "TNS 24x4.5cm 프라잉팬",
             "image" : "./data/img/tns01.jpg",
             "price" : "",
-            "finalPrice" : "180000"
+            "finalPrice" : "180,000"
         },
         {
             "type":"TNS",
@@ -152,23 +152,23 @@
             "name": "TNS 24x6.5cm 프라잉팬",
             "image" : "./data/img/tns02.jpg",
             "price" : "",
-            "finalPrice" : "190000"
+            "finalPrice" : "190,000"
         },
         {
             "type":"TNS",
             "cate": "TNS/법랑",
             "name": "TNS 28x4.5cm 프라잉팬",
             "image" : "./data/img/tns03.jpg",
-            "price" : "239000",
-            "finalPrice" : "167300"
+            "price" : "239,000",
+            "finalPrice" : "167,300"
         },
         {
             "type":"TNS",
             "cate": "TNS/법랑",
             "name": "TNS 28x6.5cm 프라잉팬",
             "image" : "./data/img/tns04.jpg",
-            "price" : "239000",
-            "finalPrice" : "167300"
+            "price" : "239,000",
+            "finalPrice" : "167,300"
         },
         {
             "type":"TNS",
@@ -176,7 +176,7 @@
             "name": "TNS 30x9cm 프라잉팬",
             "image" : "./data/img/tns05.jpg",
             "price" : "",
-            "finalPrice" : "250000"
+            "finalPrice" : "250,000"
         },
         {
             "type":"TNS",
@@ -184,7 +184,7 @@
             "name": "TNS 유리뚜껑 20cm",
             "image" : "./data/img/tns06.jpg",
             "price" : "",
-            "finalPrice" : "45000"
+            "finalPrice" : "45,000"
         }
     ],
     "cw" : [
@@ -194,7 +194,7 @@
             "name": "르쿠르제 쇼핑백 ",
             "image" : "./data/img/cw01.jpg",
             "price" : "",
-            "finalPrice" : "1500"
+            "finalPrice" : "1,500"
         },
         {
             "type":"cookware",
@@ -202,39 +202,39 @@
             "name": "비쥬 스푼 스파튤라(대) - 자수정",
             "image" : "./data/img/cw02.jpg",
             "price" : "20000",
-            "finalPrice" : "19600"
+            "finalPrice" : "19,600"
         },
         {
             "type":"cookware",
             "cate": "조리용품",
             "name": "조리기구통 0.25L - 색상선택",
             "image" : "./data/img/cw03.jpg",
-            "price" : "39000",
-            "finalPrice" : "19000"
+            "price" : "39,000",
+            "finalPrice" : "19,000"
         },
         {
             "type":"cookware",
             "cate": "조리용품",
             "name": "비쥬 스푼 스파튤라(대) - 파우더핑크",
             "image" : "./data/img/cw04.jpg",
-            "price" : "20000",
-            "finalPrice" : "19600"
+            "price" : "20,000",
+            "finalPrice" : "19,600"
         },
         {
             "type":"cookware",
             "cate": "조리용품",
             "name": "조리기구통 1L - 로즈쿼츠(벌크)",
             "image" : "./data/img/cw05.jpg",
-            "price" : "54000",
-            "finalPrice" : "26900"
+            "price" : "54,000",
+            "finalPrice" : "26,900"
         },
         {
             "type":"cookware",
             "cate": "조리용품",
             "name": "비쥬 스푼 스파튤라(대) - 빨강",
             "image" : "./data/img/cw06.jpg",
-            "price" : "20000",
-            "finalPrice" : "19600"
+            "price" : "20,000",
+            "finalPrice" : "19,600"
         }
     ],
     "online" : [
@@ -243,32 +243,32 @@
             "cate": "온라인 스페셜",
             "name": "마시멜로우 머그 - 쉘핑크",
             "image" : "./data/img/ol01.jpg",
-            "price" : "37000",
-            "finalPrice" : "22200"
+            "price" : "37,000",
+            "finalPrice" : "22,200"
         },
         {   
             "type":"onlineProduct",
             "cate": "온라인 스페셜",
             "name": "야채디쉬(S) - 호박",
             "image" : "./data/img/ol02.jpg",
-            "price" : "28000",
-            "finalPrice" : "16800"
+            "price" : "28,000",
+            "finalPrice" : "16,800"
         },
         {   
             "type":"onlineProduct",
             "cate": "온라인 스페셜",
             "name": "타원 플레이트&플라워볼 - 아이스그린",
             "image" : "./data/img/ol03.jpg",
-            "price" : "64000",
-            "finalPrice" : "38400"
+            "price" : "64,000",
+            "finalPrice" : "38,400"
         },
         {   
             "type":"onlineProduct",
             "cate": "온라인 스페셜",
             "name": "카푸치노 머그 - 빨강",
             "image" : "./data/img/ol04.jpg",
-            "price" : "30000",
-            "finalPrice" : "18000"
+            "price" : "30,000",
+            "finalPrice" : "18,000"
         },
         {   
             "type":"onlineProduct",
@@ -276,15 +276,15 @@
             "name": "반려동물 하이스탠드 식기 - 페일로즈",
             "image" : "./data/img/ol05.jpg",
             "price" : "",
-            "finalPrice" : "39000"
+            "finalPrice" : "39,000"
         },
         {   
             "type":"onlineProduct",
             "cate": "온라인 스페셜",
             "name": "오션시리즈 조개디쉬(L) - 색상선택",
             "image" : "./data/img/ol06.jpg",
-            "price" : "72000",
-            "finalPrice" : "50400"
+            "price" : "72,000",
+            "finalPrice" : "50,400"
         }
     ],
 
@@ -294,8 +294,8 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 24cm(색상선택)",
             "image" : "./data/img/cs01.jpg",
-            "price" : "550000",
-            "finalPrice" : "275000",
+            "price" : "550,000",
+            "finalPrice" : "275,000",
             "pick" : "best"
         },
         {
@@ -303,8 +303,8 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 16cm - 마르세유",
             "image" : "./data/img/cs02.jpg",
-            "price" : "330000",
-            "finalPrice" : "198000",
+            "price" : "330,000",
+            "finalPrice" : "198,000",
             "pick" : "best"
         },
         {
@@ -312,8 +312,8 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 20cm - 코스탈",
             "image" : "./data/img/cs03.jpg",
-            "price" : "430000",
-            "finalPrice" : "2580000",
+            "price" : "430,000",
+            "finalPrice" : "258,000",
             "pick" : "best"
         },
         {
@@ -322,23 +322,23 @@
             "name": "북유럽 컬렉션 카푸치노 컵&받침 - 시솔트",
             "image" : "./data/img/sw07.jpg",
             "price" : "",
-            "finalPrice" : "87000"
+            "finalPrice" : "87,000"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "북유럽 컬렉션 플라워디쉬 20cm",
             "image" : "./data/img/sw08.jpg",
-            "price" : "51000",
-            "finalPrice" : "35700"
+            "price" : "51,000",
+            "finalPrice" : "35,700"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "북유럽 컬렉션 플라워디쉬 12cm",
             "image" : "./data/img/sw09.jpg",
-            "price" : "31000",
-            "finalPrice" : "21700"
+            "price" : "31,000",
+            "finalPrice" : "21,700"
         }
 
     ],
@@ -349,8 +349,8 @@
             "cate": "무쇠주물",
             "name": "시그니처 원형냄비 24cm(색상선택)",
             "image" : "./data/img/cs01.jpg",
-            "price" : "550000",
-            "finalPrice" : "275000",
+            "price" : "550,000",
+            "finalPrice" : "275,000",
             "pick" : "best"
         },
         {
@@ -358,8 +358,8 @@
             "cate": "스톤웨어",
             "name": "플라워 접시 19cm - 아이스 그린",
             "image" : "./data/img/sw01.jpg",
-            "price" : "44000",
-            "finalPrice" : "26400",
+            "price" : "44,000",
+            "finalPrice" : "26,400",
             "pick" : "best"
         },
         {
@@ -367,16 +367,16 @@
             "cate": "스톤웨어",
             "name": "플라워 접시 20cm - 코스탈블루",
             "image" : "./data/img/sw02.jpg",
-            "price" : "51000",
-            "finalPrice" : "30600"
+            "price" : "51,000",
+            "finalPrice" : "30,600"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "플라워 접시 19cm - 코스탈블루",
             "image" : "./data/img/sw03.jpg",
-            "price" : "44000",
-            "finalPrice" : "26400",
+            "price" : "44,000",
+            "finalPrice" : "26,400",
             "pick" : "best"
         },
                 {   
@@ -384,72 +384,72 @@
             "cate": "온라인 스페셜",
             "name": "마시멜로우 머그 - 쉘핑크",
             "image" : "./data/img/ol01.jpg",
-            "price" : "37000",
-            "finalPrice" : "22200"
+            "price" : "37,000",
+            "finalPrice" : "22,200"
         },
         {   
             "type":"onlineProduct",
             "cate": "온라인 스페셜",
             "name": "야채디쉬(S) - 호박",
             "image" : "./data/img/ol02.jpg",
-            "price" : "28000",
-            "finalPrice" : "16800"
+            "price" : "28,000",
+            "finalPrice" : "16,800"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "북유럽 컬렉션 플라워디쉬 20cm",
             "image" : "./data/img/sw08.jpg",
-            "price" : "51000",
-            "finalPrice" : "35700"
+            "price" : "51,000",
+            "finalPrice" : "35,700"
         },
         {
             "type": "stoneware",
             "cate": "스톤웨어",
             "name": "북유럽 컬렉션 플라워디쉬 12cm",
             "image" : "./data/img/sw09.jpg",
-            "price" : "31000",
-            "finalPrice" : "21700"
+            "price" : "31,000",
+            "finalPrice" : "21,700"
         }
     ],
     "blueCS" : [
         {   
             "class" : "cs01",
             "name" : "시그니쳐 원형 22cm - 마르세유/코스탈 2종택1",
-            "before" : "480000",
-            "now" : "288000",
+            "before" : "480,000",
+            "now" : "288,000",
             "srcb": "./data/img/blue01_a.jpg",
             "srca": "./data/img/blue01_b.jpg"
         },
         {   
             "class" : "cs02",
             "name" : "시그니쳐 원형 20cm - 마르세유/코스탈 2종택1",
-            "before" : "430000",
-            "now" : "258000",
+            "before" : "430,000",
+            "now" : "258,000",
             "srcb": "./data/img/blue02_a.jpg",
             "srca": "./data/img/blue02_b.jpg"
         },
         {   
             "class" : "cs03",
             "name" : "시그니쳐 원형 18cm - 마르세유/코스탈 2종택1",
-            "before" : "380000",
-            "now" : "228000",
+            "before" : "380,000",
+            "now" : "228,000",
             "srcb": "./data/img/blue03_a.jpg",
             "srca": "./data/img/blue03_b.jpg"
         },
         {   
             "class" : "cs04",
             "name" : "시그니쳐 원형 16cm - 마르세유/코스탈 2종택1",
-            "before" : "330000",
-            "now" : "198000",
+            "before" : "330,000",
+            "now" : "198,000",
             "srcb": "./data/img/blue04_a.jpg",
             "srca": "./data/img/blue04_b.jpg"
         },
         {   
             "class" : "cs05",
             "name" : "시그니쳐 원형 그릴 - 코스탈",
-            "before" : "280000",
-            "now" : "168000",
+            "before" : "280,000",
+            "now" : "168,000",
             "srcb": "./data/img/blue05.jpg"
         }
     ],
@@ -457,39 +457,39 @@
         {   
             "class" : "cs06",
             "name" : "원형 접시 2p세트 (19cm + 23cm) - 2종택1",
-            "before" : "102000",
-            "now" : "61200",
+            "before" : "102,000",
+            "now" : "61,200",
             "srcb": "./data/img/blue06_a.jpg",
             "srca": "./data/img/blue06_b.jpg"
         },
         {   
             "class" : "cs07",
             "name" : "원형접시 23cm - 마르세유/코스탈 2종택1",
-            "before" : "56000",
-            "now" : "33600",
+            "before" : "56,000",
+            "now" : "33,600",
             "srcb": "./data/img/blue07_a.jpg",
             "srca": "./data/img/blue07_b.jpg"
         },
         {   
             "class" : "cs08",
             "name" : "원형접시 19cm - 마르세유/코스탈 2종택1",
-            "before" : "46000",
-            "now" : "27600",
+            "before" : "46,000",
+            "now" : "27,600",
             "srcb": "./data/img/blue08_a.jpg",
             "srca": "./data/img/blue08_b.jpg"
         },
         {   
             "class" : "cs09",
             "name" : "국 그릇  - 코스탈",
-            "before" : "43000",
-            "now" : "25800",
+            "before" : "43,000",
+            "now" : "25,800",
             "srcb": "./data/img/blue09.jpg"
         },
         {   
             "class" : "cs10",
             "name" : "밥 그릇 - 코스탈",
-            "before" : "37000",
-            "now" : "22200",
+            "before" : "37,000",
+            "now" : "22,200",
             "srcb": "./data/img/blue10.jpg"
         }
     ],
@@ -497,97 +497,97 @@
         {
             "src" : "./data/img/newsorbet01.jpg",
             "name" : "소르베 카푸치노 컵 & 받침 (색상선택)",
-            "before" : "87000",
-            "now" : "60900"
+            "before" : "87,000",
+            "now" : "60,900"
         },
         {
             "src" : "./data/img/newsorbet02.jpg",
             "name" : "소르베 카술레 서빙볼 (색상선택)",
-            "before" : "60000",
-            "now" : "42000"
+            "before" : "60,000",
+            "now" : "42,000"
         },
         {
             "src" : "./data/img/newsorbet03.jpg",
             "name" : "소르베 미니타원접시 5P 세트",
-            "before" : "140000",
-            "now" : "69000"
+            "before" : "140,000",
+            "now" : "69,000"
         },
         {
             "src" : "./data/img/newsorbet04.jpg",
             "name" : "소르베 직사각 접시 (색상선택)",
-            "before" : "55000",
-            "now" : "38500"
+            "before" : "55,000",
+            "now" : "38,500"
         }
     ],
     "sorbet" : [
         {
             "src" : "./data/img/sorbet06.jpg",
             "name" : "미니볼_TypeA-(색상선택)",
-            "before" : "21000",
-            "now" : "14700",
+            "before" : "21,000",
+            "now" : "14,700",
             "class" : "bowl"
         },
         {
             "src" : "./data/img/sorbet09.jpg",
             "name" : "밥그릇_TypeA-(색상선택)",
-            "before" : "37000",
-            "now" : "25900",
+            "before" : "37,000",
+            "now" : "25,900",
             "class" : "bowl"
         },
         {
             "src" : "./data/img/sorbet10.jpg",
             "name" : "국그릇_TypeA-(색상선택)",
-            "before" : "43000",
-            "now" : "30100",
+            "before" : "43,000",
+            "now" : "30,100",
             "class" : "bowl"
         },
         {
             "src" : "./data/img/sorbet03.jpg",
             "name" : "원형접시 15cm_TypeA-(색상선택)",
-            "before" : "36000",
-            "now" : "25200",
+            "before" : "36,000",
+            "now" : "25,200",
             "class" : "plate"
         },
         {
             "src" : "./data/img/sorbet04.jpg",
             "name" : "찬기(소)_TypeA-(색상선택)",
-            "before" : "26000",
-            "now" : "18200",
+            "before" : "26,000",
+            "now" : "18,200",
             "class" : "plate"
         },
         {
             "src" : "./data/img/sorbet05.jpg",
             "name" : "찬기(중)_TypeA-(색상선택)",
-            "before" : "36000",
-            "now" : "25200",
+            "before" : "36,000",
+            "now" : "25,200",
             "class" : "plate"
         },
         {
             "src" : "./data/img/sorbet07.jpg",
             "name" : "티플레이트 18cm_TypeA-(색상선택)",
-            "before" : "43000",
-            "now" : "30100",
+            "before" : "43,000",
+            "now" : "30,100",
             "class" : "plate"
         },
         {
             "src" : "./data/img/sorbet08.jpg",
             "name" : "정사각디쉬 13cm_TypeA-(색상선택)",
-            "before" : "34000",
-            "now" : "23800",
+            "before" : "34,000",
+            "now" : "23,800",
             "class" : "plate"
         },
         {
             "src" : "./data/img/sorbet01.jpg",
             "name" : "소르베 아이스크림컵230ml 4P세트",
-            "before" : "156000",
-            "now" : "93600",
+            "before" : "156,000",
+            "now" : "93,600",
             "class" : "mug_teaSet"
         },
         {
             "src" : "./data/img/sorbet02.jpg",
             "name" : "카푸치노 머그_TypeA-(색상선택)",
-            "before" : "30000",
-            "now" : "18000",
+            "before" : "30,000",
+            "now" : "18,000",
             "class" : "mug_teaSet"
         }
     ]
