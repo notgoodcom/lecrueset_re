@@ -111,14 +111,14 @@
 
                     $.each(data.sorbet, function(i, sb){
                         var sorb = '';
-                            sorb += '<div class="itemWrap">';
-                            sorb += '<div class="itemImg"><img src="' + sb.src + '"></div>';
-                            sorb += '<div class="itemInfo">';
-                            sorb += '<a class="itemName">' + sb.name +'</a>';
-                            sorb += '<p class="itemPrice"><em class="discountBefore">' + sb.before +'</em><span class="discount">' + sb.now +'</span></p>';
-                            sorb += '</div>';
-                            sorb += '</div>';
-                            sorbetSec.append(sorb);
+                        sorb += '<div class="itemWrap ' + sb.class + '">';
+                        sorb += '<div class="itemImg"><img src="' + sb.src + '"></div>';
+                        sorb += '<div class="itemInfo">';
+                        sorb += '<a class="itemName">' + sb.name +'</a>';
+                        sorb += '<p class="itemPrice"><em class="discountBefore">' + sb.before +'</em><span class="discount">' + sb.now +'</span></p>';
+                        sorb += '</div>';
+                        sorb += '</div>';
+                        sorbetSec.append(sorb);
                     });
 
                     
