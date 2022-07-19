@@ -1339,7 +1339,7 @@ a:hover {
                 .popUpWrap .popUp .popUpFooter .nomoreArea {
                     margin-right:auto;
                     display: flex;
-                    width:calc(100% - 50px);
+                    width:calc(100% - 60px);
                     align-self: center;
                 }
 
@@ -1362,7 +1362,7 @@ a:hover {
                 .popUpWrap .popUp .popUpFooter .closeArea {
                     margin-left:auto;
                     align-self: center;
-                    width:50px;
+                    width:60px;
                     height:100%;
                     position: relative;
                 }
@@ -1382,4 +1382,6 @@ a:hover {
                         height:100%;
                         font-size: 13px;
                         text-align:center;
+                        color:#222;
+                        letter-spacing: 10px;
                     }
