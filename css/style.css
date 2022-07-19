@@ -1322,7 +1322,6 @@ a:hover {
                     user-select: none;
                     cursor: pointer;
                     overflow: hidden;
-                    border-radius: 20px;
                 }
 
                     .popUpWrap .popUp .popUpImg a img {
