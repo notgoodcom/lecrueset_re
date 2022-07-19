@@ -520,79 +520,75 @@
         }
     ],
     "sorbet" : [
-         { 
-            "bowl" : [
-                {
-                    "imgsrc" : "./data/img/sorbet06.jpg",
-                    "name" : "미니볼_TypeA-(색상선택)",
-                    "before" : "21000",
-                    "now" : "14700"
-                },
-                {
-                    "imgsrc" : "./data/img/sorbet10.jpg",
-                    "name" : "밥그릇_TypeA-(색상선택)",
-                    "before" : "37000",
-                    "now" : "25900"
-                },
-                {
-                    "imgsrc" : "./data/img/sorbet11.jpg",
-                    "name" : "국그릇_TypeA-(색상선택)",
-                    "before" : "43000",
-                    "now" : "30100"
-                }
-
-            ]
+        {
+            "imgsrc" : "./data/img/sorbet06.jpg",
+            "name" : "미니볼_TypeA-(색상선택)",
+            "before" : "21000",
+            "now" : "14700",
+            "class" : "bowl"
         },
         {
-            "plate" : [
-                {
-                    "src" : "./data/img/sorbet03.jpg",
-                    "name" : "원형접시 15cm_TypeA-(색상선택)",
-                    "before" : "36000",
-                    "now" : "25200"
-                },
-                {
-                    "src" : "./data/img/sorbet04.jpg",
-                    "name" : "찬기(소)_TypeA-(색상선택)",
-                    "before" : "26000",
-                    "now" : "18200"
-                },
-                {
-                    "src" : "./data/img/sorbet05.jpg",
-                    "name" : "찬기(중)_TypeA-(색상선택)",
-                    "before" : "36000",
-                    "now" : "25200"
-                },
-                {
-                    "src" : "./data/img/sorbet07.jpg",
-                    "name" : "티플레이트 18cm_TypeA-(색상선택)",
-                    "before" : "43000",
-                    "now" : "30100"
-                },
-                {
-                    "src" : "./data/img/sorbet08.jpg",
-                    "name" : "정사각디쉬 13cm_TypeA-(색상선택)",
-                    "before" : "34000",
-                    "now" : "23800"
-                }
-            ]
+            "imgsrc" : "./data/img/sorbet10.jpg",
+            "name" : "밥그릇_TypeA-(색상선택)",
+            "before" : "37000",
+            "now" : "25900",
+            "class" : "bowl"
         },
         {
-            "mug_teaSet" : [
-                {
-                    "src" : "./data/img/sorbet01.jpg",
-                    "name" : "소르베 아이스크림컵230ml 4P세트",
-                    "before" : "156000",
-                    "now" : "93600"
-                },
-                {
-                    "src" : "./data/img/sorbet02.jpg",
-                    "name" : "카푸치노 머그_TypeA-(색상선택)",
-                    "before" : "30000",
-                    "now" : "18000"
-                }
-            ]
-    
+            "imgsrc" : "./data/img/sorbet11.jpg",
+            "name" : "국그릇_TypeA-(색상선택)",
+            "before" : "43000",
+            "now" : "30100",
+            "class" : "bowl"
+        },
+        {
+            "src" : "./data/img/sorbet03.jpg",
+            "name" : "원형접시 15cm_TypeA-(색상선택)",
+            "before" : "36000",
+            "now" : "25200",
+            "class" : "plate"
+        },
+        {
+            "src" : "./data/img/sorbet04.jpg",
+            "name" : "찬기(소)_TypeA-(색상선택)",
+            "before" : "26000",
+            "now" : "18200",
+            "class" : "plate"
+        },
+        {
+            "src" : "./data/img/sorbet05.jpg",
+            "name" : "찬기(중)_TypeA-(색상선택)",
+            "before" : "36000",
+            "now" : "25200",
+            "class" : "plate"
+        },
+        {
+            "src" : "./data/img/sorbet07.jpg",
+            "name" : "티플레이트 18cm_TypeA-(색상선택)",
+            "before" : "43000",
+            "now" : "30100",
+            "class" : "plate"
+        },
+        {
+            "src" : "./data/img/sorbet08.jpg",
+            "name" : "정사각디쉬 13cm_TypeA-(색상선택)",
+            "before" : "34000",
+            "now" : "23800",
+            "class" : "plate"
+        },
+        {
+            "src" : "./data/img/sorbet01.jpg",
+            "name" : "소르베 아이스크림컵230ml 4P세트",
+            "before" : "156000",
+            "now" : "93600",
+            "class" : "mug_teaSet"
+        },
+        {
+            "src" : "./data/img/sorbet02.jpg",
+            "name" : "카푸치노 머그_TypeA-(색상선택)",
+            "before" : "30000",
+            "now" : "18000",
+            "class" : "mug_teaSet"
         }
     ]
 
