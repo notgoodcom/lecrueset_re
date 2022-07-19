@@ -240,6 +240,15 @@
                     align-self: center;
                 }
 
+                .eventWrap .eventHeader .txtWrap .title:after {
+                    font-weight: normal;
+                    content:"|";
+                    font-size:20px;
+                    color:#222;
+                    position:relative;
+                    top:-2px;
+                }
+
                 .eventWrap .eventHeader .txtWrap .date {
                     font-size:15px;
                     align-self: center;
