@@ -7,11 +7,17 @@ $(function(){
 
     // price comma
 
-    function numberWithCommas(val) {
-        return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    function comma(str) {
+        str = String(str);
+        var minus = str.substring(0, 1);
+        str = str.replace(/[^\d]+/g, '');
+        str = str.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,'); 
+        //음수일 경우   
+        if(minus == "-") str = "-"+str;
+            return str;
     }
-    
-    numberWithCommas(price);
+         
+        
 
 
     // gnb style
