@@ -7,17 +7,23 @@ $(function(){
 
     // price comma
 
-    function comma(str) {
-        str = String(str);
-        var minus = str.substring(0, 1);
-        str = str.replace(/[^\d]+/g, '');
-        str = str.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,'); 
-        //음수일 경우   
-        if(minus == "-") str = "-"+str;
-            return str;
-    }
-         
+    function commaSeparateNumber(val){
+        val = val.toString().replace(/,/g, ''); //remove existing commas first
+        var valRZ = val.replace(/^0+/, ''); //remove leading zeros, optional
+        var valSplit = valRZ.split('.'); //then separate decimals
+            
+        while (/(\d+)(\d{3})/.test(valSplit[0].toString())){
+            valSplit[0] = valSplit[0].toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+        }
         
+        if(valSplit.length == 2){ //if there were decimals
+            val = valSplit[0] + "." + valSplit[1]; //add decimals back
+        }else{
+            val = valSplit[0]; }
+        
+        return val;
+    }
+    
 
 
     // gnb style
