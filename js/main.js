@@ -66,4 +66,16 @@ $(function(){
         }
     });
 
+    //event cateTab
+
+    $(".wrapper").on("click","..eventTab li button",function(){
+        var _this = $(this);
+        $(".eventTab li button").parents("li").removeClass("on")
+        if(_this.parents("li").hasClass("on")){
+            $(".eventTab li button").parents("li").removeClass("on")
+        } else {
+            _this.parents("li").addClass("on");
+        }
+    });
+
 });
