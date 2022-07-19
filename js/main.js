@@ -7,9 +7,10 @@ $(function(){
 
     // price comma
 
-	$('em.discountBefore').each(function(index){
-		$(this).text($(this).text().split(/(?=(?:\d{3})+(?:\.|$))/g).join(','));
-	});
+    var money = $('.discountBefore').text();
+    var money2 = money.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    $('.discountBefore').text(money2);
+
 
     // gnb style
 
