@@ -295,6 +295,55 @@
             }
         
 
+
+            .eventWrap .event-product .event-tabWrap {
+                width:100%;
+                border-bottom:1px solid #eaeaea;
+                height:60px;
+                margin-bottom:50px;
+            }
+
+
+                .eventWrap .event-product .eventTab {
+                    width: calc(100% - 300px);
+                    display: flex;
+                    flex-direction: row;
+                    margin:0 auto;
+                    height:59px;
+                }
+
+                    .eventWrap .event-product .eventTab li {
+                        height:100%;
+                        width:calc(100% / 5);
+                        position:relative;
+                    }
+
+                    .eventWrap .event-product .eventTab li.on:after {
+                        content:"";
+                        position:absolute;
+                        width:100%;
+                        background:#ED6E00;
+                        height:3px;
+                        bottom:0px;
+                        left:0px;
+                    }
+
+                        .eventWrap .event-product .eventTab li button {
+                            border:none;
+                            background:#fff;
+                            font-size:15px;
+                            color:#999;
+                            appearance: none;
+                            width:100%;
+                            height:100%;
+                        }
+        
+                        .eventWrap .event-product .eventTab li.on button {
+                            color:#222;
+                        }
+
+
+
             .eventWrap .event-product .newSorbeProductWrap {
                 margin:40px 0px 50px;
                 display: flex;
