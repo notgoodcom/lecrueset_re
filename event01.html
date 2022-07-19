@@ -98,27 +98,27 @@
                 var sorbetSec = $(".sorbeProductWrap");
                 $.getJSON('./data/data.json', function(data){
                     $.each(data.new_sorbet, function(i, product){
-                        var bluecs = '';
-                        bluecs += '<div class="itemWrap ' + product.class + '">';
-                        bluecs += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
-                        bluecs += '<div class="itemInfo">';
-                        bluecs += '<a class="itemName">' + product.name +'</a>';
-                        bluecs += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                        bluecs += '</div>';
-                        bluecs += '</div>';
-                        csSection.append(bluecs);
+                        var newsb = '';
+                        newsb += '<div class="itemWrap ' + product.class + '">';
+                        newsb += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        newsb += '<div class="itemInfo">';
+                        newsb += '<a class="itemName">' + product.name +'</a>';
+                        newsb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        newsb += '</div>';
+                        newsb += '</div>';
+                        newSorbetSec.append(newsb);
                     });
 
                     $.each(prodata.sorbet, function(i, product){
-                        var bluesw = '';
-                        bluesw += '<div class="itemWrap ' + product.class + '">';
-                        bluesw += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
-                        bluesw += '<div class="itemInfo">';
-                        bluesw += '<a class="itemName">' + product.name +'</a>';
-                        bluesw += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                        bluesw += '</div>';
-                        bluesw += '</div>';
-                        swSection.append(bluesw);
+                        var sorb = '';
+                        newssorb += '<div class="itemWrap ' + product.class + '">';
+                        newssorb += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        newssorb += '<div class="itemInfo">';
+                        newssorb += '<a class="itemName">' + product.name +'</a>';
+                        newssorb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        newssorb += '</div>';
+                        newssorb += '</div>';
+                        sorbetSec.append(newssorb);
                     });
 
                 });
