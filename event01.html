@@ -109,19 +109,38 @@
                         newSorbetSec.append(newsb);
                     });
 
-                    $.each(data.sorbet, function(i, product){
-                        $.each(data.sorbet.bowl, function(i, product){
-                            var sorb = '';
-                            sorb += '<div class="itemWrap">';
-                            sorb += '<div class="itemImg"><img src="' + product.src + '"></div>';
-                            sorb += '<div class="itemInfo">';
-                            sorb += '<a class="itemName">' + product.name +'</a>';
-                            sorb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                            sorb += '</div>';
-                            sorb += '</div>';
-                            sorbetSec.append(sorb);
-                        });
-                    });
+                    // $.each(data.sorbet, function(i, product){
+                    //     $.each(data.sorbet.bowl, function(i, product){
+                    //         var sorb = '';
+                    //         sorb += '<div class="itemWrap">';
+                    //         sorb += '<div class="itemImg"><img src="' + product.src + '"></div>';
+                    //         sorb += '<div class="itemInfo">';
+                    //         sorb += '<a class="itemName">' + product.name +'</a>';
+                    //         sorb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                    //         sorb += '</div>';
+                    //         sorb += '</div>';
+                    //         sorbetSec.append(sorb);
+                    //     });
+                    // });
+
+                    var sorbetAll = data.sorbet;
+                    var sorb = "";
+                    for (var i = 0; i < sorbetAll.length; i++) {
+                        // N번째 이미지 정보를 구하기
+                        var sb = sorbetAll[i];
+
+                        //  N번째 이미지 패널을 생성
+                        sorb += '<div class="itemWrap">';
+                        sorb += '<div class="itemImg"><img src="' + sb.src + '"></div>';
+                        sorb += '<div class="itemInfo">';
+                        sorb += '<a class="itemName">' + sb.name +'</a>';
+                        sorb += '<p class="itemPrice"><em class="discountBefore">' + sb.before +'</em><span class="discount">' + sb.now +'</span></p>';
+                        sorb += '</div>';
+                        sorb += '</div>';
+                    }
+                    // 이미지 컨테이너에 생성한 이미지 패널들을 추가하기
+                    var sorbetSec = $(".sorbeProductWrap");
+                    sorbetSec.append(sorb);
 
                 });
 
