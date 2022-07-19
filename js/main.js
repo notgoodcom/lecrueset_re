@@ -1,7 +1,7 @@
 $(function(){
 
     $("#content").load("content.html"); //content불러오기
-    $(".wrapper").load("popUp.html"); //popup 불러오기
+    $("body").load("popUp.html"); //popup 불러오기
 
 
     // gnb style
