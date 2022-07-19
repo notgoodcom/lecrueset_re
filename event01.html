@@ -99,8 +99,8 @@
                 $.getJSON('./data/data.json', function(data){
                     $.each(data.new_sorbet, function(i, product){
                         var newsb = '';
-                        newsb += '<div class="itemWrap ' + product.class + '">';
-                        newsb += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        newsb += '<div class="itemWrap">';
+                        newsb += '<div class="itemImg"><img src="' + product.src + '"></div>';
                         newsb += '<div class="itemInfo">';
                         newsb += '<a class="itemName">' + product.name +'</a>';
                         newsb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
@@ -111,8 +111,8 @@
 
                     $.each(prodata.sorbet, function(i, product){
                         var sorb = '';
-                        newssorb += '<div class="itemWrap ' + product.class + '">';
-                        newssorb += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        newssorb += '<div class="itemWrap">';
+                        newssorb += '<div class="itemImg"><img src="' + product.src + '"></div>';
                         newssorb += '<div class="itemInfo">';
                         newssorb += '<a class="itemName">' + product.name +'</a>';
                         newssorb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
