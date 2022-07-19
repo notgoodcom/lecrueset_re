@@ -109,8 +109,8 @@
                         newSorbetSec.append(newsb);
                     });
 
-                    $.each(data, function(i, product){
-                        $.each(data.sorbet, function(i, product){
+                    $.each(data.sorbet, function(i, product){
+                        $.each(data.sorbet[0], function(i, product){
                             var sorb = '';
                             sorb += '<div class="itemWrap">';
                             sorb += '<div class="itemImg"><img src="' + product.src + '"></div>';
