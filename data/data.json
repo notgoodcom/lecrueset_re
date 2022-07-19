@@ -24,7 +24,7 @@
             "name": "시그니처 원형냄비 20cm - 코스탈",
             "image" : "./data/img/cs03.jpg",
             "price" : "430000",
-            "finalPrice" : "2580000",
+            "finalPrice" : "258000",
             "pick" : "best"
         },
         {
@@ -33,7 +33,7 @@
             "name": "시그니처 원형냄비 22cm - 화이트",
             "image" : "./data/img/cs04.jpg",
             "price" : "430000",
-            "finalPrice" : "2580000"
+            "finalPrice" : "258000"
         },
         {
             "type": "casseroles",
@@ -41,7 +41,7 @@
             "name": "[수분커버 증정] 고메밥솥 18CM(2.0L) - 쿨민트",
             "image" : "./data/img/gome01.jpg",
             "price" : "380000",
-            "finalPrice" : "2280000"
+            "finalPrice" : "228000"
         },
         {
             "type": "casseroles",
@@ -49,7 +49,7 @@
             "name": "고메밥솥 18CM(2.0L) - 주황",
             "image" : "./data/img/gome02.jpg",
             "price" : "380000",
-            "finalPrice" : "2280000"
+            "finalPrice" : "228000"
         },
         {
             "type": "casseroles",
@@ -57,7 +57,7 @@
             "name": "고메밥솥 18CM(2.0L) - 빨강",
             "image" : "./data/img/gome03.jpg",
             "price" : "380000",
-            "finalPrice" : "2280000"
+            "finalPrice" : "228000"
         }
     ],
 
