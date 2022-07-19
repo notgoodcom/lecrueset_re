@@ -1,12 +1,13 @@
 
 
-/* 블루대전 */
+/* 기획전 */
 
 .collection-section {
     width:100%;
     position:relative;
 }
 
+/* 블루대전 */
 .collection-section.blueCollect {
     height:1650px;
     background:url(../images/collect01_bg.jpg) top center no-repeat;
@@ -208,3 +209,6 @@
                         display: block;
                     }
 
+
+
+/* event  */
