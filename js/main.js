@@ -7,10 +7,10 @@ $(function(){
 
     // price comma
 
-    $( '.discountBefore' ).text( $( '.discountBefore' ).text().replace( /\,/g, '' ).replace( /(\d)(?=(?:\d{3})+(?!\d))/g, '$1,' ) );
+    $('.discountBefore').text( $('.discountBefore').text().replace(/\,/g, '').replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,'));
 
 
-    
+
     // gnb style
 
     $(".wrapper").on("mouseover",".menu li a",function(){
