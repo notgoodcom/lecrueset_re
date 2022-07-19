@@ -120,24 +120,30 @@
                         sorb += '</div>';
                         sorbetSec.append(sorb);
                     });
+
+                    $(".wrapper").on("click", ".eventTab li button", function(){
+                        var _this = $(this);
+                        var _val = _this.val();
+                        var _item = $(".sorbeProductWrap .itemWrap");
+                        
+                        _item.remove();
+                        $.each(data.sorbet, function(i, cateTem){
+                            if(data.sorbet[i].class == _val){
+                                var sorb = '';
+                                sorb += '<div class="itemWrap ' + sb.class + '">';
+                                sorb += '<div class="itemImg"><img src="' + sb.src + '"></div>';
+                                sorb += '<div class="itemInfo">';
+                                sorb += '<a class="itemName">' + sb.name +'</a>';
+                                sorb += '<p class="itemPrice"><em class="discountBefore">' + sb.before +'</em><span class="discount">' + sb.now +'</span></p>';
+                                sorb += '</div>';
+                                sorb += '</div>';
+                                sorbetSec.append(sorb);
+                            }
+                        });
+                    });
                     
                 });    
 
-                $(".wrapper").on("click", ".eventTab li button", function(){
-                    var _this = $(this);
-                    var _val = _this.val();
-                    var _item = $(".sorbeProductWrap .itemWrap");
-                    
-                    _item.remove();
-                    if(_val == _item.hasClass('bowl')){
-                        _item.hasClass('bowl').show();
-                    }else if(_val == _item.hasClass('plate')){
-                        _item.hasClass('plate').show();
-                    }else if(_val == _item.hasClass('mug_teaSet')){
-                        _item.hasClass('mug_teaSet').show();
-                    }
-
-                });
 
 
             });
