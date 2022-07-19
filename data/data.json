@@ -541,7 +541,9 @@
                     "now" : "30100"
                 }
 
-            ],
+            ]
+        },
+        {
             "plate" : [
                 {
                     "src" : "./data/img/sorbet03.jpg",
@@ -573,7 +575,9 @@
                     "before" : "34000",
                     "now" : "23800"
                 }
-            ],
+            ]
+        },
+        {
             "mug_teaSet" : [
                 {
                     "src" : "./data/img/sorbet01.jpg",
