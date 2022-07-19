@@ -257,6 +257,7 @@
                 display: flex;
                 flex-direction: column;
             }
+            
 
                 .eventWrap .event-section .eventImg div {
                     display: flex;
@@ -264,6 +265,10 @@
                     .eventWrap .event-section .eventImg div a {
                         display: block;
                     }
+
+                        .eventWrap .event-section .eventImg div a img {
+                            width:100%;
+                        }
 
 
         .eventWrap .event-product {
