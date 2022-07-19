@@ -23,6 +23,10 @@ $(function(){
         
         return val;
     }
+
+    $(body).each(function(){
+        $(this).html(commaSeparateNumber($(this).html()));
+    });
     
 
 
