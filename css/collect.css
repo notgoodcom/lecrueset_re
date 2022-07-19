@@ -280,8 +280,13 @@
                         text-align: center;
                         position: relative;
                         top: -1.5px;
+                        font-size: 20px;
                     }
 
+                    .eventWrap .eventHeader .shareIcon a.urlIcon i {
+                        font-size: 18px;
+                        top: 0px;
+                    }
 
 
              
