@@ -139,5 +139,17 @@
             "now" : "168000",
             "sale" : "40%"
         }
+    ],
+    "popUp" : [
+        {
+            "url" : "collection01.html",
+            "src" : "./images/popUpBn02.jpg",
+            "num" : "2"
+        },
+        {
+            "url" : "event02.html",
+            "src" : "./images/popUpBn01.jpg",
+            "num" : "1"
+        }
     ]
 }

@@ -1,0 +1,50 @@
+<div class="popUpWrap">
+    <div class="popUp">
+        <div class="popUpImg" id="popUpImg"></div>
+        <div class="popUpFooter">
+            <div class="nomore">
+                <input type="checkbox" id="nomore" class="checkbox">
+                <label for="nomore" class="nomoreLabel">오늘은 그만보기</label>
+            </div>
+            <div class="closeArea">
+                <a class="popUpClose">닫기</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(function(){
+
+        var popUp = $(".popUpImg");
+        $.getJSON('./img.json', function(imgData){
+            //popUp slide
+            $.each(imgData.popUp, function(i, p){
+                var pop = "";
+                pop += '<a class="popUpImgBox popUp'+ p.num +'"href="' + p.url + '">';
+                pop += '<img src="' + p.src + '">';  
+                pop += '</a>';  
+
+                popUp.append(p);
+            }); 
+
+            //nav
+            $("#popUpImg").slick({
+                autoplay: true,
+                accessibility: true,
+                dots: true,
+                infinite: true,
+                speed: 3500,
+                slidesToShow: 1,
+                adaptiveHeight: false, 
+                arrows: false,
+                fade: true,
+                customPaging : function(slider, i) {
+                    return "<a class='popUpPager'></a>";
+                }
+            });
+        });    
+    })
+
+</script>
