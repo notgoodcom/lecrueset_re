@@ -296,6 +296,10 @@
             }
         
 
+            .eventWrap .event-product .sorbet .header {
+                margin-bottom:0px;
+            }
+
 
             .eventWrap .event-product .event-tabWrap {
                 width:100%;
@@ -306,7 +310,7 @@
 
 
                 .eventWrap .event-product .eventTab {
-                    width: calc(100% - 300px);
+                    width: calc(100% - 600px);
                     display: flex;
                     flex-direction: row;
                     margin:0 auto;
@@ -315,7 +319,7 @@
 
                     .eventWrap .event-product .eventTab li {
                         height:100%;
-                        width:calc(100% / 5);
+                        width:calc(100% / 4);
                         position:relative;
                     }
 
