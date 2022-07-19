@@ -1315,6 +1315,18 @@ a:hover {
                 overflow:hidden;
             }
 
+                .popUpWrap .popUp .popUpImg a {
+                    display: block;
+                    user-select: none;
+                    cursor: pointer;
+                    overflow: hidden;
+                }
+
+                    .popUpWrap .popUp .popUpImg a img {
+                        width: 100%;
+                    }
+
+
             .popUpWrap .popUp .popUpFooter {
                 display: flex;
                 flex-direction: row;
