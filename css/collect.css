@@ -246,7 +246,25 @@
                     height:40px;
                 }
 
-                    
+             
+        .eventWrap .event-section {
+            padding:10px;
+        }       
+
+            .eventWrap .event-section .eventImg {
+                width:100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+                .eventWrap .event-section .eventImg div {
+                    display: flex;
+                }
+                    .eventWrap .event-section .eventImg div a {
+                        display: block;
+                    }
+
+
         .eventWrap .event-product {
             position: relative;
         }
