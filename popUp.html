@@ -21,12 +21,12 @@
         $.getJSON('./img.json', function(popUpdata){
             //popUp slide
             $.each(popUpdata.popUp, function(i, popImg){
-                var pop = "";
-                pop += '<a class="popUpImgBox popUp'+ popImg.num +'" href="' + popImg.url + '">';
-                pop += '<img src="' + popImg.src + '">';  
-                pop += '</a>';  
+                var _pop = "";
+                _pop += '<a class="popUpImgBox popUp'+ popImg.num +'" href="' + popImg.url + '">';
+                _pop += '<img src="' + popImg.src + '">';  
+                _pop += '</a>';  
 
-                popUp.append(popImg);
+                popUp.append(_pop);
             }); 
 
             //nav
