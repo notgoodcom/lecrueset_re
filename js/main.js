@@ -24,7 +24,7 @@ $(function(){
         return val;
     }
 
-    $(body).each(function(){
+    $(".discountBefore").each(function(){
         $(this).html(commaSeparateNumber($(this).html()));
     });
     
