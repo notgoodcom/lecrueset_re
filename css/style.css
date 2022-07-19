@@ -1373,7 +1373,8 @@ a:hover {
                     align-self: center;
                     color:#eaeaea;
                     position:absolute;
-                    top:2px;
+                    top:-1px;
+                    font-weight: normal;
                 }
 
                     .popUpWrap .popUp .popUpFooter .closeArea a {
@@ -1383,5 +1384,6 @@ a:hover {
                         font-size: 13px;
                         text-align:center;
                         color:#222;
-                        letter-spacing: 10px;
+                        letter-spacing: 1px;
+                        padding-left:20px;
                     }
