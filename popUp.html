@@ -20,10 +20,10 @@
         var popUp = $(".popUpImg");
         $.getJSON('./img.json', function(imgData){
             //popUp slide
-            $.each(imgData.popUp, function(i, p){
+            $.each(imgData.popUp, function(i, popImg){
                 var pop = "";
-                pop += '<a class="popUpImgBox popUp'+ p.num +'"href="' + p.url + '">';
-                pop += '<img src="' + p.src + '">';  
+                pop += '<a class="popUpImgBox popUp'+ popImg.num +'" href="' + popImg.url + '">';
+                pop += '<img src="' + popImg.src + '">';  
                 pop += '</a>';  
 
                 popUp.append(p);
