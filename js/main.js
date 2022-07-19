@@ -66,7 +66,10 @@ $(function(){
         }
     });
 
-    //
+    //popup close
 
+    $(".wrapper").on("click",".popUpClose", function(){
+        $(".popUpWrap").hide(400);
+    });
 
 });
