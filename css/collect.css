@@ -309,6 +309,7 @@
                     overflow:hidden;
                     border-radius: 20px;
                     margin-right:40px;
+                    transition: all 0.3s;
                 }
 
                 .eventWrap .event-product .itemWrap:last-child {
