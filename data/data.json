@@ -523,19 +523,19 @@
          { 
             "bowl" : [
                 {
-                    "src" : "./data/img/sorbet06.jpg",
+                    "imgsrc" : "./data/img/sorbet06.jpg",
                     "name" : "미니볼_TypeA-(색상선택)",
                     "before" : "21000",
                     "now" : "14700"
                 },
                 {
-                    "src" : "./data/img/sorbet10.jpg",
+                    "imgsrc" : "./data/img/sorbet10.jpg",
                     "name" : "밥그릇_TypeA-(색상선택)",
                     "before" : "37000",
                     "now" : "25900"
                 },
                 {
-                    "src" : "./data/img/sorbet11.jpg",
+                    "imgsrc" : "./data/img/sorbet11.jpg",
                     "name" : "국그릇_TypeA-(색상선택)",
                     "before" : "43000",
                     "now" : "30100"
