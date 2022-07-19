@@ -120,10 +120,19 @@
                         sorb += '</div>';
                         sorbetSec.append(sorb);
                     });
-
                     
                 });    
 
+                $(".wrapper").on("click", ".eventTab li button", function(){
+                    var _this = $(this);
+                    var _val = _this.val();
+                    var _item = $(".sorbeProductWrap .itemWrap");
+
+                    if(_val == _item.hasClass()){
+                        _item.remove();
+                        _item.hasClass(_val).show();
+                    }
+                });
 
 
             });
