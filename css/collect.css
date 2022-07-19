@@ -262,6 +262,11 @@
                 .eventWrap .event-section .eventImg div {
                     display: flex;
                 }
+
+                    .eventWrap .event-section .eventImg div img {
+                        width:100%;
+                    }
+                    
                     .eventWrap .event-section .eventImg div a {
                         display: block;
                     }
