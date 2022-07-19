@@ -219,9 +219,9 @@
     }
 
         .eventWrap .eventHeader {
-            height:50px;
             border-bottom:1px solid #eaeaea;
             display: flex;
+            flex-direction: column;
         }
 
             .eventWrap .eventHeader .txtWrap {
@@ -232,10 +232,11 @@
             }
 
                 .eventWrap .eventHeader .txtWrap .title {
-                    font-size:20px;
+                    font-size:30px;
                     font-weight: bold;
                     color:#222;
                     text-align:center;
+                    margin-bottom:10px;
                 }
 
                 .eventWrap .eventHeader .txtWrap .date {
@@ -244,7 +245,6 @@
                 }
 
             .eventWrap .eventHeader .shareIcon {
-                margin-left:auto;
                 display: flex;
                 justify-content: space-around;
                 width: 240px;
