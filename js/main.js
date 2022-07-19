@@ -7,8 +7,11 @@ $(function(){
 
     // price comma
 
-    $('.discountBefore').text( $('.discountBefore').text().replace(/\,/g, '').replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,'));
-
+    function numberWithCommas(val) {
+        return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+    
+    numberWithCommas(price);
 
 
     // gnb style
