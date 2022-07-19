@@ -125,16 +125,15 @@
 
                 $(".wrapper").on("click", ".eventTab li button", function(){
                     var _this = $(this);
+                    var _val = _this.val();
                     var _item = $(".sorbeProductWrap .itemWrap");
-
-                    if(_item.hasClass('bowl')){
-                        _item.remove();
+                    
+                    _item.remove();
+                    if(_val == _item.hasClass('bowl')){
                         _item.hasClass('bowl').show();
-                    }else if(_item.hasClass('plate')){
-                        _item.remove();
+                    }else if(_val == _item.hasClass('plate')){
                         _item.hasClass('plate').show();
-                    }else if(_item.hasClass('mug_teaSet')){
-                        _item.remove();
+                    }else if(_val == _item.hasClass('mug_teaSet')){
                         _item.hasClass('mug_teaSet').show();
                     }
 
