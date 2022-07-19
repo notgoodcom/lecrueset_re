@@ -29,6 +29,8 @@ $(function(){
     });
     
 
+    Number(10000).toLocaleString('en');
+
 
     // gnb style
 
