@@ -7,7 +7,7 @@ $(function(){
 
     // price comma
 
-	$('.discountBefore').each(function(index){
+	$('em.discountBefore').each(function(index){
 		$(this).text($(this).text().split(/(?=(?:\d{3})+(?:\.|$))/g).join(','));
 	});
 
