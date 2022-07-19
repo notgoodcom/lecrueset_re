@@ -1316,6 +1316,24 @@ a:hover {
                 margin-bottom:0px;
             }
 
+
+                .popUpWrap .popUp .popUpImg .slick-dots {
+                    bottom:5px
+                }
+
+                        .popUpWrap .popUp .popUpImg .slick-dots li.slick-active a.popUpPager {
+                            background:#fff;
+                        }
+
+                        .popUpWrap .popUp .popUpImg .slick-dots li a.popUpPager {
+                            width:20px;
+                            height:20px;
+                            content:"";
+                            border-radius: 100%;
+                            background:rgba(0,0,0,0.4);
+                        }    
+
+
                 .popUpWrap .popUp .popUpImg a {
                     display: block;
                     user-select: none;
