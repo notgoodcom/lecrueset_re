@@ -38,8 +38,8 @@
         {
             "name" : "nav04",
             "imageUrl" : "./images/slider04.jpg",
-            "num" : "03",
-            "cate" : "best",
+            "num" : "04",
+            "cate" : "sale",
             "title" : "르크루제 시그니쳐",
             "txt" : "부엌의 여왕",
             "class" : "b-white",
