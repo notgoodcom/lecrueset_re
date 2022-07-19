@@ -4,6 +4,13 @@ $(function(){
     $(".popUpArea").load("popUp.html"); //popup 불러오기
 
 
+
+    // price comma
+
+    $( '.discountBefore' ).text( $( '.discountBefore' ).text().replace( /\,/g, '' ).replace( /(\d)(?=(?:\d{3})+(?!\d))/g, '$1,' ) );
+
+
+    
     // gnb style
 
     $(".wrapper").on("mouseover",".menu li a",function(){
