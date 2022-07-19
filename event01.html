@@ -128,10 +128,17 @@
                     var _val = _this.val();
                     var _item = $(".sorbeProductWrap .itemWrap");
 
-                    if(_val == _item.hasClass()){
+                    if(_val == _item.hasClass('bowl')){
                         _item.remove();
-                        _item.hasClass(_val).show();
+                        _item.hasClass('bowl').show();
+                    }else if(_val == _item.hasClass('plate')){
+                        _item.remove();
+                        _item.hasClass('plate').show();
+                    }else if(_val == _item.hasClass('mug_teaSet')){
+                        _item.remove();
+                        _item.hasClass('mug_teaSet').show();
                     }
+
                 });
 
 
