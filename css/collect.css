@@ -221,14 +221,13 @@
         .eventWrap .eventHeader {
             border-bottom:1px solid #eaeaea;
             display: flex;
-            flex-direction: column;
+            margin-bottom:40px;
         }
 
             .eventWrap .eventHeader .txtWrap {
                 align-self: center;
-                margin:auto;
                 display: flex;
-                flex-direction: column;
+                height:70px;
             }
 
                 .eventWrap .eventHeader .txtWrap .title {
@@ -237,11 +236,13 @@
                     color:#222;
                     text-align:center;
                     margin-bottom:10px;
+                    margin:0px 20px 0px 0px;
+                    align-self: center;
                 }
 
                 .eventWrap .eventHeader .txtWrap .date {
-                    text-align:center;
                     font-size:15px;
+                    align-self: center;
                 }
 
             .eventWrap .eventHeader .shareIcon {
@@ -249,6 +250,7 @@
                 justify-content: space-around;
                 width: 240px;
                 align-self: center;
+                margin-left:auto;
             }
 
                 .eventWrap .eventHeader .shareIcon a {
@@ -264,7 +266,10 @@
                 }
 
                     .eventWrap .eventHeader .shareIcon a i {
-                        align-self:center;
+                        align-self: center;
+                        text-align: center;
+                        position: relative;
+                        top: -1.5px;
                     }
 
 
