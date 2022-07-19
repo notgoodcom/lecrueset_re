@@ -111,14 +111,14 @@
 
                     $.each(data.sorbet, function(i, product){
                         var sorb = '';
-                        newssorb += '<div class="itemWrap">';
-                        newssorb += '<div class="itemImg"><img src="' + product.src + '"></div>';
-                        newssorb += '<div class="itemInfo">';
-                        newssorb += '<a class="itemName">' + product.name +'</a>';
-                        newssorb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                        newssorb += '</div>';
-                        newssorb += '</div>';
-                        sorbetSec.append(newssorb);
+                        sorb += '<div class="itemWrap">';
+                        sorb += '<div class="itemImg"><img src="' + product.src + '"></div>';
+                        sorb += '<div class="itemInfo">';
+                        sorb += '<a class="itemName">' + product.name +'</a>';
+                        sorb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        sorb += '</div>';
+                        sorb += '</div>';
+                        sorbetSec.append(sorb);
                     });
 
                 });
