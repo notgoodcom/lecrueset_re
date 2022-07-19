@@ -249,7 +249,8 @@
              
         .eventWrap .event-section {
             padding:20px;
-            background:#eaeaea;
+            background:#f7f7f7;
+            border:1px solid #eaeaea;
         }       
 
             .eventWrap .event-section .eventImg {
@@ -274,6 +275,8 @@
                         .eventWrap .event-section .eventImg div a img {
                             width:100%;
                         }
+
+
 
 
         .eventWrap .event-product {
@@ -305,6 +308,7 @@
                     border:1px solid #eaeaea;
                     overflow:hidden;
                     border-radius: 20px;
+                    margin-right:40px;
                 }
 
                 .eventWrap .event-product .itemWrap:last-child {
