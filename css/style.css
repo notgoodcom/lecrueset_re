@@ -1384,6 +1384,7 @@ a:hover {
                         font-size: 13px;
                         text-align:center;
                         color:#222;
-                        letter-spacing: 1px;
+                        letter-spacing: 5px;
                         padding-left:20px;
+                        cursor: pointer;
                     }
