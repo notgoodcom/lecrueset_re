@@ -224,12 +224,24 @@
             display: flex;
         }
 
-            .eventWrap .eventHeader .title {
-                font-size:20px;
-                font-weight: bold;
+            .eventWrap .eventHeader .txtWrap {
                 align-self: center;
-                color:#222;
+                margin:auto;
+                display: flex;
+                flex-direction: column;
             }
+
+                .eventWrap .eventHeader .txtWrap .title {
+                    font-size:20px;
+                    font-weight: bold;
+                    color:#222;
+                    text-align:center;
+                }
+
+                .eventWrap .eventHeader .txtWrap .date {
+                    text-align:center;
+                    font-size:15px;
+                }
 
             .eventWrap .eventHeader .shareIcon {
                 margin-left:auto;
@@ -240,13 +252,22 @@
             }
 
                 .eventWrap .eventHeader .shareIcon a {
-                    display: block;
-                    background:#ccc;
-                    color:#fff;
+                    display: flex;
+                    background: #fff;
+                    color: #ccc;
                     border-radius: 100%;
-                    width:40px;
-                    height:40px;
+                    width: 30px;
+                    height: 30px;
+                    justify-content: center;
+                    border: 1px solid #eaeaea;
+                    cursor: pointer;
                 }
+
+                    .eventWrap .eventHeader .shareIcon a i {
+                        align-self:center;
+                    }
+
+
 
              
         .eventWrap .event-section {
