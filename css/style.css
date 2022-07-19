@@ -1322,6 +1322,7 @@ a:hover {
                     user-select: none;
                     cursor: pointer;
                     overflow: hidden;
+                    outline: none;
                 }
 
                     .popUpWrap .popUp .popUpImg a img {
@@ -1342,8 +1343,10 @@ a:hover {
                 }
 
                     .popUpWrap .popUp .popUpFooter .nomoreArea input {
-                        margin-right:5px;
+                        margin-right:8px;
                         align-self: center;
+                        margin-top:0px;
+                        cursor:pointer;
                     }
 
                     .popUpWrap .popUp .popUpFooter .nomoreArea label {
@@ -1352,6 +1355,7 @@ a:hover {
                         color:#222;
                         cursor: pointer;
                         align-self: center;
+                        font-weight: normal;
                     }
 
                 .popUpWrap .popUp .popUpFooter .closeArea {
@@ -1366,6 +1370,8 @@ a:hover {
                     font-size:10px;
                     align-self: center;
                     color:#eaeaea;
+                    position:relative;
+                    top:3px;
                 }
 
                     .popUpWrap .popUp .popUpFooter .closeArea a {
