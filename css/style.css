@@ -1372,7 +1372,7 @@ a:hover {
                     font-size:12px;
                     align-self: center;
                     color:#eaeaea;
-                    position:relative;
+                    position:absolute;
                     top:2px;
                 }
 
