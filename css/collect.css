@@ -303,6 +303,7 @@
             .eventWrap .event-product .sorbeProductWrap {
                 margin:40px 0px 50px;
                 display: flex;
+                flex-wrap: wrap;
             }
 
                 .eventWrap .event-product .itemWrap {
