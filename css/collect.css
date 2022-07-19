@@ -248,7 +248,8 @@
 
              
         .eventWrap .event-section {
-            padding:10px;
+            padding:20px;
+            background:#eaeaea;
         }       
 
             .eventWrap .event-section .eventImg {
@@ -277,6 +278,55 @@
                 height: 40px;
             }
         
+
+            .eventWrap .event-product .newSorbeProductWrap {
+                margin:40px 0px 50px;
+                display: flex;
+            }
+
+
+            .eventWrap .event-product .sorbeProductWrap {
+                margin:40px 0px 50px;
+                display: flex;
+            }
+
+                .eventWrap .event-product .itemWrap {
+                    width:290px;
+                    border:1px solid #eaeaea;
+                    overflow:hidden;
+                    border-radius: 20px;
+                }
+
+                .eventWrap .event-product .itemWrap:last-child {
+                    margin-right:0px;
+                }
+                    
+                .eventWrap .event-product .itemWrap:hover {
+                    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+                }
+            
+                    .eventWrap .event-product .itemWrap .itemImg {
+                        width:240x;
+                        height:240px;
+                        border-radius: 20px;
+                        overflow: hidden;
+                    }
+
+                        .eventWrap .event-product .itemWrap .itemImg img {
+                            width:100%;
+                        }
+
+                    .eventWrap .event-product .itemWrap .itemInfo {
+                        padding:15px;
+                    }
+
+                        .eventWrap .event-product .itemWrap .itemInfo .itemName {
+                            height: 43px;
+                            display: block;
+                        }
+        
+
+
 
         .eventWrap .eventFooter {
             height:50px;
