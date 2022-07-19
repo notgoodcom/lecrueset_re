@@ -221,7 +221,6 @@
         .eventWrap .eventHeader {
             border-bottom:1px solid #eaeaea;
             display: flex;
-            margin-bottom:40px;
         }
 
             .eventWrap .eventHeader .txtWrap {
