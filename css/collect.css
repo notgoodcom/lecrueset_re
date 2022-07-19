@@ -302,8 +302,9 @@
 
             .eventWrap .event-product .sorbeProductWrap {
                 margin:40px 0px 50px;
-                display: flex;
-                flex-wrap: wrap;
+                display: grid;
+                grid-template-columns: 290px 290px 290px 290px;
+                gap: 40px;
             }
 
                 .eventWrap .event-product .itemWrap {
