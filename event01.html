@@ -109,13 +109,13 @@
                         newSorbetSec.append(newsb);
                     });
 
-                    $.each(data.sorbet['bowl'], function(i, product){
+                    $.each(data.sorbet['bowl'], function(i, sb){
                         var sorb = '';
                             sorb += '<div class="itemWrap">';
-                            sorb += '<div class="itemImg"><img src="' + product.src + '"></div>';
+                            sorb += '<div class="itemImg"><img src="' + sb.src + '"></div>';
                             sorb += '<div class="itemInfo">';
-                            sorb += '<a class="itemName">' + product.name +'</a>';
-                            sorb += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                            sorb += '<a class="itemName">' + sb.name +'</a>';
+                            sorb += '<p class="itemPrice"><em class="discountBefore">' + sb.before +'</em><span class="discount">' + sb.now +'</span></p>';
                             sorb += '</div>';
                             sorb += '</div>';
                             sorbetSec.append(sorb);
