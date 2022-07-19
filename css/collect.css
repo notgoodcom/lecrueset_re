@@ -238,17 +238,18 @@
                     margin:0px 20px 0px 0px;
                     align-self: center;
                     position:relative;
+                    padding-right: 10px;
                 }
 
                 .eventWrap .eventHeader .txtWrap .title:after {
-                    content:"";
-                    font-size:20px;
-                    color:#222;
-                    position:absolute;
-                    top:2px;
-                    right:-10px;
-                    width:1px;
-                    height:22px;
+                    content: "";
+                    font-size: 20px;
+                    position: absolute;
+                    top: 7px;
+                    right: -10px;
+                    width: 1px;
+                    height: 22px;
+                    background: #222;
                 }
 
                 .eventWrap .eventHeader .txtWrap .date {
