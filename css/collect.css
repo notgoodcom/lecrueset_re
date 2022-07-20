@@ -14,6 +14,11 @@
 }
 
 
+.collection-section.nordicCollect {
+    height:1650px;
+    background:url(../images/scandi_img.jpg) top center no-repeat;
+}
+
     .collection-section .collection-slider {
         margin:0 auto 0px;
         padding-top:820px;
@@ -257,6 +262,7 @@
                     align-self: center;
                     margin-bottom:0px;
                     color:#888;
+                    padding-top: 5px;
                 }
 
             .eventWrap .eventHeader .shareIcon {
