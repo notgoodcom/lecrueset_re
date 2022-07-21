@@ -170,6 +170,10 @@
             transform:translateY(-50%);
         }
 
+            .collection-section.nordicCollect .sliderWrap .collection-slider .slick-list {
+                overflow-x:hidden !important;
+                overflow-y:auto !important;
+            }
 
             .nordic-item {
                 width:100% !important;
