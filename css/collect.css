@@ -209,26 +209,27 @@
                     .nordic-item .itemWrap .itemTxtWrap {
                         position:absolute;
                         width:100%;
-                        top:0px;
+                        top:30px;
                         left:0px;
                     }
 
                         .nordic-item .itemWrap .itemTxtWrap .itemTitle {
                             font-size:22px;
                             font-weight: bold;
-                            margin-bottom:10px;
+                            margin-bottom:15px;
                         }
 
                         .nordic-item .itemWrap .itemTxtWrap .itemTxt {
                             width:100%;
                             font-size:15px;
+                            letter-spacing: -1px;
                         }
 
                     .nordic-item .itemWrap .items {
                         position:absolute;
                         width:100%;
                         bottom: -10px;
-                        left: -11px;
+                        left: 10px;
                     }
 
                         .nordic-item .itemWrap .items img {
