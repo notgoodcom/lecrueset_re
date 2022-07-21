@@ -136,7 +136,7 @@
 
     .collection-section.nordicCollect .sliderWrap {
         margin:0 auto 0px;
-        padding-top:2550px;
+        padding-top:2500px;
         width:1000px;
         display: flex;
         flex-direction: row;
@@ -193,10 +193,10 @@
 
 
                 .nordic-item .itemWrap {
-                    width:calc(100% - 596px);
+                    width:calc(100% - 586px);
                     height:430px;
                     position:relative;
-                    margin-left:50px;
+                    margin:0 20px;
                 }
 
                     .nordic-item .itemWrap .itemTxtWrap {
