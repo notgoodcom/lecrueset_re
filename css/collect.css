@@ -226,16 +226,19 @@
                     .nordic-item .itemWrap .items {
                         position:absolute;
                         width:100%;
-                        bottom: 23px;
+                        bottom: -10px;
                         left: -11px;
                     }
-
 
                         .nordic-item .itemWrap .items img {
                             width:100%;
                         }
 
 
+                        .nordic-item .itemWrap .items img.item05 {
+                            width:200px;
+                            margin-left:10px;
+                        }
 
 
     /* detail txt */
