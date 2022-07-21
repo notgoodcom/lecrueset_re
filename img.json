@@ -145,31 +145,36 @@
             "src" : "./images/nordicSlide01.jpg",
             "src2" : "./images/nordicItem01.png",
             "itemTitle" : "쉘핑크 + 플린트",
-            "itemTxt" : "귀엽고 여성스러운 쉘핑크와 어두우면서도 분위기 있는 플린트의 조합. 사랑스러운 분위기를 내는 데 최적이다."
+            "itemTxt" : "귀엽고 여성스러운 쉘핑크와 어두우면서도 분위기 있는 플린트의 조합. 사랑스러운 분위기를 내는 데 최적이다.",
+            "itemClass" : "item01"
         },
         {
             "src" : "./images/nordicSlide02.jpg",
             "src2" : "./images/nordicItem02.png",
             "itemTitle" : "머랭 + 시솔트",
-            "itemTxt" : "크림처럼 부드러운 컬러감의 머랭, 은은한 청록색 컬러의 시솔트 조합이다. 순식간에 품격 있는 식탁 인테리어를 만들 수 있다."
+            "itemTxt" : "크림처럼 부드러운 컬러감의 머랭, 은은한 청록색 컬러의 시솔트 조합이다. 순식간에 품격 있는 식탁 인테리어를 만들 수 있다.",
+            "itemClass" : "item02"
         },
         {
             "src" : "./images/nordicSlide03.jpg",
             "src2" : "./images/nordicItem03.png",
             "itemTitle" : "머랭 + 마린",
-            "itemTxt" : "식탁의 분위기를 산뜻하게 만들 수 있는 최적의 조합이다. 시원한 컬러감의 마린은 테이블 위에 멋진 악센트를 더해 준다."
+            "itemTxt" : "식탁의 분위기를 산뜻하게 만들 수 있는 최적의 조합이다. 시원한 컬러감의 마린은 테이블 위에 멋진 악센트를 더해 준다.",
+            "itemClass" : "item03"
         },
         {
             "src" : "./images/nordicSlide04.jpg",
             "src2" : "./images/nordicItem04.png",
             "itemTitle" : "피그 + 마린",
-            "itemTxt" : "식탁의 분위기를 산뜻하게 만들 수 있는 최적의 조합이다. 시원한 컬러감의 마린은 테이블 위에 멋진 악센트를 더해 준다."
+            "itemTxt" : "식탁의 분위기를 산뜻하게 만들 수 있는 최적의 조합이다. 시원한 컬러감의 마린은 테이블 위에 멋진 악센트를 더해 준다.",
+            "itemClass" : "item04"
         },
         {
             "src" : "./images/nordicSlide05.jpg",
             "src2" : "./images/nordicItem05.png",
             "itemTitle" : "피그 + 머랭",
-            "itemTxt" : "깊은 분위기의 피그, 크림처럼 부드러운 머랭의 멋진 악센트로 테이블의 품격을 높일 수 있다."
+            "itemTxt" : "깊은 분위기의 피그, 크림처럼 부드러운 머랭의 멋진 악센트로 테이블의 품격을 높일 수 있다.",
+            "itemClass" : "item05"
         }
     ],
     "popUp" : [
