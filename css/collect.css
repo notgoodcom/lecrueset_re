@@ -130,16 +130,30 @@
                                 font-size:20px;
                             }
 
+
+
     /* 북유럽컬렉션 슬라이더 */
 
-    .collection-section.nordicCollect .collection-slider {
+    .collection-section.nordicCollect .sliderWrap {
         margin:0 auto 0px;
-        padding-top:1762px;
-        width:860px;
+        padding-top:2250px;
+        width:1000px;
         display: flex;
         flex-direction: row;
+        position:relative;
     }
 
+        .collection-section.nordicCollect .sliderWrap .collection-slider {
+            margin:auto;
+            width:860px;
+            display: flex;
+            flex-direction: row;
+        }
+
+    
+
+
+    /* detail txt */
 
     .collection-section .collection-txt {
         width:1000px;
