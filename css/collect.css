@@ -159,6 +159,9 @@
             left:0px;
             top:50%;
             transform:translateY(-50%);
+            width:30px;
+            height:30px;
+            z-index: 1;
         }
 
         .collection-section.nordicCollect .arrowNext {
@@ -168,6 +171,9 @@
             right:0px;
             top:50%;
             transform:translateY(-50%);
+            width:30px;
+            height:30px;
+            z-index: 1;
         }
 
             .collection-section.nordicCollect .sliderWrap .collection-slider .slick-list {
