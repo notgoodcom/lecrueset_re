@@ -136,7 +136,7 @@
 
     .collection-section.nordicCollect .sliderWrap {
         margin:0 auto 0px;
-        padding-top:2250px;
+        padding-top:2550px;
         width:1000px;
         display: flex;
         flex-direction: row;
@@ -145,12 +145,33 @@
 
         .collection-section.nordicCollect .sliderWrap .collection-slider {
             margin:auto;
-            width:860px;
+            width:100%;
             display: flex;
             flex-direction: row;
         }
 
-    
+        .collection-section.nordicCollect .slick-prev, .slick-next {
+            display: none;
+        }
+
+        .collection-section.nordicCollect .arrowPrev {
+            color:#ccc;
+            font-size:30px;
+            position:absolute;
+            left:0px;
+            top:50%;
+            transform:translteY(-50%);
+        }
+
+        .collection-section.nordicCollect .arrowNext {
+            color:#ccc;
+            font-size:30px;
+            position:absolute;
+            right:0px;
+            top:50%;
+            transform:translteY(-50%);
+        }
+
 
 
     /* detail txt */
