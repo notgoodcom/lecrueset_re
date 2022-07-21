@@ -177,8 +177,9 @@
     }
 
         .collection-product .sw .swProductWrap {
-            display: flex;
-            flex-direction: row;
+            display: grid;
+            grid-template-rows: 230px 230px 230px 230px 230px;
+            gap:20px;
         }
 
             .collection-product .itemWrap {
