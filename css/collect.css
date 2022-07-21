@@ -130,6 +130,15 @@
                                 font-size:20px;
                             }
 
+    /* 북유럽컬렉션 슬라이더 */
+
+    .collection-section.nordicCollect .collection-slider {
+        margin:0 auto 0px;
+        padding-top:1762px;
+        width:860px;
+        display: flex;
+        flex-direction: row;
+    }
 
 
     .collection-section .collection-txt {
@@ -178,8 +187,8 @@
 
         .collection-product .sw .swProductWrap {
             display: grid;
-            grid-template-rows: 230px 230px 230px 230px 230px;
-            gap:20px;
+            grid-template-columns: 230px 230px 230px 230px 230px;
+            gap: 30px;
         }
 
             .collection-product .itemWrap {
