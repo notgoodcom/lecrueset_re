@@ -17,10 +17,13 @@
 .collection-section.nordicCollect {
     height:4196px;
     background:url(../images/scandi_img_01.jpg) top center no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 
-    /* 쿠폰영역 */
+
+    /* 블루대전 슬라이더 */
 
     .collection-section .collection-slider {
         margin:0 auto 0px;
@@ -225,6 +228,7 @@
     .collection-section.nordicCollect .couponArea {
         height:625px;
         width:100%;
+        margin-top:auto;
     }
 
         .collection-section.nordicCollect .couponArea-button {
