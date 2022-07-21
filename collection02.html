@@ -97,8 +97,8 @@
                 $.getJSON('./data/data.json', function(prodata){
                     $.each(prodata.nordicCS, function(i, product){
                         var nordiccs = '';
-                        nordiccs += '<div class="itemWrap ' + product.class + '">';
-                        nordiccs += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        nordiccs += '<div class="itemWrap">';
+                        nordiccs += '<div class="itemImg"><img src="' + product.src + '"></div>';
                         nordiccs += '<div class="itemInfo">';
                         nordiccs += '<a class="itemName">' + product.name +'</a>';
                         nordiccs += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
@@ -109,8 +109,8 @@
 
                     $.each(prodata.nordicSW, function(i, product){
                         var nordicsw = '';
-                        nordicsw += '<div class="itemWrap ' + product.class + '">';
-                        nordicsw += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        nordicsw += '<div class="itemWrap">';
+                        nordicsw += '<div class="itemImg"><img src="' + product.src + '"></div>';
                         nordicsw += '<div class="itemInfo">';
                         nordicsw += '<a class="itemName">' + product.name +'</a>';
                         nordicsw += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
