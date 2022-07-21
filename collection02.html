@@ -60,36 +60,34 @@
 
             $(document).ready(function(){
 
-                var blueSlider = $(".collection-slider");
+                var nordicSlider = $(".collection-slider");
 
                 $.getJSON('./img.json', function(data){
-                    $.each(data.blueSlider, function(i, obj){
-                        var blue = '';
-                        blue += '<div class="blue-item">'
-                        blue += '<div class="itemImg" style="background-image:url('+ obj.src +')"></div>';
-                        blue += '<div class="itemTxtWrap">';
-                        blue += '<a class="itemTitle">' + obj.name +'</a>';
-                        blue += '<div class="iteminfoWrap"><mark class="sale">' + obj.sale + '</mark>';
-                        blue += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.before +'</em><span class="discount">' + obj.now +'</span></p>';
-                        blue += '</div>';
-                        blue += '</div>';
-                        blue += '</div>';
-                        blueSlider.append(blue);
+                    $.each(data.nordicSlider, function(i, obj){
+                        var nordic = '';
+                        nordic += '<div class="nordic-item">'
+                        nordic += '<div class="itemImg" style="background-image:url('+ obj.src +')"></div>';
+                        nordic += '<div class="itemWrap">';
+                        nordic += '<div class="itemTxtWrap">';
+                        nordic += '<h5 class="itemTitle">' + obj.itemTitle +'</h5>';
+                        nordic += '<p class="itemTxt">' + obj.itemTxt + '</p>';
+                        nordic += '<span class="items">' + obj.src2 + '</span>';
+                        nordic += '</div>';
+                        nordic += '</div>';
+                        nordic += '</div>';
+                        nordicSlider.append(nordic);
                     });
 
                     $("#collection-slider").slick({
                         autoplay: true,
                         accessibility: true,
-                        dots: true,
+                        dots: false,
                         infinite: true,
                         speed: 4000,
-                        slidesToShow: 2,
-                        slidesToScroll:2,
+                        slidesToShow: 1,
+                        slidesToScroll:1,
                         adaptiveHeight: false, 
-                        arrows: false,
-                        customPaging : function(slider, i) {
-                        return "<a class='circle'></a>";
-                        }
+                        arrows: true
                     });
 
                 });
@@ -97,28 +95,28 @@
                 var csSection = $(".csProductWrap");
                 var swSection = $(".swProductWrap");
                 $.getJSON('./data/data.json', function(prodata){
-                    $.each(prodata.blueCS, function(i, product){
-                        var bluecs = '';
-                        bluecs += '<div class="itemWrap ' + product.class + '">';
-                        bluecs += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
-                        bluecs += '<div class="itemInfo">';
-                        bluecs += '<a class="itemName">' + product.name +'</a>';
-                        bluecs += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                        bluecs += '</div>';
-                        bluecs += '</div>';
-                        csSection.append(bluecs);
+                    $.each(prodata.nordicCS, function(i, product){
+                        var nordiccs = '';
+                        nordiccs += '<div class="itemWrap ' + product.class + '">';
+                        nordiccs += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        nordiccs += '<div class="itemInfo">';
+                        nordiccs += '<a class="itemName">' + product.name +'</a>';
+                        nordiccs += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        nordiccs += '</div>';
+                        nordiccs += '</div>';
+                        csSection.append(nordiccs);
                     });
 
-                    $.each(prodata.blueSW, function(i, product){
-                        var bluesw = '';
-                        bluesw += '<div class="itemWrap ' + product.class + '">';
-                        bluesw += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
-                        bluesw += '<div class="itemInfo">';
-                        bluesw += '<a class="itemName">' + product.name +'</a>';
-                        bluesw += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                        bluesw += '</div>';
-                        bluesw += '</div>';
-                        swSection.append(bluesw);
+                    $.each(prodata.nordicSW, function(i, product){
+                        var nordicsw = '';
+                        nordicsw += '<div class="itemWrap ' + product.class + '">';
+                        nordicsw += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
+                        nordicsw += '<div class="itemInfo">';
+                        nordicsw += '<a class="itemName">' + product.name +'</a>';
+                        nordicsw += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        nordicsw += '</div>';
+                        nordicsw += '</div>';
+                        swSection.append(nordicsw);
                     });
 
                 });

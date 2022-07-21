@@ -140,7 +140,7 @@
             "sale" : "40%"
         }
     ],
-    "nordicSlide" :[
+    "nordicSlider" :[
         {
             "src" : "./images/nordicSlide01.jpg",
             "src2" : "./images/nordicItem01.png",

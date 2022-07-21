@@ -590,6 +590,82 @@
             "now" : "18,000",
             "class" : "mug_teaSet"
         }
+    ],
+    "nordicCS" : [
+        {
+            "src" : "./data/img/nordicCS01.jpg",
+            "name" : "북유럽 시그니쳐 원형냄비 20cm (색상선택가능)",
+            "before" : "430,000",
+            "now" : "301,000"
+        },
+        {
+            "src" : "./data/img/nordicCS02.jpg",
+            "name" : "북유럽 시그니쳐 원형냄비 18cm (색상선택가능)",
+            "before" : "380,000",
+            "now" : "266,000"
+        },
+        {
+            "src" : "./data/img/nordicCS03.jpg",
+            "name" : "북유럽 시그니쳐 원형냄비 16cm  (색상선택가능)",
+            "before" : "330,000",
+            "now" : "231,000"
+        }
+    ],
+    "nordicSW" : [
+        {
+            "src" : "./data/img/nordicSW01.jpg",
+            "name" : "북유럽 컬렉션 V머그",
+            "before" : "37,000",
+            "now" : "25,900"
+        },
+        {
+            "src" : "./data/img/nordicSW02.jpg",
+            "name" : "북유럽 컬렉션 플라워디쉬 20cm",
+            "before" : "51,000",
+            "now" : "35,700"
+        },
+        {
+            "src" : "./data/img/nordicSW03.jpg",
+            "name" : "북유럽 컬렉션 플라워디쉬 12cm",
+            "before" : "31,000",
+            "now" : "21,700"
+        },
+        {
+            "src" : "./data/img/nordicSW04.jpg",
+            "name" : "북유럽 컬렉션 파스타디쉬",
+            "before" : "64,000",
+            "now" : "44,800"
+        },
+        {
+            "src" : "./data/img/nordicSW05.jpg",
+            "name" : "북유럽 컬렉션 카술레 서빙볼",
+            "before" : "60,000",
+            "now" : "42,000"
+        },
+        {
+            "src" : "./data/img/nordicSW06.jpg",
+            "name" : "북유럽 컬렉션 직사각 접시",
+            "before" : "55,000",
+            "now" : "38,500"
+        },
+        {
+            "src" : "./data/img/nordicSW07.jpg",
+            "name" : "북유럽 컬렉션 원형접시 27cm",
+            "before" : "66,000",
+            "now" : "46,200"
+        },
+        {
+            "src" : "./data/img/nordicSW08.jpg",
+            "name" : "북유럽 컬렉션 국 그릇",
+            "before" : "43,000",
+            "now" : "30,100"
+        },
+        {
+            "src" : "./data/img/nordicSW09.jpg",
+            "name" : "북유럽 컬렉션 밥 그릇",
+            "before" : "37,000",
+            "now" : "25,900"
+        }
     ]
 
 }
