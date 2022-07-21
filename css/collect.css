@@ -160,7 +160,7 @@
             position:absolute;
             left:0px;
             top:50%;
-            transform:translteY(-50%);
+            transform:translateY(-50%);
         }
 
         .collection-section.nordicCollect .arrowNext {
@@ -169,7 +169,7 @@
             position:absolute;
             right:0px;
             top:50%;
-            transform:translteY(-50%);
+            transform:translateY(-50%);
         }
 
 
