@@ -25,7 +25,7 @@
 
     /* 블루대전 슬라이더 */
 
-    .collection-section .collection-slider {
+    .collection-section.blueCollect .collection-slider {
         margin:0 auto 0px;
         padding-top:820px;
         width:1020px;
@@ -33,11 +33,11 @@
         flex-direction: row;
     }
 
-    .collection-section .collection-slider .slick-dots {
+    .collection-section.blueCollect .collection-slider .slick-dots {
         bottom:-50px
     }
 
-        .collection-section .collection-slider .slick-dots a.circle {
+        .collection-section.blueCollect .collection-slider .slick-dots a.circle {
             width:20px;
             height:20px;
             content:"";
@@ -47,22 +47,22 @@
         }    
 
 
-        .collection-section .collection-slider .slick-dots li.slick-active a.circle {
+        .collection-section.blueCollect .collection-slider .slick-dots li.slick-active a.circle {
             background-color: #5131f0;
         }
 
-        .collection-section .collection-slider .slick-list {
+        .collection-section.blueCollect .collection-slider .slick-list {
             margin: 0 -20px 0px 0px;
         }
 
-            .collection-section .collection-slider .slick-slide {
+            .collection-section.blueCollect .collection-slider .slick-slide {
                 width:500px !important;
                 margin-right:20px;
             }
 
 
 
-            .collection-section .collection-slider .blue-item {
+            .collection-section.blueCollect .collection-slider .blue-item {
                 background:#fff;
                 width:500px;
                 margin:0 20px 0 0;
@@ -73,37 +73,37 @@
                 cursor: pointer;
             }
 
-                .collection-section .collection-slider .blue-item .itemImg {
+                .collection-section.blueCollect .collection-slider .blue-item .itemImg {
                     width:500px;
                     height:500px;
                     overflow:hidden;
                     border-radius: 20px;
                 }
 
-                .collection-section .collection-slider .blue-item .itemTxtWrap {
+                .collection-section.blueCollect .collection-slider .blue-item .itemTxtWrap {
                     display: flex;
                     flex-direction: column;
                     padding:20px;
                 }
 
-                    .collection-section .collection-slider .blue-item .itemTxtWrap .itemTitle {
+                    .collection-section.blueCollect .collection-slider .blue-item .itemTxtWrap .itemTitle {
                         color:#222;
                         font-weight: bold;
                         font-size:22px;
                         margin-bottom:10px;
                     }
 
-                    .collection-section .collection-slider .blue-item .itemTxtWrap .iteminfoWrap {
+                    .collection-section.blueCollect .collection-slider .blue-item .itemTxtWrap .iteminfoWrap {
                         display: flex;
                     }
 
-                        .collection-section .collection-slider .blue-item .itemTxtWrap .iteminfoWrap .sale {
+                        .collection-section.blueCollect .collection-slider .blue-item .itemTxtWrap .iteminfoWrap .sale {
                             font-size:38px;
                             color:#5131f0;
                             background-color: transparent;
                         }
 
-                        .collection-section .collection-slider .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap {
+                        .collection-section.blueCollect .collection-slider .blue-item .itemTxtWrap .iteminfoWrap .itemPriceWrap {
                             display: flex;
                             flex-direction: row;
                             margin-left:auto;
