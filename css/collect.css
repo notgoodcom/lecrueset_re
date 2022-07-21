@@ -141,7 +141,7 @@
         flex-direction: row;
         position: absolute;
         left: 50%;
-        transform: translateX(-50%)
+        transform: translateX(-50%);
     }
 
         .collection-section.nordicCollect .sliderWrap .collection-slider {
