@@ -146,8 +146,6 @@
         .collection-section.nordicCollect .sliderWrap .collection-slider {
             margin:auto;
             width:860px;
-            display: flex;
-            flex-direction: row;
         }
 
         .collection-section.nordicCollect .slick-prev, .collection-section.nordicCollect .slick-next {
@@ -173,6 +171,59 @@
         }
 
 
+            .nordic-item {
+                width:100%;
+                height:430px;
+                display: flex;
+            }
+
+                .nordic-item .itemImg {
+                    border-radius: 50%;
+                    width:546px;
+                    height:430px;
+                    margin-right:auto;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+
+
+                .nordic-item .itemWrap {
+                    width:calc(100% - 596px);
+                    height:430px;
+                    position:relative;
+                    margin-left:50px;
+                }
+
+                    .nordic-item .itemWrap .itemTxtWrap {
+                        position:absolute;
+                        width:100%;
+                        top:0px;
+                        left:0px;
+                    }
+
+                        .nordic-item .itemWrap .itemTxtWrap .itemTitle {
+                            font-size:22px;
+                            font-weight: bold;
+                            margin-bottom:10px;
+                        }
+
+                        .nordic-item .itemWrap .itemTxtWrap .itemTxt {
+                            width:100%;
+                            font-size:15px;
+                        }
+
+                    .nordic-item .itemWrap .items {
+                        position:absolute;
+                        width:100%;
+                        bottom:-50px;
+                        left:0px;
+                    }
+
+
+                        .nordic-item .itemWrap .items img {
+                            width:100%;
+                        }
 
 
 
