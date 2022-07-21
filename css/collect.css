@@ -150,7 +150,7 @@
             flex-direction: row;
         }
 
-        .collection-section.nordicCollect .slick-prev, .slick-next {
+        .collection-section.nordicCollect .slick-prev, .collection-section.nordicCollect .slick-next {
             display: none;
         }
 
