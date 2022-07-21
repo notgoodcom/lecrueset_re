@@ -135,12 +135,13 @@
     /* 북유럽컬렉션 슬라이더 */
 
     .collection-section.nordicCollect .sliderWrap {
-        margin:0 auto 0px;
-        top:2500px;
-        width:1000px;
+        top: 2500px;
+        width: 1000px;
         display: flex;
         flex-direction: row;
-        position:absolute;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%)
     }
 
         .collection-section.nordicCollect .sliderWrap .collection-slider {
@@ -153,7 +154,7 @@
         }
 
         .collection-section.nordicCollect .arrowPrev {
-            color:#ccc;
+            color:#888;
             font-size:30px;
             position:absolute;
             left:0px;
@@ -165,7 +166,7 @@
         }
 
         .collection-section.nordicCollect .arrowNext {
-            color:#ccc;
+            color:#888;
             font-size:30px;
             position:absolute;
             right:0px;
