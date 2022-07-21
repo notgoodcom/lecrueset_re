@@ -173,6 +173,7 @@
             .collection-section.nordicCollect .sliderWrap .collection-slider .slick-list {
                 overflow-x:hidden !important;
                 overflow-y:auto !important;
+                height: 465px;
             }
 
             .nordic-item {
@@ -219,8 +220,8 @@
                     .nordic-item .itemWrap .items {
                         position:absolute;
                         width:100%;
-                        bottom:-50px;
-                        left:0px;
+                        bottom:50px;
+                        left:-50px;
                     }
 
 
