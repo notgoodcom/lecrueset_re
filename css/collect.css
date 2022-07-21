@@ -145,7 +145,7 @@
 
         .collection-section.nordicCollect .sliderWrap .collection-slider {
             margin:auto;
-            width:100%;
+            width:860px;
             display: flex;
             flex-direction: row;
         }
@@ -171,6 +171,9 @@
             top:50%;
             transform:translteY(-50%);
         }
+
+
+
 
 
 
