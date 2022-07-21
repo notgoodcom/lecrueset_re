@@ -136,11 +136,11 @@
 
     .collection-section.nordicCollect .sliderWrap {
         margin:0 auto 0px;
-        padding-top:2500px;
+        top:2500px;
         width:1000px;
         display: flex;
         flex-direction: row;
-        position:relative;
+        position:absolute;
     }
 
         .collection-section.nordicCollect .sliderWrap .collection-slider {
