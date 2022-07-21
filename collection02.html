@@ -93,6 +93,14 @@
                         arrows: true
                     });
 
+                    $('.arrowPrev').click(function(){
+                        $("#collection-slider").slick('slickPrev');
+                    });
+                    $('.arrowNext').click(function(){
+                        $("#collection-slider").slick('slickNext');
+                    });
+
+
                 });
 
                 var csSection = $(".csProductWrap");
