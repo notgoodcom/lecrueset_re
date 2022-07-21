@@ -606,7 +606,7 @@
         },
         {
             "src" : "./data/img/nordicCS03.jpg",
-            "name" : "북유럽 시그니쳐 원형냄비 16cm  (색상선택가능)",
+            "name" : "북유럽 시그니쳐 원형냄비 16cm (색상선택가능)",
             "before" : "330,000",
             "now" : "231,000"
         }
@@ -614,55 +614,55 @@
     "nordicSW" : [
         {
             "src" : "./data/img/nordicSW01.jpg",
-            "name" : "북유럽 컬렉션 V머그",
+            "name" : "북유럽 컬렉션 V머그 (색상선택가능)",
             "before" : "37,000",
             "now" : "25,900"
         },
         {
             "src" : "./data/img/nordicSW02.jpg",
-            "name" : "북유럽 컬렉션 플라워디쉬 20cm",
+            "name" : "북유럽 컬렉션 플라워디쉬 20cm (색상선택가능)",
             "before" : "51,000",
             "now" : "35,700"
         },
         {
             "src" : "./data/img/nordicSW03.jpg",
-            "name" : "북유럽 컬렉션 플라워디쉬 12cm",
+            "name" : "북유럽 컬렉션 플라워디쉬 12cm (색상선택가능)",
             "before" : "31,000",
             "now" : "21,700"
         },
         {
             "src" : "./data/img/nordicSW04.jpg",
-            "name" : "북유럽 컬렉션 파스타디쉬",
+            "name" : "북유럽 컬렉션 파스타디쉬 (색상선택가능)",
             "before" : "64,000",
             "now" : "44,800"
         },
         {
             "src" : "./data/img/nordicSW05.jpg",
-            "name" : "북유럽 컬렉션 카술레 서빙볼",
+            "name" : "북유럽 컬렉션 카술레 서빙볼 (색상선택가능)",
             "before" : "60,000",
             "now" : "42,000"
         },
         {
             "src" : "./data/img/nordicSW06.jpg",
-            "name" : "북유럽 컬렉션 직사각 접시",
+            "name" : "북유럽 컬렉션 직사각 접시 (색상선택가능)",
             "before" : "55,000",
             "now" : "38,500"
         },
         {
             "src" : "./data/img/nordicSW07.jpg",
-            "name" : "북유럽 컬렉션 원형접시 27cm",
+            "name" : "북유럽 컬렉션 원형접시 27cm (색상선택가능)",
             "before" : "66,000",
             "now" : "46,200"
         },
         {
             "src" : "./data/img/nordicSW08.jpg",
-            "name" : "북유럽 컬렉션 국 그릇",
+            "name" : "북유럽 컬렉션 국 그릇 (색상선택가능)",
             "before" : "43,000",
             "now" : "30,100"
         },
         {
             "src" : "./data/img/nordicSW09.jpg",
-            "name" : "북유럽 컬렉션 밥 그릇",
+            "name" : "북유럽 컬렉션 밥 그릇 (색상선택가능)",
             "before" : "37,000",
             "now" : "25,900"
         }
