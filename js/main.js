@@ -13,6 +13,20 @@ $(function(){
     });
 
 
+    //gnb scroll
+
+    $(window).scroll(function(){
+        var w_h = $(window).height();
+        var gnb = $(".haeder.top");
+
+        if(w_h > 145) {
+            gnb.addClass("fix");
+        }else{
+            gnb.removeClass("fix");
+        }
+
+    });
+
     // subMenu open & close
 
 
