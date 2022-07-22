@@ -166,18 +166,18 @@ a:hover {
 
     /* header - fix */   
     
-        .header.top.fix {
+        header.top.fix {
             position:fixed;
             left:0;
             top:0;
             z-index:3;
         }
 
-            .header.top.fix .topBanner {
+            header.top.fix .topBanner {
                 display: none;
             }
 
-            
+
                 /* submenu */  
 
                 header.top .gnb .subGnb {
