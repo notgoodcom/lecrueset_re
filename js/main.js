@@ -17,7 +17,7 @@ $(function(){
 
     $(window).scroll(function(){
         var w_h = $(window).height();
-        var gnb = $(".haeder.top");
+        var gnb = $(".header.top");
 
         if(w_h > 145) {
             gnb.addClass("fix");
