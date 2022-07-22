@@ -21,7 +21,7 @@ $(function(){
 
         if(w_h > 145) {
             gnb.addClass("fix");
-        }else{
+        }else if(w_h < 145){
             gnb.removeClass("fix");
         }
 
