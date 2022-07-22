@@ -16,7 +16,7 @@ $(function(){
     //gnb scroll
 
     $(window).scroll(function(){
-        var w_h = $(window).height();
+        var w_h = $(window).scrollTop();
         var gnb = $("header.top");
         var g_h = gnb.height();
 
