@@ -18,10 +18,11 @@ $(function(){
     $(window).scroll(function(){
         var w_h = $(window).height();
         var gnb = $("header.top");
+        var g_h = gnb.height();
 
-        if(w_h > 145) {
+        if(w_h >= g_h) {
             gnb.addClass("fix");
-        }else{
+        }else if(w_h <= g_h) {
             gnb.removeClass("fix");
         }
 
