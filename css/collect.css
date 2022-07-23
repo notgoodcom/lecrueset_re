@@ -497,6 +497,10 @@
                 flex-direction: column;
             }
             
+                .eventImg.signiture div img {
+                    width:100%;
+                }
+
                 .eventImg.signiture .first {
                     position:relative;
                 }
