@@ -78,31 +78,18 @@
 
             $(document).ready(function(){
 
-                var csSection = $(".csProductWrap");
-                var swSection = $(".swProductWrap");
+                var sigSection = $(".sigProductWrap");
                 $.getJSON('./data/data.json', function(prodata){
-                    $.each(prodata.blueCS, function(i, product){
-                        var bluecs = '';
-                        bluecs += '<div class="itemWrap ' + product.class + '">';
-                        bluecs += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
-                        bluecs += '<div class="itemInfo">';
-                        bluecs += '<a class="itemName">' + product.name +'</a>';
-                        bluecs += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                        bluecs += '</div>';
-                        bluecs += '</div>';
-                        csSection.append(bluecs);
-                    });
-
-                    $.each(prodata.blueSW, function(i, product){
-                        var bluesw = '';
-                        bluesw += '<div class="itemWrap ' + product.class + '">';
-                        bluesw += '<div class="itemImg"><img src="' + product.srcb + '"></div>';
-                        bluesw += '<div class="itemInfo">';
-                        bluesw += '<a class="itemName">' + product.name +'</a>';
-                        bluesw += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
-                        bluesw += '</div>';
-                        bluesw += '</div>';
-                        swSection.append(bluesw);
+                    $.each(prodata.signiture, function(i, product){
+                        var sigcs = '';
+                        sigcs += '<div class="itemWrap ' + product.class + '">';
+                        sigcs += '<div class="itemImg"><img src="' + product.src + '"></div>';
+                        sigcs += '<div class="itemInfo">';
+                        sigcs += '<a class="itemName">' + product.name +'</a>';
+                        sigcs += '<p class="itemPrice"><em class="discountBefore">' + product.before +'</em><span class="discount">' + product.now +'</span></p>';
+                        sigcs += '</div>';
+                        sigcs += '</div>';
+                        sigSection.append(sigcs);
                     });
 
                 });

@@ -666,6 +666,44 @@
             "before" : "37,000",
             "now" : "25,900"
         }
+    ],
+    "signiture" : [
+        {
+            "src" : "./data/img/sigCS01.jpg",
+            "name" : "시그니쳐 원형냄비 24cm - 검정",
+            "before" : "550,000",
+            "now" : "275,000"
+        },
+        {
+            "src" : "./data/img/sigCS02.jpg",
+            "name" : "시그니쳐 원형냄비 24cm - 레드",
+            "before" : "550,000",
+            "now" : "275,000"
+        },
+        {
+            "src" : "./data/img/sigCS03.jpg",
+            "name" : "시그니쳐 원형냄비 24cm - 주황",
+            "before" : "550,000",
+            "now" : "275,000"
+        },
+        {
+            "src" : "./data/img/sigCS04.jpg",
+            "name" : "시그니쳐 원형냄비 24cm - 캐리비안",
+            "before" : "550,000",
+            "now" : "275,000"
+        },
+        {
+            "src" : "./data/img/sigCS05.jpg",
+            "name" : "시그니쳐 원형냄비 24cm - 마르세유",
+            "before" : "550,000",
+            "now" : "275,000"
+        },
+        {
+            "src" : "./data/img/sigCS06.jpg",
+            "name" : "시그니쳐 원형냄비 24cm - 머랭",
+            "before" : "550,000",
+            "now" : "275,000"
+        }
     ]
 
 }
