@@ -29,17 +29,21 @@
             <div class="section">
                 <div class="eventWrap w-1280">
                     <div class="eventHeader">
-                        <h3 class="title">
-                            EVENT
-                        </h3>
-                        <div class="shareIcon">
-                            <a class="naverIcon"></a>
-                            <a class="kakaoIcon"></a>
-                            <a class="facebookIcon"></a>
-                            <a class="InstaIcon"></a>
-                            <a class="twitterIcon"></a>
-                            <a class="urlIcon"></a>
+                        <div class="txtWrap">
+                            <h3 class="title">EVENT</h3>
+                            <p class="date">2022.07.01 ~ 2022.07.31</p>
                         </div>
+                        <div class="shareIcon">
+                            <a class="naverIcon"><i class="bi bi-type-bold"></i></a>
+                            <a class="kakaoIcon"><i class="bi bi-chat-fill"></i></a>
+                            <a class="facebookIcon"><i class="bi bi-facebook"></i></a>
+                            <a class="InstaIcon"><i class="bi bi-instagram"></i></a>
+                            <a class="twitterIcon"><i class="bi bi-twitter"></i></a>
+                            <a class="urlIcon"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                    <div class="eventFooter">
+                        <button class="btn btn-light">목록</button>
                     </div>
                     <div class="event-section">
                         <div class="eventImg signiture">
@@ -57,22 +61,11 @@
                         </div>
                     </div>
                     <div class="event-product">
-                        <div class="newSorbe">
+                        <div class="signiture">
                             <div class="header">
-                                New 소르베
+                                르쿠르제 시그니쳐
                             </div>
-                            <div class="newSorbeProductWrap"></div>
-                        </div>
-                        <div class="sorbe">
-                            <div class="header">
-                                소르베
-                            </div>
-                            <ul class="eventTab">
-                            <li><button></button></li>
-                            <li><button></button></li> 
-                            <li><button></button></li> 
-                            </ul>
-                            <div class="sorbeProductWrap"></div>
+                            <div class="sigProductWrap"></div>
                         </div>
                     </div>
                 </div>
@@ -84,40 +77,6 @@
         <script>
 
             $(document).ready(function(){
-
-                var blueSlider = $(".collection-slider");
-
-                $.getJSON('./img.json', function(data){
-                    $.each(data.blueSlider, function(i, obj){
-                        var blue = '';
-                        blue += '<div class="blue-item">'
-                        blue += '<div class="itemImg" style="background-image:url('+ obj.src +')"></div>';
-                        blue += '<div class="itemTxtWrap">';
-                        blue += '<a class="itemTitle">' + obj.name +'</a>';
-                        blue += '<div class="iteminfoWrap"><mark class="sale">' + obj.sale + '</mark>';
-                        blue += '<p class="itemPriceWrap"><em class="discountBefore">' + obj.before +'</em><span class="discount">' + obj.now +'</span></p>';
-                        blue += '</div>';
-                        blue += '</div>';
-                        blue += '</div>';
-                        blueSlider.append(blue);
-                    });
-
-                    $("#collection-slider").slick({
-                        autoplay: true,
-                        accessibility: true,
-                        dots: true,
-                        infinite: true,
-                        speed: 4000,
-                        slidesToShow: 2,
-                        slidesToScroll:2,
-                        adaptiveHeight: false, 
-                        arrows: false,
-                        customPaging : function(slider, i) {
-                        return "<a class='circle'></a>";
-                        }
-                    });
-
-                });
 
                 var csSection = $(".csProductWrap");
                 var swSection = $(".swProductWrap");
