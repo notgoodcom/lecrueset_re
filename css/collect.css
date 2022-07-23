@@ -506,13 +506,13 @@
                 }
 
                     .eventImg.signiture .first .movie {
-                        width:800px;
-                        height:500px;
-                        left:50%;
-                        position:absolute;
+                        width: 756px;
+                        height: 470px;
+                        left: 50%;
+                        position: absolute;
                         transform: translateX(-50%);
-                        background:#000;
-                        bottom:522px;
+                        background: #ff0000;
+                        bottom: 489px;
                     }
 
                 .eventImg.signiture .second {
