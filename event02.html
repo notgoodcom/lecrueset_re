@@ -82,7 +82,7 @@
                 $.getJSON('./data/data.json', function(prodata){
                     $.each(prodata.signiture, function(i, product){
                         var sigcs = '';
-                        sigcs += '<div class="itemWrap ' + product.class + '">';
+                        sigcs += '<div class="itemWrap">';
                         sigcs += '<div class="itemImg"><img src="' + product.src + '"></div>';
                         sigcs += '<div class="itemInfo">';
                         sigcs += '<a class="itemName">' + product.name +'</a>';
