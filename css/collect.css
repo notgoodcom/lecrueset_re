@@ -650,6 +650,15 @@
         
 
 
+            .eventWrap .event-product .sigProductWrap {
+                margin:40px 0px 50px;
+                display: grid;
+                grid-template-columns: 290px 290px 290px 290px;
+                gap: 40px;
+            }
+
+
+
 
         .eventWrap .eventFooter {
             height:50px;
