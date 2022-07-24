@@ -2,7 +2,7 @@ $(function(){
 
     $("#content").load("content.html"); //content불러오기
     $(".popUpArea").load("popUp.html"); //popup 불러오기
-    $(".videoArea").load("video.html"); //video popup 불러오기
+    $(".movieArea").load("video.html"); //video popup 불러오기
 
 
     // gnb style
