@@ -511,7 +511,7 @@
                         left: 50%;
                         position: absolute;
                         transform: translateX(-50%);
-                        background: #ff0000;
+                        background: #000;
                         bottom: 489px;
                     }
 
