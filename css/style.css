@@ -1439,7 +1439,6 @@ a:hover {
             height:640px;
             box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
             align-self: center;
-            overflow: hidden;
             position:relative;
         }
 
@@ -1449,9 +1448,19 @@ a:hover {
             }
 
             .movieWrap .movieContent .movieClose {
-                color:#fff;
-                font-size:40px;
-                position:absolute;
-                top:-60px;
-                right:-60px;
+                color: #fff;
+                font-size: 30px;
+                position: absolute;
+                top: 2px;
+                right: -50px;
+                z-index: 6;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                border: 1px solid #fff;
+                justify-content: center;
             }
+
+                .movieWrap .movieContent .movieClose i {
+                    align-self: center;
+                }
