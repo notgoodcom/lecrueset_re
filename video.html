@@ -12,11 +12,13 @@
     $(function(){
 
     // video area
-
+        var _video = $(".movie video").get(0);
         $(".movieWrap").hide();
 
         $(".movieClose").click(function(){
             $(".movieWrap").hide();
+            _video.pause();
+            _video.currentTime = 0;
         })
 
     })
