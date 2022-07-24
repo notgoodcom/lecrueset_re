@@ -97,14 +97,8 @@ $(function(){
 
     // video area
 
-    $(".movieWrap").hide();
-
     $(".wrapper").on("click", ".videoObj", function(){
         $(".movieWrap").show();
-    });
-
-    $(".wrapper").on("click", ".movieClose", function(){
-        $(".movieWrap").hide();
     });
 
 
